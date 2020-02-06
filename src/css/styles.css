@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+/* -----------------GLOBAL-------------------- */
+* {
+  background-color: whitesmoke;
+}
+
+/* ------------------NAVBAR--------------------- */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/*---------------MAIN (Landing Page)------------ */
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10vh;
+}
+
+/* ------------------About Page--------------------- */
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10vh;
+}
+/*# sourceMappingURL=styles.css.map */

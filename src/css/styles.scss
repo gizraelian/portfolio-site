@@ -1,0 +1,26 @@
+/* -----------------GLOBAL-------------------- */
+* {
+    background-color: whitesmoke;
+}
+
+/* ------------------NAVBAR--------------------- */
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/*---------------MAIN (Landing Page)------------ */
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+/* ------------------About Page--------------------- */
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    
+}
