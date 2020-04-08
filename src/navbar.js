@@ -6,6 +6,7 @@ export default class navbar extends Component {
     super();
     this.state = {
         showMenu: false,
+        scrolled: false,
     };
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
@@ -24,8 +25,25 @@ export default class navbar extends Component {
         });  
     }
   }
+
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 100;
+      if (isTop !== true){
+        this.setState({ scrolled: true });
+      } else {
+        this.setState({ scrolled: false });
+      }
+    });
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll');
+  }
+
   render() {
     return (
+
       <div className="navbar">
         <div className="navbar__topImgBox">
         </div>
