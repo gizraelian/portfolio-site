@@ -85,22 +85,18 @@
 
     &__demoBox{
         display: flex;
-        // flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        // padding: 1px 0 20px 0;
         padding: 0 0 20px 0;
-        // margin:  0 20px 20px 20px;
         overflow: hidden;
         height: 95vh;
-        // height: 90vh;
 
         &--header{
             color: white;
             position: absolute;
             top: 25%;
             background-color: transparent;
-            text-shadow: 0.5px 0.5px 0.5px darkgrey;
+            text-shadow: 0.25px 0.25px 0.75px whitesmoke;
             font-size: 600%;
         }
 
@@ -108,8 +104,7 @@
             color: white;
             position: absolute;
             background-color: transparent;
-            text-shadow: 0.5px 0.5px 0.5px darkgrey;
-
+            text-shadow: 0.5px 0.5px 0.75px whitesmoke;
         }
 
         &--background{
@@ -121,7 +116,7 @@
             // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
             // border: red dashed medium;
         }
-        }
+    }
 
 // display: flex;
 // justify-content: center;

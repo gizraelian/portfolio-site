@@ -91,7 +91,7 @@
   position: absolute;
   top: 25%;
   background-color: transparent;
-  text-shadow: 0.5px 0.5px 0.5px darkgrey;
+  text-shadow: 0.25px 0.25px 0.75px whitesmoke;
   font-size: 600%;
 }
 
@@ -99,7 +99,7 @@
   color: white;
   position: absolute;
   background-color: transparent;
-  text-shadow: 0.5px 0.5px 0.5px darkgrey;
+  text-shadow: 0.5px 0.5px 0.75px whitesmoke;
 }
 
 .main__demoBox--background {

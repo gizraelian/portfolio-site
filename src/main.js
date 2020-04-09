@@ -9,13 +9,12 @@ export default class main extends Component {
         <div className="main__demoBox">
           <h1 className="main__demoBox--header">George Izraelian</h1>
           <h1 className="main__demoBox--subHeader">Web Developer</h1>
-          <img src="../assets/body-of-water-2276928.jpg" className="main__demoBox--background"  alt='myImg'/>
+          <img src="../assets/photo-of-road-near-buildings-2530579.jpg" className="main__demoBox--background"  alt='myImg'/>
         </div>
 
 {/* Jumbotron Section */}
         <div className="main__demoBox">
-          <img src="../assets/body-of-water-2276928.jpg" className="main__demoBox--background"  alt='myImg'/>
-          <h1 className="main__demoBox--subHeader">Jumbotron</h1>
+          <h1 className="main__demoBox--subHeader">Jumbotron section</h1>
           <div className="main__demoBox--jumbotron">
 
           </div>
@@ -23,21 +22,21 @@ export default class main extends Component {
 
 {/* Skills section */}
 <div className="main__demoBox">
-          <img src="../assets/body-of-water-2276928.jpg" className="main__demoBox--background"  alt='myImg'/>
-          <h1 className="main__demoBox--subHeader"></h1>
+          <img src="../assets/white-bus-beside-concrete-structure-2889806.jpg" className="main__demoBox--background"  alt='myImg'/>
+          <h1 className="main__demoBox--subHeader">Skills section</h1>
 
         </div>
 
 {/* Project portfolio section */}
 <div className="main__demoBox">
           <img src="../assets/body-of-water-2276928.jpg" className="main__demoBox--background"  alt='myImg'/>
-          <h1 className="main__demoBox--subHeader"></h1>
+          <h1 className="main__demoBox--subHeader">Portfolio section</h1>
 
         </div>
 
 {/* Footer Section */}
 <div className="main__demoBox">
-          <img src="../assets/body-of-water-2276928.jpg" className="main__demoBox--background"  alt='myImg'/>
+          <img src="../assets/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg" className="main__demoBox--background"  alt='myImg'/>
           <h1 className="main__demoBox--subHeader"></h1>
 
         </div>
