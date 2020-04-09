@@ -94,17 +94,23 @@
         &--header{
             color: white;
             position: absolute;
-            top: 25%;
+            top: 9%;
+            left: 1%;
             background-color: transparent;
-            text-shadow: 0.25px 0.25px 0.75px whitesmoke;
             font-size: 600%;
+            cursor: default;
+            // text-shadow: 0.25px 0.25px 0.75px whitesmoke;
         }
 
         &--subHeader{
             color: white;
             position: absolute;
+            top: 83%;
+            left: 75%;
             background-color: transparent;
-            text-shadow: 0.5px 0.5px 0.75px whitesmoke;
+            font-size: 325%;
+            cursor: default;
+            // text-shadow: 0.5px 0.5px 0.75px whitesmoke;
         }
 
         &--background{
@@ -115,6 +121,10 @@
             // background-position: top;
             // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
             // border: red dashed medium;
+        }
+
+        &--jumbotron{
+            &--container{}
         }
     }
 
