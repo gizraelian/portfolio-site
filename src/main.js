@@ -15,7 +15,12 @@ export default class main extends Component {
 {/* Jumbotron Section */}
         <div className="main__demoBox">
           <div className="main__demoBox--jumbotron">
-            <div></div>
+            <h1 className="main__demoBox--jumbotron__containerOne">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </h1>
+            <h3 className="main__demoBox--jumbotron__containerTwo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et. At auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus vestibulum. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.  
+            </h3>
           </div>
         </div>
 
