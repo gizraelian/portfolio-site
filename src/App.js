@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect,} from 'react-router-d
 import Navbar from './navbar';
 import Main from './main';
 import About from './about';
+import Footer from './footer';
+import ScrollIntoView from './ScrollIntoView';
 import './css/styles.css'
 
 class App extends Component {
@@ -11,14 +13,17 @@ class App extends Component {
       <div>
         <Router>
           <div>
+          <ScrollIntoView>
             <Navbar />
             <div>
-              <switch>
+              <Switch>
                 <Route path="/main" exact component={Main} />
                 <Route exact path="/" render={() =><Redirect to='/main'/>} />
                 <Route path="/about" exact component={About} />
-              </switch>
+              </Switch>
             </div>
+            <Footer />
+            </ScrollIntoView>
           </div>
         </Router>
       </div>

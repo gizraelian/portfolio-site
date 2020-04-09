@@ -44,13 +44,13 @@ export default class navbar extends Component {
   render() {
     return (
 
-      <div className="navbar">
+      <div className={this.state.scrolled ? 'navbar scrolled' : 'navbar' }>
         <div className="navbar__topImgBox">
         </div>
         <div className="navbar__linksBox">
-          <Link to={'/'} className="navbar__links">{'Home'}</Link>
-          <Link to={'/about'} className="navbar__links">{'About'}</Link>
-           <button className="navbar__dropMenu" onClick={this.showMenu}>Button</button>
+          <Link to={'/'} className="navbar__linksBox--links">{'Home'}</Link>
+          <Link to={'/about'} className="navbar__linksBox--links">{'About'}</Link>
+           <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>Button</button>
           {
           this.state.showMenu
             ? (
@@ -58,13 +58,13 @@ export default class navbar extends Component {
                 ref={(element) => {
                   this.dropdownMenu = element;
                 }}
-                id="dropMenu_container"
+                className="navbar__linksBox--dropMenuBtn__container"
               >
                 <Link to={'/'}>
-                  <button className="navbar__dropMenu__button"> Home </button>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> Home </button>
                 </Link>
                 <Link to={'/about'}>
-                  <button className="navbar__dropMenu__button"> About </button>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> About </button>
                 </Link>
               </div>
             )
