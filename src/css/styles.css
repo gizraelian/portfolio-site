@@ -71,7 +71,7 @@
   padding-bottom: 14vh;
 }
 
-.main__demoBox--splashBox {
+.main__demoBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,7 +86,7 @@
   height: 95vh;
 }
 
-.main__demoBox--splashBox__header {
+.main__demoBox--header {
   color: white;
   position: absolute;
   top: 25%;
@@ -95,56 +95,18 @@
   font-size: 600%;
 }
 
-.main__demoBox--splashBox__img {
+.main__demoBox--subHeader {
+  color: white;
+  position: absolute;
+  background-color: transparent;
+  text-shadow: 0.5px 0.5px 0.5px darkgrey;
+}
+
+.main__demoBox--background {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 0;
   width: 100%;
-}
-
-.main__demoBox--jumbotron {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-  height: 90vh;
-  border: brown dashed medium;
-}
-
-.main__demoBox--skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-  height: 90vh;
-  border: brown dashed medium;
-}
-
-.main__demoBox--projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-  height: 90vh;
-  border: brown dashed medium;
 }
 
 /* ------------------About Page--------------------- */

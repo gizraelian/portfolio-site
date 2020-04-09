@@ -84,68 +84,53 @@
     padding-bottom: 14vh;
 
     &__demoBox{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        // padding: 1px 0 20px 0;
+        padding: 0 0 20px 0;
+        // margin:  0 20px 20px 20px;
+        overflow: hidden;
+        height: 95vh;
+        // height: 90vh;
 
-        &--splashBox{
-            display: flex;
-            // flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            // padding: 1px 0 20px 0;
-            padding: 0 0 20px 0;
-            // margin:  0 20px 20px 20px;
-            overflow: hidden;
-            height: 95vh;
-            // height: 90vh;
-
-            &__header{
-                color: white;
-                position: absolute;
-                top: 25%;
-                background-color: transparent;
-                text-shadow: 0.5px 0.5px 0.5px darkgrey;
-                font-size: 600%;
-            }
-
-            &__img{
-                object-fit: cover;
-                padding: 0;
-                width: 100%;
-                // background-size: cover;
-                // background-position: top;
-                // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-                // border: red dashed medium;
-            }
+        &--header{
+            color: white;
+            position: absolute;
+            top: 25%;
+            background-color: transparent;
+            text-shadow: 0.5px 0.5px 0.5px darkgrey;
+            font-size: 600%;
         }
 
-        &--jumbotron{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            height: 90vh;
-            border: brown dashed medium;
+        &--subHeader{
+            color: white;
+            position: absolute;
+            background-color: transparent;
+            text-shadow: 0.5px 0.5px 0.5px darkgrey;
+
         }
 
-        &--skills{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            height: 90vh;
-            border: brown dashed medium;
+        &--background{
+            object-fit: cover;
+            padding: 0;
+            width: 100%;
+            // background-size: cover;
+            // background-position: top;
+            // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+            // border: red dashed medium;
+        }
         }
 
-        &--projects{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            height: 90vh;
-            border: brown dashed medium;
-        }
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// overflow: hidden;
+// height: 90vh;
+// border: brown dashed medium;
 
 
-    }
 }
 
 /* ------------------About Page--------------------- */

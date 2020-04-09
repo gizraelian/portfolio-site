@@ -50,7 +50,7 @@ export default class navbar extends Component {
         <div className="navbar__linksBox">
           <Link to={'/'} className="navbar__linksBox--links">{'Home'}</Link>
           <Link to={'/about'} className="navbar__linksBox--links">{'About'}</Link>
-           {/* <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>Button</button> */}
+
            <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>Button</button>
           {
           this.state.showMenu
