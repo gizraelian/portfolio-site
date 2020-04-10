@@ -2,7 +2,7 @@
 /* -----------------GLOBAL-------------------- */
 * {
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    background-color: whitesmoke;
+    // background-color: whitesmoke;
 }
 
 /* ------------------NAVBAR--------------------- */
@@ -82,7 +82,7 @@
     align-items: center;
 
     &__splashBox{
-        background-position: center;
+        // background-position: center;
         background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
         background-size: cover;
         display: flex;
@@ -95,31 +95,34 @@
             color: white;
             position: absolute;
             top: 9%;
-            left: 1%;
+            left: 3%;
             background-color: transparent;
             font-size: 600%;
             font-weight: normal;
             cursor: default;
-            // text-shadow: 0.25px 0.25px 0.75px darkgrey;
             text-shadow: 1px 1px 2px grey;
-            
+            border: green dashed 1px;
         }
 
         &--subHeader{
             color: white;
             position: absolute;
-            top: 83%;
-            left: 75%;
+            top: 9%;
+            left: 55%;
             background-color: transparent;
-            font-size: 325%;
+            // font-size: 325%;
+            font-size: 600%;
             font-weight: normal;
             cursor: default;
-            // text-shadow: 0.5px 0.5px 0.75px darkgrey;
             text-shadow: 1px 1px 2px grey;
+            border: green dashed 1px;
         }
     }
 
     &__jumbotron{
+        background-position: center;
+        background-image: url("../backgrounds/body-of-water-2276928.jpg");
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;

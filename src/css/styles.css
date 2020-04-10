@@ -1,7 +1,6 @@
 /* -----------------GLOBAL-------------------- */
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  background-color: whitesmoke;
 }
 
 /* ------------------NAVBAR--------------------- */
@@ -70,7 +69,6 @@
 }
 
 .main__splashBox {
-  background-position: center;
   background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
   background-size: cover;
   display: -webkit-box;
@@ -90,27 +88,32 @@
   color: white;
   position: absolute;
   top: 9%;
-  left: 1%;
+  left: 3%;
   background-color: transparent;
   font-size: 600%;
   font-weight: normal;
   cursor: default;
   text-shadow: 1px 1px 2px grey;
+  border: green dashed 1px;
 }
 
 .main__splashBox--subHeader {
   color: white;
   position: absolute;
-  top: 83%;
-  left: 75%;
+  top: 9%;
+  left: 55%;
   background-color: transparent;
-  font-size: 325%;
+  font-size: 600%;
   font-weight: normal;
   cursor: default;
   text-shadow: 1px 1px 2px grey;
+  border: green dashed 1px;
 }
 
 .main__jumbotron {
+  background-position: center;
+  background-image: url("../backgrounds/body-of-water-2276928.jpg");
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
