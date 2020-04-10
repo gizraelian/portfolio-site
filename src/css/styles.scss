@@ -189,7 +189,16 @@
     }
 
     &__projectsBox{
-
+        background-position: center;
+        background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 20px 0;
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
     }
 }
 
