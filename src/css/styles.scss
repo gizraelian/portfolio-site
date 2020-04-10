@@ -89,7 +89,8 @@
         align-items: center;
         padding: 0 0 20px 0;
         overflow: hidden;
-        height: 95vh;
+        // height: 95vh;
+        height: 96vh;
 
         &--header{
             color: white;
@@ -117,6 +118,9 @@
             object-fit: cover;
             padding: 0;
             width: 100%;
+            // background-repeat: no-repeat;
+            // background-attachment: fixed;
+            // background-position: center;
             // background-size: cover;
             // background-position: top;
             // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -133,6 +137,8 @@
             border: green dashed medium;
 
             &__containerOne{
+                // color: #222;
+                color: gray;
                 margin: 20px;
                 // text-align: center;
                 width: 30%;
@@ -141,11 +147,49 @@
             }
 
             &__containerTwo{
+                // color: #222;
+                color: gray;
                 margin: 20px;
                 // text-align: center;
                 width: 30%;
                 border: brown dashed medium;
 
+            }
+        }
+
+        &--skillsBox{
+            display: flex;
+            flex-wrap: wrap;
+            // border: brown dashed medium;
+            // justify-content: space-around;
+
+            &__card{
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                // justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 300px;
+                // text-decoration: none;
+                color: #222;
+                background: #eeeeee;
+                box-shadow: 2px 2px 5px #aaaaaa;
+                border-radius: 5px;
+                margin: 20px;
+
+                &--img{
+                    width: 120px;
+                    background-color: inherit;
+                    padding: 30px 5px;
+                }
+
+                &--header{
+                    text-align: center;
+                    background-color: inherit;
+                    padding: 5px;
+                    font-weight: normal;
+                }
             }
         }
     }
