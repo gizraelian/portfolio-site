@@ -67,11 +67,50 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 4vh;
-  padding-bottom: 14vh;
 }
 
-.main__demoBox {
+.main__splashBox {
+  background-position: center;
+  background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.main__splashBox--header {
+  color: white;
+  position: absolute;
+  top: 9%;
+  left: 1%;
+  background-color: transparent;
+  font-size: 600%;
+  font-weight: normal;
+  cursor: default;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.main__splashBox--subHeader {
+  color: white;
+  position: absolute;
+  top: 83%;
+  left: 75%;
+  background-color: transparent;
+  font-size: 325%;
+  font-weight: normal;
+  cursor: default;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.main__jumbotron {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,73 +122,43 @@
           align-items: center;
   padding: 0 0 20px 0;
   overflow: hidden;
-  height: 96vh;
+  height: 100vh;
 }
 
-.main__demoBox--header {
-  color: white;
-  position: absolute;
-  top: 9%;
-  left: 1%;
-  background-color: transparent;
-  font-size: 600%;
-  cursor: default;
+.main__jumbotron--leftBox {
+  color: gray;
+  margin: 20px;
+  width: 30%;
+  border: brown dashed medium;
 }
 
-.main__demoBox--subHeader {
-  color: white;
-  position: absolute;
-  top: 83%;
-  left: 75%;
-  background-color: transparent;
-  font-size: 325%;
-  cursor: default;
+.main__jumbotron--rightBox {
+  color: gray;
+  margin: 20px;
+  width: 30%;
+  border: brown dashed medium;
 }
 
-.main__demoBox--background {
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 0;
-  width: 100%;
-}
-
-.main__demoBox--jumbotron {
+.main__skillsBox {
+  background-position: center;
+  background-image: url("../backgrounds/mountain-and-sky-3274903.jpg");
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 5%;
-  border: green dashed medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 20px 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
 }
 
-.main__demoBox--jumbotron__containerOne {
-  color: gray;
-  margin: 20px;
-  width: 30%;
-  border: brown dashed medium;
-}
-
-.main__demoBox--jumbotron__containerTwo {
-  color: gray;
-  margin: 20px;
-  width: 30%;
-  border: brown dashed medium;
-}
-
-.main__demoBox--skillsBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.main__demoBox--skillsBox__card {
+.main__skillsBox--card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,13 +180,13 @@
   margin: 20px;
 }
 
-.main__demoBox--skillsBox__card--img {
+.main__skillsBox--card__img {
   width: 120px;
   background-color: inherit;
   padding: 30px 5px;
 }
 
-.main__demoBox--skillsBox__card--header {
+.main__skillsBox--card__header {
   text-align: center;
   background-color: inherit;
   padding: 5px;

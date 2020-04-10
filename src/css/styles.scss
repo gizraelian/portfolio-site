@@ -80,17 +80,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4vh;
-    padding-bottom: 14vh;
 
-    &__demoBox{
+    &__splashBox{
+        background-position: center;
+        background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 0 20px 0;
-        overflow: hidden;
-        // height: 95vh;
-        height: 96vh;
+        height: 100vh;
+        width: 100%;
 
         &--header{
             color: white;
@@ -99,8 +98,11 @@
             left: 1%;
             background-color: transparent;
             font-size: 600%;
+            font-weight: normal;
             cursor: default;
-            // text-shadow: 0.25px 0.25px 0.75px whitesmoke;
+            // text-shadow: 0.25px 0.25px 0.75px darkgrey;
+            text-shadow: 1px 1px 2px grey;
+            
         }
 
         &--subHeader{
@@ -110,98 +112,85 @@
             left: 75%;
             background-color: transparent;
             font-size: 325%;
+            font-weight: normal;
             cursor: default;
-            // text-shadow: 0.5px 0.5px 0.75px whitesmoke;
+            // text-shadow: 0.5px 0.5px 0.75px darkgrey;
+            text-shadow: 1px 1px 2px grey;
+        }
+    }
+
+    &__jumbotron{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 20px 0;
+        overflow: hidden;
+        height: 100vh;
+
+        &--leftBox{
+            // color: #222;
+            color: gray;
+            margin: 20px;
+            // text-align: center;
+            width: 30%;
+            border: brown dashed medium;
         }
 
-        &--background{
-            object-fit: cover;
-            padding: 0;
-            width: 100%;
-            // background-repeat: no-repeat;
-            // background-attachment: fixed;
-            // background-position: center;
-            // background-size: cover;
-            // background-position: top;
-            // clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-            // border: red dashed medium;
+        &--rightBox{
+            // color: #222;
+            color: gray;
+            margin: 20px;
+            // text-align: center;
+            width: 30%;
+            border: brown dashed medium;
         }
+    }
 
-        &--jumbotron{
+    &__skillsBox{
+        background-position: center;
+        background-image: url("../backgrounds/mountain-and-sky-3274903.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 20px 0;
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
+
+        &--card{
             display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            // justify-content: center;
             align-items: center;
-            // justify-content: space-between;
-            // justify-content: space-around;
-            justify-content: center;
-            padding: 5%;
-            border: green dashed medium;
+            width: 200px;
+            height: 300px;
+            // text-decoration: none;
+            color: #222;
+            background: #eeeeee;
+            box-shadow: 2px 2px 5px #aaaaaa;
+            border-radius: 5px;
+            margin: 20px;
 
-            &__containerOne{
-                // color: #222;
-                color: gray;
-                margin: 20px;
-                // text-align: center;
-                width: 30%;
-                border: brown dashed medium;
-
+            &__img{
+                width: 120px;
+                background-color: inherit;
+                padding: 30px 5px;
             }
 
-            &__containerTwo{
-                // color: #222;
-                color: gray;
-                margin: 20px;
-                // text-align: center;
-                width: 30%;
-                border: brown dashed medium;
-
-            }
-        }
-
-        &--skillsBox{
-            display: flex;
-            flex-wrap: wrap;
-            // border: brown dashed medium;
-            // justify-content: space-around;
-
-            &__card{
-                display: flex;
-                flex-direction: column;
-                overflow: hidden;
-                // justify-content: center;
-                align-items: center;
-                width: 200px;
-                height: 300px;
-                // text-decoration: none;
-                color: #222;
-                background: #eeeeee;
-                box-shadow: 2px 2px 5px #aaaaaa;
-                border-radius: 5px;
-                margin: 20px;
-
-                &--img{
-                    width: 120px;
-                    background-color: inherit;
-                    padding: 30px 5px;
-                }
-
-                &--header{
-                    text-align: center;
-                    background-color: inherit;
-                    padding: 5px;
-                    font-weight: normal;
-                }
+            &__header{
+                text-align: center;
+                background-color: inherit;
+                padding: 5px;
+                font-weight: normal;
             }
         }
     }
 
-// display: flex;
-// justify-content: center;
-// align-items: center;
-// overflow: hidden;
-// height: 90vh;
-// border: brown dashed medium;
+    &__projectsBox{
 
-
+    }
 }
 
 /* ------------------About Page--------------------- */
