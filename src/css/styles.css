@@ -69,8 +69,6 @@
 }
 
 .main__splashBox {
-  background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +78,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.main__splashBox--background {
+  background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
+  background-size: 2300px;
+  background-position: center bottom;
+  height: 100vh;
+  width: 100%;
+}
+
+.main__splashBox--background__img {
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -87,32 +99,29 @@
 .main__splashBox--header {
   color: white;
   position: absolute;
-  top: 9%;
-  left: 3%;
+  top: 3%;
+  left: 2%;
   background-color: transparent;
-  font-size: 600%;
+  font-size: 500%;
   font-weight: normal;
   cursor: default;
-  text-shadow: 1px 1px 2px grey;
-  border: green dashed 1px;
 }
 
 .main__splashBox--subHeader {
   color: white;
   position: absolute;
-  top: 9%;
-  left: 55%;
+  top: 20%;
+  left: 2.5%;
   background-color: transparent;
-  font-size: 600%;
+  font-size: 300%;
   font-weight: normal;
   cursor: default;
-  text-shadow: 1px 1px 2px grey;
-  border: green dashed 1px;
 }
 
 .main__jumbotron {
   background-position: center;
-  background-image: url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
+  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,27 +135,38 @@
   padding: 0 0 20px 0;
   overflow: hidden;
   height: 100vh;
-  border: green dashed 1px;
 }
 
 .main__jumbotron--leftBox {
-  color: gray;
+  color: #222;
+  padding: 0 20px;
   margin: 20px;
-  width: 30%;
+  width: 35%;
+  border: green dashed medium;
+}
+
+.main__jumbotron--leftBox__textContainer {
+  font-weight: normal;
   border: brown dashed medium;
 }
 
 .main__jumbotron--rightBox {
-  color: gray;
+  color: #222;
+  padding: 0 20px;
   margin: 20px;
-  width: 30%;
+  width: 35%;
+  border: green dashed medium;
+}
+
+.main__jumbotron--rightBox__textContainer {
+  font-weight: normal;
   border: brown dashed medium;
 }
 
 .main__skillsBox {
-  background-position: center;
-  background-image: url("../backgrounds/mountain-and-sky-3274903.jpg");
+  background-image: url("../backgrounds/body-of-water-2276928.jpg");
   background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,6 +180,12 @@
   overflow: hidden;
   height: 100vh;
   width: 100%;
+  cursor: default;
+}
+
+.main__skillsBox--card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main__skillsBox--card {
@@ -177,24 +203,30 @@
   width: 200px;
   height: 300px;
   color: #222;
-  background: #eeeeee;
-  -webkit-box-shadow: 2px 2px 5px #aaaaaa;
-          box-shadow: 2px 2px 5px #aaaaaa;
+  background-color: rgba(234, 235, 238, 0.459) !important;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
   border-radius: 5px;
   margin: 20px;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
 .main__skillsBox--card__img {
   width: 120px;
-  background-color: inherit;
+  background-color: transparent;
   padding: 30px 5px;
 }
 
 .main__skillsBox--card__header {
   text-align: center;
-  background-color: inherit;
+  color: white;
+  background-color: transparent;
   padding: 5px;
   font-weight: normal;
+  text-shadow: 1px 1px 2px gray;
 }
 
 .main__projectsBox {

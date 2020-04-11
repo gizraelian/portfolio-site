@@ -83,45 +83,76 @@
 
     &__splashBox{
         // background-position: center;
-        background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
-        background-size: cover;
+        // background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
+        // background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         width: 100%;
+        // filter: blur(8px);
+        // -webkit-filter: blur(2px);
+
+        &--background{
+            background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
+            // background-size: cover;
+            background-size: 2300px;
+            background-position: center bottom;
+            // background-position-x: ;
+            height: 100vh;
+            width: 100%;
+            // filter: blur(0.60px);
+            // -webkit-filter: blur(2px);
+
+            &__img{
+                background-size: cover;
+                height: 100vh;
+                width: 100%;
+            }
+        }
 
         &--header{
             color: white;
             position: absolute;
-            top: 9%;
-            left: 3%;
+            // top: 9%;
+            top: 3%;
+            // left: 3%;
+            left: 2%;
             background-color: transparent;
-            font-size: 600%;
+            // font-size: 600%;
+            font-size: 500%;
             font-weight: normal;
             cursor: default;
-            text-shadow: 1px 1px 2px grey;
-            border: green dashed 1px;
+            // text-shadow: 1px 1px 3px grey;
+            // border: green dashed 1px;
         }
 
         &--subHeader{
             color: white;
             position: absolute;
-            top: 9%;
-            left: 55%;
+            // top: 9%;
+            // top: 75%;
+            // top: 20%;
+            top: 20%;
+            // left: 55%;
+            // left: 60%;
+            left: 2.5%;
             background-color: transparent;
-            // font-size: 325%;
-            font-size: 600%;
+            // font-size: 425%;
+            // font-size: 600%;
+            font-size: 300%;
             font-weight: normal;
             cursor: default;
-            text-shadow: 1px 1px 2px grey;
-            border: green dashed 1px;
+            // text-shadow: 1px 1px 2px grey;
+            // border: green dashed 1px;
         }
     }
 
     &__jumbotron{
         background-position: center;
-        background-image: url("../backgrounds/body-of-water-2276928.jpg");
+        // background-image: url("../backgrounds/body-of-water-2276928.jpg");
+        // background-image: linear-gradient(to right, #64495E, #4C5F9A);
+        background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -129,31 +160,50 @@
         padding: 0 0 20px 0;
         overflow: hidden;
         height: 100vh;
-        border: green dashed 1px;
+        // border: green dashed 1px;
+        // border: brown dashed medium;
 
         &--leftBox{
-            // color: #222;
-            color: gray;
+            color: #222;
+            // color: gray;
+            // padding-right: 20px;
+            padding: 0 20px;
             margin: 20px;
-            // text-align: center;
-            width: 30%;
-            border: brown dashed medium;
+            width: 35%;
+            border: green dashed medium;
+
+            &__textContainer{
+                font-weight: normal;
+                border: brown dashed medium;
+            }
         }
 
         &--rightBox{
-            // color: #222;
-            color: gray;
+            color: #222;
+            // color: gray;
+            // padding-left: 20px;
+            padding: 0 20px;
             margin: 20px;
-            // text-align: center;
-            width: 30%;
-            border: brown dashed medium;
+            width: 35%;
+            border: green dashed medium;
+            
+            &__textContainer{
+                font-weight: normal;
+                border: brown dashed medium;
+            }
         }
     }
 
     &__skillsBox{
-        background-position: center;
-        background-image: url("../backgrounds/mountain-and-sky-3274903.jpg");
+
+        // background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
+        // background-image: url("../backgrounds/arches-architectural-design-architecture-blue-sky-137584.jpg");
+        background-image: url("../backgrounds/body-of-water-2276928.jpg");
         background-size: cover;
+        // background-size: 2000px;
+        background-position: center;
+        // background-position: bottom left;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -161,6 +211,11 @@
         overflow: hidden;
         height: 100vh;
         width: 100%;
+        cursor: default;
+
+        &--card:hover{
+            transform: scale(1.05);
+        }
 
         &--card{
             display: flex;
@@ -172,22 +227,32 @@
             height: 300px;
             // text-decoration: none;
             color: #222;
-            background: #eeeeee;
-            box-shadow: 2px 2px 5px #aaaaaa;
+            // background: #eeeeee;
+            // background-color: rgba(214, 208, 203, 0.877) !important;
+            background-color: rgba(234, 235, 238, 0.459) !important;
+            // box-shadow: 2px 2px 5px #aaaaaa;
+            // box-shadow: 2px 2px 3px darkgrey;
+            box-shadow: 2px 2px 3px grey;
             border-radius: 5px;
             margin: 20px;
+            transition: transform .3s ease;
 
             &__img{
                 width: 120px;
-                background-color: inherit;
+                // background-color: inherit;
+                background-color: transparent;
                 padding: 30px 5px;
             }
 
             &__header{
                 text-align: center;
-                background-color: inherit;
+                // background-color: inherit;
+                color: white;
+                background-color: transparent;
                 padding: 5px;
                 font-weight: normal;
+                // text-shadow: 0.75px 0.75px 1.25px lightgray;
+                text-shadow: 1px 1px 2px gray;
             }
         }
     }

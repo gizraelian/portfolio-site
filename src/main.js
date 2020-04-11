@@ -7,18 +7,29 @@ export default class main extends Component {
       <div className="main">
 
         <div className="main__splashBox" >
+          <div className="main__splashBox--background" />
           <h1 className="main__splashBox--header">George Izraelian</h1>
           <h1 className="main__splashBox--subHeader">Web Developer</h1>
         </div>
 
 {/* Jumbotron Section */}
         <div className="main__jumbotron">
-          <h1 className="main__jumbotron--leftBox">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          </h1>
-          <h3 className="main__jumbotron--rightBox">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et. At auctor urna nunc id cursus metus aliquam eleifend. Et molestie ac feugiat sed lectus vestibulum. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. 
-          </h3>
+          <div className="main__jumbotron--leftBox">
+            <h1 className="main__jumbotron--leftBox__textContainer">
+              Motivated front-end focused web-developer, with full stack experience.
+            </h1>
+            <h1 className="main__jumbotron--leftBox__textContainer">
+              Delivering superior results through challenging projects.
+            </h1>
+          </div>
+          <div className="main__jumbotron--rightBox">
+            <h2 className="main__jumbotron--rightBox__textContainer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
+            </h2>
+            <h2 className="main__jumbotron--rightBox__textContainer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
+            </h2>
+          </div>
         </div>
 
 {/* Skills section */}
@@ -27,19 +38,19 @@ export default class main extends Component {
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h2 className="main__skillsBox--card__header">React</h2>
+            <h1 className="main__skillsBox--card__header">React</h1>
           </div>
 
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h2 className="main__skillsBox--card__header">JavaScript</h2>
+            <h1 className="main__skillsBox--card__header">JavaScript</h1>
           </div>
 
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h2 className="main__skillsBox--card__header">HTML5</h2>
+            <h1 className="main__skillsBox--card__header">HTML5</h1>
           </div>
 
           <div className="main__skillsBox--card">
@@ -51,7 +62,7 @@ export default class main extends Component {
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h2 className="main__skillsBox--card__header">NodeJS</h2>
+            <h1 className="main__skillsBox--card__header">NodeJS</h1>
           </div>
 
         </div>
