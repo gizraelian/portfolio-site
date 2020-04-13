@@ -15,6 +15,7 @@
   overflow: hidden;
   position: fixed;
   width: 100%;
+  z-index: 9999;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -252,7 +253,6 @@
 
 .main__projectsBox {
   background-position: center;
-  background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -260,21 +260,35 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 0 20px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4vh 0 24vh 0;
   overflow: hidden;
   height: 100vh;
-  width: 100%;
-}
-
-.main__projectsBox--card:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .main__projectsBox--card {
+  cursor: default;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  margin: 7px;
+  text-shadow: 1px 1px 2px grey;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 1px 2px gray;
+          box-shadow: 1px 1px 2px gray;
+}
+
+.main__projectsBox--card__img {
+  width: 48vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main__projectsBox--card__textBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,28 +296,27 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow: hidden;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 250px;
-  height: 300px;
-  color: #222;
-  background-color: rgba(234, 235, 238, 0.459) !important;
-  -webkit-box-shadow: 2px 2px 3px grey;
-          box-shadow: 2px 2px 3px grey;
-  border-radius: 5px;
-  margin: 20px;
-  -webkit-transition: -webkit-transform .3s ease;
-  transition: -webkit-transform .3s ease;
-  transition: transform .3s ease;
-  transition: transform .3s ease, -webkit-transform .3s ease;
+  position: absolute;
+  background-color: transparent;
+  left: 5%;
+  top: 60%;
 }
 
-.main__projectsBox--card__img {
-  width: 7vw;
-  background-color: transparent;
-  padding: 30px 5px;
+.main__projectsBox--card__textBox--header {
+  color: white;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.main__projectsBox--card__textBox--link {
+  background: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  color: #373737;
+  border: solid thin grey;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px grey;
+  padding: 7px 10px;
 }
 
 /* ------------------About Page--------------------- */
