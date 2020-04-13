@@ -135,6 +135,7 @@
   padding: 0 0 20px 0;
   overflow: hidden;
   height: 100vh;
+  width: 100%;
 }
 
 .main__jumbotron--leftBox {
@@ -142,25 +143,34 @@
   padding: 0 20px;
   margin: 20px;
   width: 35%;
-  border: green dashed medium;
 }
 
 .main__jumbotron--leftBox__textContainer {
   font-weight: normal;
-  border: brown dashed medium;
 }
 
 .main__jumbotron--rightBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #222;
   padding: 0 20px;
   margin: 20px;
   width: 35%;
-  border: green dashed medium;
 }
 
-.main__jumbotron--rightBox__textContainer {
-  font-weight: normal;
-  border: brown dashed medium;
+.main__jumbotron--rightBox__img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.main__jumbotron--rightBox__img {
+  width: 8vw;
+  background-color: transparent;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
 .main__skillsBox {
@@ -215,7 +225,7 @@
 }
 
 .main__skillsBox--card__img {
-  width: 120px;
+  width: 7vw;
   background-color: transparent;
   padding: 30px 5px;
 }

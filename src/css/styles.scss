@@ -160,6 +160,7 @@
         padding: 0 0 20px 0;
         overflow: hidden;
         height: 100vh;
+        width: 100%;
         // border: green dashed 1px;
         // border: brown dashed medium;
 
@@ -170,26 +171,39 @@
             padding: 0 20px;
             margin: 20px;
             width: 35%;
-            border: green dashed medium;
+            // border: green dashed medium;
 
             &__textContainer{
                 font-weight: normal;
-                border: brown dashed medium;
+                // border: brown dashed medium;
             }
         }
 
         &--rightBox{
+            display: flex;
+            // flex-direction: row;
             color: #222;
             // color: gray;
             // padding-left: 20px;
             padding: 0 20px;
             margin: 20px;
             width: 35%;
-            border: green dashed medium;
+            // border: green dashed medium;
+
+            &__img:hover{
+                transform: scale(1.05);
+            }
+
+            &__img{
+                // width: 120px;
+                width: 8vw;
+                background-color: transparent;
+                transition: transform .3s ease;
+            }
             
             &__textContainer{
-                font-weight: normal;
-                border: brown dashed medium;
+                // font-weight: normal;
+                // border: brown dashed medium;
             }
         }
     }
@@ -238,7 +252,8 @@
             transition: transform .3s ease;
 
             &__img{
-                width: 120px;
+                // width: 120px;
+                width: 7vw;
                 // background-color: inherit;
                 background-color: transparent;
                 padding: 30px 5px;

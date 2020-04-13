@@ -23,12 +23,16 @@ export default class main extends Component {
             </h1>
           </div>
           <div className="main__jumbotron--rightBox">
-            <h2 className="main__jumbotron--rightBox__textContainer">
+            <img src="../assets/javascript.png" className="main__jumbotron--rightBox__img" />
+            <img src="../assets/nodejs.png" className="main__jumbotron--rightBox__img" />
+            <img src="../assets/react.png" className="main__jumbotron--rightBox__img" />
+
+            {/* <h2 className="main__jumbotron--rightBox__textContainer">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
             </h2>
             <h2 className="main__jumbotron--rightBox__textContainer">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
-            </h2>
+            </h2> */}
           </div>
         </div>
 
