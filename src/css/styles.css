@@ -252,8 +252,6 @@
 }
 
 .main__projectsBox {
-  background-position: center;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,10 +280,13 @@
 }
 
 .main__projectsBox--card__img {
+  background-image: url("../backgrounds/code.jpg");
   width: 48vw;
   height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .main__projectsBox--card__textBox {
@@ -317,6 +318,44 @@
   border-radius: 15px;
   text-shadow: 1px 1px 1px grey;
   padding: 7px 10px;
+}
+
+#portfolioDemo {
+  background-image: url("../backgrounds/github.jpg");
+  width: 48vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolioDemo:hover {
+  background-image: url("../backgrounds/portfolio.gif");
+}
+
+#bandDemo {
+  background-image: url("../backgrounds/band-still.jpg");
+  width: 48vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#bandDemo:hover {
+  background-image: url("../backgrounds/band.gif");
+}
+
+#brainFlixDemo {
+  background-image: url("../backgrounds/github-brainflix.jpg");
+  width: 48vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 /* ------------------About Page--------------------- */

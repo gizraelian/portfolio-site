@@ -4,6 +4,7 @@ import Navbar from './navbar';
 import Main from './main';
 import About from './about';
 import Footer from './footer';
+import Projects from './Projects';
 import ScrollIntoView from './ScrollIntoView';
 import './css/styles.css'
 
@@ -22,6 +23,7 @@ class App extends Component {
                 <Route path="/about" exact component={About} />
               </Switch>
             </div>
+            <Projects />
             <Footer />
             </ScrollIntoView>
           </div>

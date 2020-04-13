@@ -317,9 +317,9 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
     }
 
     &__projectsBox{
-        background-position: center;
         // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
-        background-size: cover;
+        // background-position: center;
+        // background-size: cover;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -333,6 +333,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
         }
 
         &--card{
+            // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
             // border: brown dashed medium;
 
             cursor: default;
@@ -346,9 +347,12 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             // transition: transform .5s ease;
 
             &__img{
+                background-image: url("../backgrounds/code.jpg");
                 width: 48vw;
                 height: 50vh;
                 object-fit: cover;
+                background-position: center;
+                background-size: cover;
             }
 
             &__textBox{
@@ -380,59 +384,50 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
                 }
             }
         }
-
-        // &--card:hover{
-        //     transform: scale(1.05);
-        // }
-
-        // &--card{
-        //     display: flex;
-        //     flex-direction: column;
-        //     overflow: hidden;
-        //     // justify-content: center;
-        //     align-items: center;
-        //     width: 220px;
-        //     height: 300px;
-        //     // text-decoration: none;
-        //     color: #222;
-        //     // background: #eeeeee;
-        //     // background-color: rgba(214, 208, 203, 0.877) !important;
-        //     background-color: rgba(234, 235, 238, 0.459) !important;
-        //     // box-shadow: 2px 2px 5px #aaaaaa;
-        //     // box-shadow: 2px 2px 3px darkgrey;
-        //     box-shadow: 2px 2px 3px grey;
-        //     border-radius: 5px;
-        //     // margin: 20px;
-        //     margin: 5vw;
-        //     transition: transform .3s ease;
-
-        //     &__img{
-        //         width: 7vw;
-        //         background-color: transparent;
-        //         padding: 30px 5px;
-        //     }
-
-        //     &__header{
-                // color: white;
-                // font-weight: normal;
-                // text-shadow: 1px 1px 1px grey;
-        //     }
-
-        //     &__link{
-                // background: whitesmoke;
-                // text-decoration: none;
-                // // color: white;
-                // color: #373737;
-                // border: solid thin grey;
-                // border-radius: 15px;
-                // // background-image:
-                // // linear-gradient(to right, rgba(81, 55, 226, 0.692), rgba(70, 26, 78, 0.664));
-                // padding: 7px 10px;
-        //     }
-        // }
-
-
     }
+}
+
+#portfolioDemo{
+    background-image: url("../backgrounds/github.jpg");
+    width: 48vw;
+    height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#portfolioDemo:hover{
+    background-image: url("../backgrounds/portfolio.gif");
+}
+
+
+#bandDemo{
+    background-image: url("../backgrounds/band-still.jpg");
+    width: 48vw;
+    height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#bandDemo:hover{
+    background-image: url("../backgrounds/band.gif");
+}
+
+#brainFlixDemo{
+    background-image: url("../backgrounds/github-brainflix.jpg");
+    width: 48vw;
+    height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#brainFlixDemo:hover{
+    // background-image: url("../backgrounds/band.gif");
+}
+
+#placeholderDemo{
+}
+#placeholderDemo:hover{
+    
 }
 
 /* ------------------About Page--------------------- */

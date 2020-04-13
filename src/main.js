@@ -78,46 +78,7 @@ export default class main extends Component {
 
         </div>
 
-{/* Project portfolio section */}
-        <div className="main__projectsBox">
 
-          <div className="main__projectsBox--card">
-            <img src="../assets/placeholder2.jpg" className="main__projectsBox--card__img"/>
-            <div className="main__projectsBox--card__textBox">
-              <h2 className="main__projectsBox--card__textBox--header">Portfolio site</h2>
-              <a className="main__projectsBox--card__textBox--link"
-              target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
-            </div>
-          </div>
-
-          <div className="main__projectsBox--card">
-            <img src="../assets/band.gif" className="main__projectsBox--card__img"/>
-            <div className="main__projectsBox--card__textBox">
-              <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
-              <a className="main__projectsBox--card__textBox--link"
-              target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
-            </div>
-          </div>
-
-          <div className="main__projectsBox--card">
-            <img src="../assets/fast.gif" className="main__projectsBox--card__img"/>
-            <div className="main__projectsBox--card__textBox">
-              <h2 className="main__projectsBox--card__textBox--header">BrainFlix</h2>
-              <a className="main__projectsBox--card__textBox--link"
-              target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
-            </div>
-          </div>
-
-          <div className="main__projectsBox--card">
-            <img src="../assets/placeholder2.jpg" className="main__projectsBox--card__img"/>
-            <div className="main__projectsBox--card__textBox">
-              <h2 className="main__projectsBox--card__textBox--header">Placeholder</h2>
-              <a className="main__projectsBox--card__textBox--link"
-              target="_blank" href="">Source Code</a>
-            </div>
-          </div>
-
-        </div>
       </div>
     )
   }
