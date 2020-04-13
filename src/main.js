@@ -7,9 +7,13 @@ export default class main extends Component {
       <div className="main">
 
         <div className="main__splashBox" >
-          <div className="main__splashBox--background" />
-          <h1 className="main__splashBox--header">George Izraelian</h1>
-          <h1 className="main__splashBox--subHeader">Web Developer</h1>
+          <div className="main__splashBox--background">
+            {/* <div className="main__splashBox--background__filter" /> */}
+          </div>
+          <div className="main__splashBox--container">
+            <h1 className="main__splashBox--container__header">George Izraelian</h1>
+            <h1 className="main__splashBox--container__subHeader">Web Developer</h1>
+          </div>
         </div>
 
 {/* Jumbotron Section */}

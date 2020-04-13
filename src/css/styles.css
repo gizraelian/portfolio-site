@@ -83,39 +83,40 @@
 }
 
 .main__splashBox--background {
-  background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
-  background-size: 2300px;
-  background-position: center bottom;
-  height: 100vh;
-  width: 100%;
-}
-
-.main__splashBox--background__img {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(112, 74, 207, 0.384)), to(rgba(155, 71, 172, 0.1))), url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
+  background-image: linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
   background-size: cover;
+  background-size: 2300px;
+  background-position-y: -22vh;
   height: 100vh;
   width: 100%;
 }
 
-.main__splashBox--header {
-  color: white;
+.main__splashBox--container {
   position: absolute;
-  top: 3%;
-  left: 2%;
+  text-align: right;
+  top: 10%;
+  left: 60%;
+}
+
+.main__splashBox--container__header {
+  color: white;
   background-color: transparent;
   font-size: 500%;
   font-weight: normal;
-  cursor: default;
+  margin: 0;
+  padding: 2px;
+  text-shadow: 1px 1px 2px grey;
 }
 
-.main__splashBox--subHeader {
+.main__splashBox--container__subHeader {
   color: white;
-  position: absolute;
-  top: 20%;
-  left: 2.5%;
   background-color: transparent;
   font-size: 300%;
   font-weight: normal;
-  cursor: default;
+  margin: 0;
+  padding: 2px 7px;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .main__jumbotron {
@@ -174,7 +175,8 @@
 }
 
 .main__skillsBox {
-  background-image: url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(228, 216, 225, 0.384)), to(rgba(169, 176, 201, 0.1))), url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)), url("../backgrounds/body-of-water-2276928.jpg");
   background-size: cover;
   background-position: center;
   display: -webkit-box;

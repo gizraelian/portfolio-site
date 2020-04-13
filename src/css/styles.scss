@@ -94,57 +94,65 @@
         // -webkit-filter: blur(2px);
 
         &--background{
-            background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
-            // background-size: cover;
+
+            background-image:
+linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
+url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
+
+            background-size: cover;
             background-size: 2300px;
-            background-position: center bottom;
-            // background-position-x: ;
+            background-position-y: -22vh;
             height: 100vh;
             width: 100%;
+
             // filter: blur(0.60px);
             // -webkit-filter: blur(2px);
 
-            &__img{
-                background-size: cover;
-                height: 100vh;
-                width: 100%;
+            // &__filter{
+            //     background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
+            //     background-size: cover;
+            //     margin-top: -20rem;
+            //     transform: skewY(-5deg);
+            //     display: block;
+            //     margin: 0;
+            //     height: 100vh;
+            //     width: 100%;
+            // }
+
+        }
+
+        &--container{
+            position: absolute;
+            text-align: right;
+            top: 10%;
+            left: 60%;
+            // border: aquamarine dashed medium;
+
+            &__header{
+                color: white;
+                background-color: transparent;
+                font-size: 500%;
+                font-weight: normal;
+                margin: 0;
+                padding: 2px;
+                text-shadow: 1px 1px 2px grey;
+
+                // border: brown dashed thin;
+
             }
-        }
 
-        &--header{
-            color: white;
-            position: absolute;
-            // top: 9%;
-            top: 3%;
-            // left: 3%;
-            left: 2%;
-            background-color: transparent;
-            // font-size: 600%;
-            font-size: 500%;
-            font-weight: normal;
-            cursor: default;
-            // text-shadow: 1px 1px 3px grey;
-            // border: green dashed 1px;
-        }
+            &__subHeader{
+                color: white;
+                background-color: transparent;
+                font-size: 300%;
+                font-weight: normal;
+                margin: 0;
+                padding: 2px 7px;
+                text-shadow: 1px 1px 2px grey;
 
-        &--subHeader{
-            color: white;
-            position: absolute;
-            // top: 9%;
-            // top: 75%;
-            // top: 20%;
-            top: 20%;
-            // left: 55%;
-            // left: 60%;
-            left: 2.5%;
-            background-color: transparent;
-            // font-size: 425%;
-            // font-size: 600%;
-            font-size: 300%;
-            font-weight: normal;
-            cursor: default;
-            // text-shadow: 1px 1px 2px grey;
-            // border: green dashed 1px;
+                // border: brown dashed thin;
+
+            }
         }
     }
 
@@ -212,7 +220,30 @@
 
         // background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
         // background-image: url("../backgrounds/arches-architectural-design-architecture-blue-sky-137584.jpg");
-        background-image: url("../backgrounds/body-of-water-2276928.jpg");
+        // background-image: url("../backgrounds/body-of-water-2276928.jpg");
+
+        // background-image:
+        // linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)),
+        // url("../backgrounds/body-of-water-2276928.jpg");
+
+        //-----------------------
+
+        // padding: 20rem 0;
+
+
+        background-image:
+        linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)),
+        url("../backgrounds/body-of-water-2276928.jpg");
+
+        // background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url("../backgrounds/body-of-water-2276928.jpg");
+        // background-size: cover;
+        // margin-top: -20rem;
+        // transform: skewY(-5deg);
+        // display: block;
+        // margin: 0;
+
+        //-----------------------
+
         background-size: cover;
         // background-size: 2000px;
         background-position: center;
