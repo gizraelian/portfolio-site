@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default class main extends Component {
   render() {
     return (
+
       <div className="main">
 
         <div className="main__splashBox" >
@@ -46,19 +47,19 @@ export default class main extends Component {
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h1 className="main__skillsBox--card__header">React</h1>
+            <h2 className="main__skillsBox--card__header">React</h2>
           </div>
 
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h1 className="main__skillsBox--card__header">JavaScript</h1>
+            <h2 className="main__skillsBox--card__header">JavaScript</h2>
           </div>
 
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h1 className="main__skillsBox--card__header">HTML5</h1>
+            <h2 className="main__skillsBox--card__header">HTML5</h2>
           </div>
 
           <div className="main__skillsBox--card">
@@ -70,13 +71,31 @@ export default class main extends Component {
           <div className="main__skillsBox--card">
             <img src="../assets/react.png" 
              className="main__skillsBox--card__img"/>
-            <h1 className="main__skillsBox--card__header">NodeJS</h1>
+            <h2 className="main__skillsBox--card__header">NodeJS</h2>
           </div>
 
         </div>
 
 {/* Project portfolio section */}
         <div className="main__projectsBox">
+
+            <div className="main__projectsBox--card">
+              <img src="../assets/react.png" className="main__projectsBox--card__img"/>
+              <h2 className="main__projectsBox--card__header">Portfolio site</h2>
+              <a target="_blank" href="https://github.com/gizraelian/portfolio-site" className="main__projectsBox--card__link">Source Code</a>
+            </div>
+
+            <div className="main__projectsBox--card">
+              <img src="../assets/react.png" className="main__projectsBox--card__img"/>
+              <h2 className="main__projectsBox--card__header">Bandpage</h2>
+              <a target="_blank" href="https://github.com/gizraelian/bandpage" className="main__projectsBox--card__link">Source Code</a>
+            </div>
+
+            <div className="main__projectsBox--card">
+              <img src="../assets/react.png" className="main__projectsBox--card__img"/>
+              <h2 className="main__projectsBox--card__header">BrainFlix</h2>
+              <a target="_blank" href="https://github.com/gizraelian/brainflix" className="main__projectsBox--card__link">Source Code</a>
+            </div>
 
         </div>
       </div>

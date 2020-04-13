@@ -33,6 +33,10 @@
   background-image: linear-gradient(125deg, #252525, #313131);
 }
 
+.navbar__linksBox--links:hover {
+  text-shadow: 1.5px 1.5px 5px white;
+}
+
 .navbar__linksBox--links {
   padding: 10px;
   -webkit-box-pack: start;
@@ -42,6 +46,10 @@
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
   text-shadow: 0.5px 0.25px grey;
+}
+
+.navbar__linksBox--dropMenuBtn:hover {
+  text-shadow: 1.5px 1.5px 5px white;
 }
 
 .navbar__linksBox--dropMenuBtn {
@@ -175,8 +183,9 @@
 }
 
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(228, 216, 225, 0.384)), to(rgba(169, 176, 201, 0.1))), url("../backgrounds/body-of-water-2276928.jpg");
-  background-image: linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)), url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(112, 74, 207, 0.384)), to(rgba(169, 176, 201, 0.1))), url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)), url("../backgrounds/body-of-water-2276928.jpg");
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -258,6 +267,43 @@
   overflow: hidden;
   height: 100vh;
   width: 100%;
+}
+
+.main__projectsBox--card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.main__projectsBox--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 300px;
+  color: #222;
+  background-color: rgba(234, 235, 238, 0.459) !important;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
+  border-radius: 5px;
+  margin: 20px;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.main__projectsBox--card__img {
+  width: 7vw;
+  background-color: transparent;
+  padding: 30px 5px;
 }
 
 /* ------------------About Page--------------------- */
