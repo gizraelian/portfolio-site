@@ -114,7 +114,6 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             background-position-y: -22vh;
             height: 100vh;
             width: 100%;
-            
 
             // filter: blur(0.60px);
             // -webkit-filter: blur(2px);
@@ -135,15 +134,15 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 
         &--container{
             position: absolute;
-            text-align: right;
-            top: 10%;
-            left: 60%;
+            text-align: center;
+            top: 30%;
+            left: 30%;
             // border: aquamarine dashed medium;
 
             &__header{
                 color: white;
                 background-color: transparent;
-                font-size: 500%;
+                font-size: 600%;
                 font-weight: normal;
                 margin: 0;
                 padding: 2px;
@@ -156,7 +155,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             &__subHeader{
                 color: white;
                 background-color: transparent;
-                font-size: 300%;
+                font-size: 350%;
                 font-weight: normal;
                 margin: 0;
                 padding: 2px 7px;
@@ -418,7 +417,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 }
 
 #brainFlixDemo{
-    background-image: url("../backgrounds/github-brainflix.jpg");
+    background-image: url("../backgrounds/brainflix.jpg");
     width: 48vw;
     height: 50vh;
     object-fit: cover;
@@ -426,7 +425,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
     background-size: cover;
 }
 #brainFlixDemo:hover{
-    // background-image: url("../backgrounds/band.gif");
+    background-image: url("../backgrounds/brainflix.gif");
 }
 
 #placeholderDemo{

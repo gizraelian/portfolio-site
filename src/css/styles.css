@@ -103,15 +103,15 @@
 
 .main__splashBox--container {
   position: absolute;
-  text-align: right;
-  top: 10%;
-  left: 60%;
+  text-align: center;
+  top: 30%;
+  left: 30%;
 }
 
 .main__splashBox--container__header {
   color: white;
   background-color: transparent;
-  font-size: 500%;
+  font-size: 600%;
   font-weight: normal;
   margin: 0;
   padding: 2px;
@@ -121,7 +121,7 @@
 .main__splashBox--container__subHeader {
   color: white;
   background-color: transparent;
-  font-size: 300%;
+  font-size: 350%;
   font-weight: normal;
   margin: 0;
   padding: 2px 7px;
@@ -353,13 +353,17 @@
 }
 
 #brainFlixDemo {
-  background-image: url("../backgrounds/github-brainflix.jpg");
+  background-image: url("../backgrounds/brainflix.jpg");
   width: 48vw;
   height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
   background-size: cover;
+}
+
+#brainFlixDemo:hover {
+  background-image: url("../backgrounds/brainflix.gif");
 }
 
 /* ------------------About Page--------------------- */
