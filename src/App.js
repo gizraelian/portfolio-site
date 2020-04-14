@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect,} from 'react-router-dom';
-import Navbar from './navbar';
+// import { Link, animateScroll as scroll } from "react-scroll";
+import Navbar from './Navbar';
 import Main from './Main';
-import About from './about';
-import Footer from './footer';
-// import Projects from './Projects';
-import ScrollIntoView from './ScrollIntoView';
+import About from './About';
+import Footer from './Footer';
 import './css/styles.css'
 
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
       <div>
         <Router>
           <div>
-          <ScrollIntoView>
             <Navbar />
             <div>
               <Switch>
@@ -23,9 +21,7 @@ class App extends Component {
                 <Route path="/about" exact component={About} />
               </Switch>
             </div>
-            {/* <Projects /> */}
             <Footer />
-            </ScrollIntoView>
           </div>
         </Router>
       </div>

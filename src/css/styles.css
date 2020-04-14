@@ -1,9 +1,7 @@
-/* -----------------GLOBAL-------------------- */
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* ------------------NAVBAR--------------------- */
 .scrolled {
   visibility: hidden;
   opacity: 0;
@@ -18,6 +16,8 @@
   z-index: 9999;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-box-shadow: 0.5px 0.5px 1.5px black;
+          box-shadow: 0.5px 0.5px 1.5px black;
 }
 
 .navbar__linksBox {
@@ -63,7 +63,6 @@
   font-size: inherit;
 }
 
-/*---------------MAIN (Landing Page)------------ */
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +74,24 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main__goUp {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  left: 92%;
+  cursor: pointer;
+  color: #555454;
+  font-size: 125%;
+  font-weight: normal;
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  text-shadow: 1px 1px 2px grey;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
 }
 
 .main__splashBox {
@@ -104,28 +121,47 @@
 .main__splashBox--container {
   position: absolute;
   text-align: center;
-  top: 30%;
+  top: 25%;
   left: 30%;
 }
 
 .main__splashBox--container__header {
   color: white;
-  background-color: transparent;
   font-size: 600%;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 2px;
   text-shadow: 1px 1px 2px grey;
+  cursor: default;
 }
 
 .main__splashBox--container__subHeader {
   color: white;
-  background-color: transparent;
   font-size: 350%;
   font-weight: normal;
-  margin: 0;
+  margin: 10px 0 100px 0;
   padding: 2px 7px;
   text-shadow: 1px 1px 2px grey;
+  cursor: default;
+}
+
+.main__splashBox--container__scrollToProjects:hover {
+  color: #555454;
+  background-color: whitesmoke;
+}
+
+.main__splashBox--container__scrollToProjects {
+  color: #555454;
+  font-size: 125%;
+  font-weight: normal;
+  padding: 15px 30px;
+  background-color: white;
+  border: 0 0 3px 3px solid darkgray;
+  border-radius: 40px;
+  text-shadow: 1px 1px 2px grey;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
+  cursor: pointer;
 }
 
 .main__jumbotron {
@@ -163,6 +199,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #222;
   padding: 0 20px;
   margin: 20px;
@@ -174,13 +214,8 @@
           transform: scale(1.05);
 }
 
-.main__jumbotron--rightBox__img {
-  width: 8vw;
-  background-color: transparent;
-  -webkit-transition: -webkit-transform .3s ease;
-  transition: -webkit-transform .3s ease;
-  transition: transform .3s ease;
-  transition: transform .3s ease, -webkit-transform .3s ease;
+.main__jumbotron--rightBox__textContainer {
+  font-weight: normal;
 }
 
 .main__skillsBox {
@@ -376,6 +411,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 10vh;
+  height: 100vh;
+  background-color: blueviolet;
 }
 
 /* ------------------Footer--------------------- */

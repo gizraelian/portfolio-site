@@ -1,11 +1,11 @@
-
-/* -----------------GLOBAL-------------------- */
+// --------------------- Global ---------------------
 * {
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif !important;
     // background-color: whitesmoke;
 }
 
-/* ------------------NAVBAR--------------------- */
+// --------------------- Navbar ---------------------
+
 .scrolled{
     visibility: hidden;
     opacity: 0;
@@ -20,6 +20,7 @@
     width: 100%;
     z-index: 9999;
     box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 1.5px black;
 
     &__linksBox{
         display: flex;
@@ -84,12 +85,37 @@
     }
 }
 
-/*---------------MAIN (Landing Page)------------ */
+// --------------------- MAIN (Landing Page) ---------------------
+
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
     // overflow: hidden;
+
+    &__goUp:hover{
+
+    }
+
+    &__goUp{
+        // position: absolute;
+        z-index: 10;
+        position: fixed;
+        bottom: 0;
+        left: 92%;
+        cursor: pointer;
+
+        color: rgb(85, 84, 84);
+        font-size: 125%;
+        font-weight: normal;
+        padding: 10px 20px;
+        margin: 0 0 20px 0;
+        background-color: whitesmoke;
+        border-radius: 40px;
+        text-shadow: 1px 1px 2px grey;
+        box-shadow: 2px 2px 3px grey;
+
+    }
 
     &__splashBox{
         // background-position: center;
@@ -135,18 +161,18 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
         &--container{
             position: absolute;
             text-align: center;
-            top: 30%;
+            top: 25%;
             left: 30%;
             // border: aquamarine dashed medium;
 
             &__header{
                 color: white;
-                background-color: transparent;
                 font-size: 600%;
                 font-weight: normal;
-                margin: 0;
+                margin: 0 0 10px 0;
                 padding: 2px;
                 text-shadow: 1px 1px 2px grey;
+                cursor: default;
 
                 // border: brown dashed thin;
 
@@ -154,18 +180,48 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 
             &__subHeader{
                 color: white;
-                background-color: transparent;
                 font-size: 350%;
                 font-weight: normal;
-                margin: 0;
+                // margin-bottom: 100px;
+                margin: 10px 0 100px 0;
                 padding: 2px 7px;
                 text-shadow: 1px 1px 2px grey;
+                cursor: default;
 
                 // border: brown dashed thin;
 
             }
+
+            &__scrollToProjects:hover{
+
+                color: rgb(85, 84, 84);
+                background-color: whitesmoke;
+            }
+
+            &__scrollToProjects{
+                color: rgb(85, 84, 84);
+                font-size: 125%;
+                font-weight: normal;
+                padding: 15px 30px;
+                background-color: white;
+                border: 0 0 3px 3px solid darkgray;
+                border-radius: 40px;
+                text-shadow: 1px 1px 2px grey;
+                // box-shadow: 1px 1px 3px grey;
+                box-shadow: 2px 2px 3px grey;
+                // text-decoration: none;
+                // outline: none;
+                cursor: pointer;
+
+                &--img{
+                    // width: 80px;
+                    // transform: rotate(90deg);
+                }
+            }
         }
     }
+
+// --------------------- Jumbotron Section ---------------------
 
     &__jumbotron{
         background-position: center;
@@ -200,7 +256,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 
         &--rightBox{
             display: flex;
-            // flex-direction: row;
+            flex-direction: column;
             color: #222;
             // color: gray;
             // padding-left: 20px;
@@ -214,18 +270,19 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             }
 
             &__img{
-                // width: 120px;
-                width: 8vw;
-                background-color: transparent;
-                transition: transform .3s ease;
+                // width: 8vw;
+                // transition: transform .3s ease;
             }
             
             &__textContainer{
-                // font-weight: normal;
+                font-weight: normal;
+
                 // border: brown dashed medium;
             }
         }
     }
+
+// --------------------- Skills Section ---------------------
 
     &__skillsBox{
 
@@ -294,6 +351,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             box-shadow: 2px 2px 3px grey;
             border-radius: 5px;
             margin: 20px;
+
             transition: transform .3s ease;
 
             &__img{
@@ -315,6 +373,8 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             }
         }
     }
+
+// --------------------- Projects Section ---------------------
 
     &__projectsBox{
         // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
@@ -343,6 +403,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             margin: 7px;
             text-shadow: 1px 1px 2px grey;
             overflow: hidden;
+            // box-shadow: 1px 1px 2px gray;
             box-shadow: 1px 1px 2px gray;
             // transition: transform .5s ease;
 
@@ -439,6 +500,8 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
     display: flex;
     flex-direction: column;
     padding-top: 10vh;
+    height: 100vh;
+    background-color: blueviolet;
 }
 
 /* ------------------Footer--------------------- */

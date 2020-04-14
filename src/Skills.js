@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
 
 export default class Skills extends React.Component {
 
   render() {
     return (
 
-<div className="main__skillsBox">
+<div className="main__skillsBox" id="skills">
 
     <div className="main__skillsBox--card">
     <img src="../assets/html5.png" 

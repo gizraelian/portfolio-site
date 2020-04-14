@@ -8,7 +8,7 @@ export default class Projects extends React.Component {
 
 // Project portfolio section
 
-<div className="main__projectsBox">
+<div className="main__projectsBox" id="projects">
 
     <div className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="bandDemo" />
