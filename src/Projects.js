@@ -11,16 +11,6 @@ export default class Projects extends React.Component {
 <div className="main__projectsBox">
 
     <div className="main__projectsBox--card">
-        {/* <img src="../assets/placeholder2.jpg" className="main__projectsBox--card__img"/> */}
-        <img className="main__projectsBox--card__img" id="portfolioDemo" />
-        <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">Portfolio site</h2>
-            <a className="main__projectsBox--card__textBox--link"
-            target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
-        </div>
-    </div>
-
-    <div className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="bandDemo" />
         <div className="main__projectsBox--card__textBox">
             <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
@@ -35,6 +25,16 @@ export default class Projects extends React.Component {
             <h2 className="main__projectsBox--card__textBox--header">BrainFlix</h2>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
+        </div>
+    </div>
+
+    <div className="main__projectsBox--card">
+        {/* <img src="../assets/placeholder2.jpg" className="main__projectsBox--card__img"/> */}
+        <img className="main__projectsBox--card__img" id="portfolioDemo" />
+        <div className="main__projectsBox--card__textBox">
+            <h2 className="main__projectsBox--card__textBox--header">Portfolio site</h2>
+            <a className="main__projectsBox--card__textBox--link"
+            target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
         </div>
     </div>
 
