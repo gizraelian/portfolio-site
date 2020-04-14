@@ -397,11 +397,14 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 }
 #portfolioDemo:hover{
     background-image: url("../backgrounds/portfolio.gif");
+    animation-play-state: initial;
 }
 
 
 #bandDemo{
     background-image: url("../backgrounds/band-still.jpg");
+    // background-image: url("../backgrounds/band2.gif");
+    // animation-play-state: paused!important;
     width: 48vw;
     height: 50vh;
     object-fit: cover;
@@ -409,7 +412,8 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
     background-size: cover;
 }
 #bandDemo:hover{
-    background-image: url("../backgrounds/band2.gif");
+    background-image: url("../backgrounds/band4.gif");
+    animation-play-state: initial;
 }
 
 #brainFlixDemo{

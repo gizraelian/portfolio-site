@@ -332,6 +332,8 @@
 
 #portfolioDemo:hover {
   background-image: url("../backgrounds/portfolio.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
 }
 
 #bandDemo {
@@ -345,7 +347,9 @@
 }
 
 #bandDemo:hover {
-  background-image: url("../backgrounds/band2.gif");
+  background-image: url("../backgrounds/band4.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
 }
 
 #brainFlixDemo {
