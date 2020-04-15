@@ -75,14 +75,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .main__goUp {
   z-index: 10;
   position: fixed;
   bottom: 0;
-  top: 92%;
-  left: 95%;
+  top: 90vh;
+  left: 90vw;
 }
 
 .main__goUp--img:hover {
@@ -92,9 +94,9 @@
 }
 
 .main__goUp--img {
-  width: 50px;
+  width: 4vw;
   cursor: pointer;
-  opacity: 50%;
+  opacity: 40%;
   -webkit-transition: -webkit-transform .1s ease;
   transition: -webkit-transform .1s ease;
   transition: transform .1s ease;
@@ -110,9 +112,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 100vh;
   width: 100%;
 }
@@ -122,16 +121,17 @@
   background-image: linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/splash.jpg");
   background-size: cover;
   background-size: 2300px;
-  background-position-y: -22vh;
+  background-position: center;
   height: 100vh;
   width: 100%;
+  z-index: 1;
 }
 
 .main__splashBox--container {
   position: absolute;
   text-align: center;
-  top: 25%;
-  left: 30%;
+  margin: 10vh 20px;
+  z-index: 1;
 }
 
 .main__splashBox--container__header {
@@ -148,7 +148,7 @@
   color: white;
   font-size: 350%;
   font-weight: normal;
-  margin: 10px 0 100px 0;
+  margin: 10px 0 140px 0;
   padding: 2px 7px;
   text-shadow: 1px 1px 2px grey;
   cursor: default;
@@ -161,7 +161,7 @@
 }
 
 .main__splashBox--container__scrollDown--img {
-  width: 125px;
+  width: 8vw;
   cursor: pointer;
   opacity: 60%;
   -webkit-transform: rotate(270deg);
@@ -172,9 +172,20 @@
   transition: transform .1s ease, -webkit-transform .1s ease;
 }
 
+.main .animationContainer {
+  position: absolute;
+  width: 100%;
+  height: 335vh;
+  -webkit-transform: translateY(100vh);
+          transform: translateY(100vh);
+  background-size: cover;
+  background-position: center;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgba(219, 215, 228, 0.829)), to(rgba(114, 108, 172, 0.836))), url("../backgrounds/water.gif");
+  background-image: linear-gradient(to left top, rgba(219, 215, 228, 0.829), rgba(114, 108, 172, 0.836)), url("../backgrounds/water.gif");
+  z-index: 0;
+}
+
 .main__jumbotron {
-  background-image: -webkit-gradient(linear, right bottom, left top, from(rgba(228, 225, 235, 0.829)), to(rgba(217, 197, 240, 0.836))), url("../backgrounds/water.gif");
-  background-image: linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)), url("../backgrounds/water.gif");
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -190,6 +201,7 @@
   overflow: hidden;
   height: 100vh;
   width: 100%;
+  z-index: 2;
 }
 
 .main__jumbotron--leftBox {
@@ -201,6 +213,7 @@
 
 .main__jumbotron--leftBox__textContainer {
   font-weight: normal;
+  text-shadow: 0.5px 0.5px 1px grey;
 }
 
 .main__jumbotron--rightBox {
@@ -219,11 +232,10 @@
 
 .main__jumbotron--rightBox__textContainer {
   font-weight: normal;
+  text-shadow: 0.5px 0.5px 1px grey;
 }
 
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
-  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -240,6 +252,7 @@
   height: 100vh;
   width: 100%;
   cursor: default;
+  z-index: 2;
 }
 
 .main__skillsBox--card:hover {
@@ -264,7 +277,6 @@
           align-items: center;
   width: 200px;
   height: 300px;
-  color: #222;
   background-color: rgba(234, 235, 238, 0.459) !important;
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
@@ -284,6 +296,7 @@
 
 .main__skillsBox--card__header {
   text-align: center;
+  background-color: inherit;
   color: white;
   background-color: transparent;
   padding: 5px;
@@ -292,8 +305,6 @@
 }
 
 .main__projectsBox {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(220, 240, 243, 0.596)), to(#a9b0c9));
-  background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), #a9b0c9);
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -307,6 +318,7 @@
   padding: 4vh 0 24vh 0;
   overflow: hidden;
   height: 100vh;
+  z-index: 2;
 }
 
 .main__projectsBox--card:hover {
@@ -315,6 +327,7 @@
 }
 
 .main__projectsBox--card {
+  background-attachment: fixed;
   border: none;
   cursor: default;
   position: relative;
@@ -327,10 +340,10 @@
   overflow: hidden;
   -webkit-box-shadow: 2px 2px 3px gray;
           box-shadow: 2px 2px 3px gray;
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
 .main__projectsBox--card__img {
@@ -344,34 +357,42 @@
 }
 
 .main__projectsBox--card__textBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  text-align: left;
   position: absolute;
-  background-color: transparent;
-  left: 5%;
-  top: 60%;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(3px) invert(0.2);
+          backdrop-filter: blur(3px) invert(0.2);
+  pointer-events: none;
+  border: solid 1px white;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px gray;
+          box-shadow: 1px 1px 2px gray;
+  padding: 10px;
+  left: 3%;
+  top: 65%;
 }
 
 .main__projectsBox--card__textBox--header {
   color: white;
-  font-weight: normal;
-  text-shadow: 1px 1px 1px grey;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  padding: 0 10px 10px 10px;
 }
 
 .main__projectsBox--card__textBox--link {
-  background: whitesmoke;
   text-decoration: none;
   text-align: center;
-  color: #373737;
-  border: solid thin grey;
-  border-radius: 15px;
-  text-shadow: 1px 1px 1px grey;
-  padding: 7px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 10px 10px 11px;
+  pointer-events: auto;
+}
+
+.main__projectsBox--card__textBox--link:hover {
+  color: violet;
 }
 
 #portfolioDemo {

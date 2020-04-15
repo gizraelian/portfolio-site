@@ -103,15 +103,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // overflow: hidden;
+    overflow: hidden;
+    z-index: 2;
 
     &__goUp{
         // position: absolute;
         z-index: 10;
         position: fixed;
         bottom: 0;
-        top: 92%;
-        left: 95%;
+        // top: 92%;
+        top: 90vh;
+        // left: 95%;
+        left: 90vw;
 
         &--img:hover{
             opacity: 100%;
@@ -119,9 +122,10 @@
         }
 
         &--img{
-            width: 50px;
+            // width: 50px;
+            width: 4vw;
             cursor: pointer;
-            opacity: 50%;
+            opacity: 40%;
             transition: transform .1s ease;
             transform: rotate(90deg);
         }
@@ -134,7 +138,7 @@
         // background-size: cover;
         display: flex;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         height: 100vh;
         width: 100%;
         // filter: blur(8px);
@@ -142,15 +146,18 @@
 
         &--background{
 
+            // background-image: url("../backgrounds/splash.jpg");
+
             background-image:
 linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
 url("../backgrounds/splash.jpg");
 
             background-size: cover;
             background-size: 2300px;
-            background-position-y: -22vh;
+            background-position: center;
             height: 100vh;
             width: 100%;
+            z-index: 1;
 
             // filter: blur(0.60px);
             // -webkit-filter: blur(2px);
@@ -172,8 +179,13 @@ url("../backgrounds/splash.jpg");
         &--container{
             position: absolute;
             text-align: center;
-            top: 25%;
-            left: 30%;
+            // margin: 10px 20px;
+            margin: 10vh 20px;
+            z-index: 1;
+
+            // top: 25%;
+            // left: 30%;
+
             // border: aquamarine dashed medium;
 
             &__header{
@@ -193,8 +205,8 @@ url("../backgrounds/splash.jpg");
                 color: white;
                 font-size: 350%;
                 font-weight: normal;
-                // margin-bottom: 100px;
-                margin: 10px 0 100px 0;
+                // margin: 10px 0 100px 0;
+                margin: 10px 0 140px 0;
                 padding: 2px 7px;
                 text-shadow: 1px 1px 2px grey;
                 cursor: default;
@@ -211,7 +223,8 @@ url("../backgrounds/splash.jpg");
                 }
 
                 &--img{
-                    width: 125px;
+                    // width: 125px;
+                    width: 8vw;
                     cursor: pointer;
                     opacity: 60%;
                     transform: rotate(270deg);
@@ -222,18 +235,40 @@ url("../backgrounds/splash.jpg");
         }
     }
 
+// --------------------- Temp Section ---------------------
+
+    .animationContainer{
+        position: absolute;
+        width: 100%;
+        height: 335vh;
+        transform: translateY(100vh);
+        background-size: cover;
+        background-position: center;
+        // background-image:
+        // linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
+        // url("../backgrounds/water.gif");
+
+        background-image:
+        linear-gradient(to left top, rgba(219, 215, 228, 0.829), rgba(114, 108, 172, 0.836)),
+        url("../backgrounds/water.gif");
+
+        z-index: 0;
+        // background-size: auto 100%;
+        // background-repeat: no-repeat;
+
+    }
+
 // --------------------- Jumbotron Section ---------------------
 
     &__jumbotron{
-        background-image:
-        linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
-        url("../backgrounds/water.gif");
-
         // background-image: url("../backgrounds/body-of-water-2276928.jpg");
         // background-image: linear-gradient(to right, #64495E, #4C5F9A);
 
-
         // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+        // background-image:
+        // linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
+        // url("../backgrounds/water.gif");
 
         background-size: cover;
         background-position: center;
@@ -244,6 +279,7 @@ url("../backgrounds/splash.jpg");
         overflow: hidden;
         height: 100vh;
         width: 100%;
+        z-index: 2;
         // border: green dashed 1px;
         // border: brown dashed medium;
 
@@ -258,6 +294,8 @@ url("../backgrounds/splash.jpg");
 
             &__textContainer{
                 font-weight: normal;
+                text-shadow: 0.5px 0.5px 1px grey;
+                // font-size: 1.7rem;
                 // border: brown dashed medium;
             }
         }
@@ -284,7 +322,9 @@ url("../backgrounds/splash.jpg");
             
             &__textContainer{
                 font-weight: normal;
-
+                // text-shadow: 1px 1px 1px grey;
+                text-shadow: 0.5px 0.5px 1px grey;
+                // font-size: 1.2rem;
                 // border: brown dashed medium;
             }
         }
@@ -306,7 +346,7 @@ url("../backgrounds/splash.jpg");
         // linear-gradient(to right bottom, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
         // url("../backgrounds/water.gif");
 
-        background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
 
         // background-size: cover;
         // margin-top: -20rem;
@@ -329,6 +369,7 @@ url("../backgrounds/splash.jpg");
         height: 100vh;
         width: 100%;
         cursor: default;
+        z-index: 2;
 
         &--card:hover{
             transform: scale(1.05);
@@ -343,8 +384,8 @@ url("../backgrounds/splash.jpg");
             width: 200px;
             height: 300px;
             // text-decoration: none;
-            color: #222;
-            background-color: rgba(234, 235, 238, 0.459) !important;
+            // color: #222;
+            background-color: rgba(234, 235, 238, 0.459) !important; 
             box-shadow: 2px 2px 3px grey;
             border-radius: 5px;
             margin: 20px;
@@ -360,7 +401,7 @@ url("../backgrounds/splash.jpg");
 
             &__header{
                 text-align: center;
-                // background-color: inherit;
+                background-color: inherit;
                 color: white;
                 background-color: transparent;
                 padding: 5px;
@@ -378,7 +419,10 @@ url("../backgrounds/splash.jpg");
         // background-position: center;
         // background-size: cover;
 
-        background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
+        // background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
+
+        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
         background-position: center;
         background-size: cover;
 
@@ -389,6 +433,7 @@ url("../backgrounds/splash.jpg");
         padding: 4vh 0 24vh 0;
         overflow: hidden;
         height: 100vh;
+        z-index: 2;
 
         &--card:hover{
             transform: scale(1.02);
@@ -397,6 +442,7 @@ url("../backgrounds/splash.jpg");
         &--card{
             // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
             // border: brown dashed medium;
+            background-attachment: fixed;
             border: none;
             cursor: default;
             position: relative;
@@ -406,7 +452,7 @@ url("../backgrounds/splash.jpg");
             text-shadow: 1px 1px 2px grey;
             overflow: hidden;
             box-shadow: 2px 2px 3px gray;
-            transition: transform .5s ease;
+            transition: transform .3s ease;
 
             &__img{
                 background-image: url("../backgrounds/code.jpg");
@@ -418,31 +464,51 @@ url("../backgrounds/splash.jpg");
             }
 
             &__textBox{
-                display: flex;
-                flex-direction: column;
+                // text-align: center;
+                text-align: left;
                 position: absolute; 
-                background-color: transparent;
-                left: 5%;
-                top: 60%;
+                background-color: rgba(255, 255, 255, .15);
+                // backdrop-filter: blur(5px);
+                // backdrop-filter: blur(5px) contrast(.8);
+                backdrop-filter: blur(3px) invert(.2);
+                pointer-events: none;
+                border: solid 1px white;
+                border-radius: 5px;
+                box-shadow: 1px 1px 2px gray;
+                padding: 10px;
+                left: 3%;
+                top: 65%;
+                // overflow: hidden;
 
                 &--header{
                     color: white;
-                    font-weight: normal;
-                    text-shadow: 1px 1px 1px grey;
+                    // font-weight: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    // text-shadow: 1px 1px 1px grey;
+                    margin: 0;
+                    padding: 0 10px 10px 10px;
+                    
                 }
 
                 &--link{
-                    background: whitesmoke;
                     text-decoration: none;
                     text-align: center;
-                    // color: white;
-                    color: #373737;
-                    border: solid thin grey;
-                    border-radius: 15px;
-                    text-shadow: 1px 1px 1px grey;
-                    // background-image:
-                    // linear-gradient(to right, rgba(81, 55, 226, 0.692), rgba(70, 26, 78, 0.664));
-                    padding: 7px 10px;
+                    color: white;
+                    // font-weight: normal;
+                    font-weight: bold;
+                    // font-size: 18px;
+                    font-size: 20px;
+                    // text-shadow: 1px 1px 1px grey;
+                    margin: 0;
+                    // padding: 10px 10px;
+                    padding: 0 10px 10px 11px;
+                    // pointer-events: all;
+                    pointer-events: auto;
+                }
+
+                &--link:hover{
+                    color: violet;
                 }
             }
         }

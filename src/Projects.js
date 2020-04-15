@@ -38,6 +38,15 @@ export default class Projects extends React.Component {
         </div>
     </div>
 
+    <div className="main__projectsBox--card">
+        <img className="main__projectsBox--card__img" id="bandDemo" />
+        <div className="main__projectsBox--card__textBox">
+            <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
+            <a className="main__projectsBox--card__textBox--link"
+            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
+        </div>
+    </div>
+
     {/* <div className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="placeholderDemo" />
         <div className="main__projectsBox--card__textBox">
