@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Montserrat';
 }
 
 .scrolled {
@@ -80,18 +81,26 @@
   z-index: 10;
   position: fixed;
   bottom: 0;
-  left: 92%;
+  top: 92%;
+  left: 95%;
+}
+
+.main__goUp--img:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1) rotate(90deg);
+          transform: scale(1.1) rotate(90deg);
+}
+
+.main__goUp--img {
+  width: 50px;
   cursor: pointer;
-  color: #555454;
-  font-size: 125%;
-  font-weight: normal;
-  padding: 10px 20px;
-  margin: 0 0 20px 0;
-  background-color: whitesmoke;
-  border-radius: 40px;
-  text-shadow: 1px 1px 2px grey;
-  -webkit-box-shadow: 2px 2px 3px grey;
-          box-shadow: 2px 2px 3px grey;
+  opacity: 50%;
+  -webkit-transition: -webkit-transform .1s ease;
+  transition: -webkit-transform .1s ease;
+  transition: transform .1s ease;
+  transition: transform .1s ease, -webkit-transform .1s ease;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .main__splashBox {
@@ -109,8 +118,8 @@
 }
 
 .main__splashBox--background {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(112, 74, 207, 0.384)), to(rgba(155, 71, 172, 0.1))), url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
-  background-image: linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(112, 74, 207, 0.384)), to(rgba(155, 71, 172, 0.1))), url("../backgrounds/splash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/splash.jpg");
   background-size: cover;
   background-size: 2300px;
   background-position-y: -22vh;
@@ -145,30 +154,29 @@
   cursor: default;
 }
 
-.main__splashBox--container__scrollToProjects:hover {
-  color: #555454;
-  background-color: whitesmoke;
+.main__splashBox--container__scrollDown--img:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1) rotate(270deg);
+          transform: scale(1.1) rotate(270deg);
 }
 
-.main__splashBox--container__scrollToProjects {
-  color: #555454;
-  font-size: 125%;
-  font-weight: normal;
-  padding: 15px 30px;
-  background-color: white;
-  border: 0 0 3px 3px solid darkgray;
-  border-radius: 40px;
-  text-shadow: 1px 1px 2px grey;
-  -webkit-box-shadow: 2px 2px 3px grey;
-          box-shadow: 2px 2px 3px grey;
+.main__splashBox--container__scrollDown--img {
+  width: 125px;
   cursor: pointer;
+  opacity: 60%;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transition: -webkit-transform .1s ease;
+  transition: -webkit-transform .1s ease;
+  transition: transform .1s ease;
+  transition: transform .1s ease, -webkit-transform .1s ease;
 }
 
 .main__jumbotron {
-  background-position: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
-  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgba(228, 225, 235, 0.829)), to(rgba(217, 197, 240, 0.836))), url("../backgrounds/water.gif");
+  background-image: linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)), url("../backgrounds/water.gif");
   background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,19 +217,13 @@
   width: 35%;
 }
 
-.main__jumbotron--rightBox__img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 .main__jumbotron--rightBox__textContainer {
   font-weight: normal;
 }
 
 .main__skillsBox {
-  background-image: url("../backgrounds/body-of-water-2276928.jpg");
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(112, 74, 207, 0.384)), to(rgba(169, 176, 201, 0.1))), url("../backgrounds/body-of-water-2276928.jpg");
-  background-image: linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)), url("../backgrounds/body-of-water-2276928.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
+  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -254,6 +256,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -287,6 +292,10 @@
 }
 
 .main__projectsBox {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(220, 240, 243, 0.596)), to(#a9b0c9));
+  background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), #a9b0c9);
+  background-position: center;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,18 +309,28 @@
   height: 100vh;
 }
 
+.main__projectsBox--card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
 .main__projectsBox--card {
+  border: none;
   cursor: default;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 5px;
-  margin: 7px;
+  margin: 8px;
   text-shadow: 1px 1px 2px grey;
   overflow: hidden;
-  -webkit-box-shadow: 1px 1px 2px gray;
-          box-shadow: 1px 1px 2px gray;
+  -webkit-box-shadow: 2px 2px 3px gray;
+          box-shadow: 2px 2px 3px gray;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .main__projectsBox--card__img {

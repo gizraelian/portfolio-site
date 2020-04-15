@@ -1,6 +1,18 @@
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+// @font-face {
+//     font-family: 'Bungee Inline', cursive;
+//     src: url('https://fonts.googleapis.com/css?family=Bungee+Inline')
+//   }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 // --------------------- Global ---------------------
 * {
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    // font-family:"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat';
+
     // background-color: whitesmoke;
 }
 
@@ -93,27 +105,26 @@
     align-items: center;
     // overflow: hidden;
 
-    &__goUp:hover{
-
-    }
-
     &__goUp{
         // position: absolute;
         z-index: 10;
         position: fixed;
         bottom: 0;
-        left: 92%;
-        cursor: pointer;
+        top: 92%;
+        left: 95%;
 
-        color: rgb(85, 84, 84);
-        font-size: 125%;
-        font-weight: normal;
-        padding: 10px 20px;
-        margin: 0 0 20px 0;
-        background-color: whitesmoke;
-        border-radius: 40px;
-        text-shadow: 1px 1px 2px grey;
-        box-shadow: 2px 2px 3px grey;
+        &--img:hover{
+            opacity: 100%;
+            transform: scale(1.1)(rotate(90deg));
+        }
+
+        &--img{
+            width: 50px;
+            cursor: pointer;
+            opacity: 50%;
+            transition: transform .1s ease;
+            transform: rotate(90deg);
+        }
 
     }
 
@@ -133,7 +144,7 @@
 
             background-image:
 linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
-url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
+url("../backgrounds/splash.jpg");
 
             background-size: cover;
             background-size: 2300px;
@@ -192,30 +203,20 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 
             }
 
-            &__scrollToProjects:hover{
+            &__scrollDown{
 
-                color: rgb(85, 84, 84);
-                background-color: whitesmoke;
-            }
-
-            &__scrollToProjects{
-                color: rgb(85, 84, 84);
-                font-size: 125%;
-                font-weight: normal;
-                padding: 15px 30px;
-                background-color: white;
-                border: 0 0 3px 3px solid darkgray;
-                border-radius: 40px;
-                text-shadow: 1px 1px 2px grey;
-                // box-shadow: 1px 1px 3px grey;
-                box-shadow: 2px 2px 3px grey;
-                // text-decoration: none;
-                // outline: none;
-                cursor: pointer;
+                &--img:hover{
+                    opacity: 100%;
+                    transform: scale(1.1)(rotate(270deg));
+                }
 
                 &--img{
-                    // width: 80px;
-                    // transform: rotate(90deg);
+                    width: 125px;
+                    cursor: pointer;
+                    opacity: 60%;
+                    transform: rotate(270deg);
+                    transition: transform .1s ease;
+                    
                 }
             }
         }
@@ -224,11 +225,18 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 // --------------------- Jumbotron Section ---------------------
 
     &__jumbotron{
-        background-position: center;
+        background-image:
+        linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
+        url("../backgrounds/water.gif");
+
         // background-image: url("../backgrounds/body-of-water-2276928.jpg");
         // background-image: linear-gradient(to right, #64495E, #4C5F9A);
-        background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+
+        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
         background-size: cover;
+        background-position: center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -266,7 +274,7 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             // border: green dashed medium;
 
             &__img:hover{
-                transform: scale(1.05);
+                // transform: scale(1.05);
             }
 
             &__img{
@@ -286,26 +294,19 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
 
     &__skillsBox{
 
-        // background-image: url("../backgrounds/space-needle-building-during-sunset-800693.jpg");
-        // background-image: url("../backgrounds/arches-architectural-design-architecture-blue-sky-137584.jpg");
-        // background-image: url("../backgrounds/body-of-water-2276928.jpg");
+        // background-image:
+        // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
+        // url("../backgrounds/macro-photography-of-orange-fiber-optic-lamp-3363556.jpg");
 
         // background-image:
-        // linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)),
-        // url("../backgrounds/body-of-water-2276928.jpg");
+        // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
+        // url("../backgrounds/water.gif");
 
-        //-----------------------
+        // background-image:
+        // linear-gradient(to right bottom, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
+        // url("../backgrounds/water.gif");
 
-        // padding: 20rem 0;
-
-
-        background-image:
-        // linear-gradient(to right bottom, rgba(228, 216, 225, 0.384), rgba(169, 176, 201, 0.1)),
-        url("../backgrounds/body-of-water-2276928.jpg");
-
-        background-image:
-        linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
-        url("../backgrounds/body-of-water-2276928.jpg");
+        background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
 
         // background-size: cover;
         // margin-top: -20rem;
@@ -337,17 +338,13 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            // justify-content: center;
+            justify-content: center;
             align-items: center;
             width: 200px;
             height: 300px;
             // text-decoration: none;
             color: #222;
-            // background: #eeeeee;
-            // background-color: rgba(214, 208, 203, 0.877) !important;
             background-color: rgba(234, 235, 238, 0.459) !important;
-            // box-shadow: 2px 2px 5px #aaaaaa;
-            // box-shadow: 2px 2px 3px darkgrey;
             box-shadow: 2px 2px 3px grey;
             border-radius: 5px;
             margin: 20px;
@@ -380,6 +377,11 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
         // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
         // background-position: center;
         // background-size: cover;
+
+        background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
+        background-position: center;
+        background-size: cover;
+
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -389,23 +391,22 @@ url("../backgrounds/photo-of-seaside-during-daytime-3511543.jpg");
         height: 100vh;
 
         &--card:hover{
-            // transform: scale(1.02);
+            transform: scale(1.02);
         }
 
         &--card{
             // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
             // border: brown dashed medium;
-
+            border: none;
             cursor: default;
             position: relative;
             display: flex;
             border-radius: 5px;
-            margin: 7px;
+            margin: 8px;
             text-shadow: 1px 1px 2px grey;
             overflow: hidden;
-            // box-shadow: 1px 1px 2px gray;
-            box-shadow: 1px 1px 2px gray;
-            // transition: transform .5s ease;
+            box-shadow: 2px 2px 3px gray;
+            transition: transform .5s ease;
 
             &__img{
                 background-image: url("../backgrounds/code.jpg");

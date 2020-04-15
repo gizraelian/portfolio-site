@@ -5,7 +5,7 @@ export default class Jumbotron extends React.Component {
   render() {
     return (
 
-<div className="main__jumbotron">
+<div className="main__jumbotron" id="jumbotron">
     <div className="main__jumbotron--leftBox">
     <h1 className="main__jumbotron--leftBox__textContainer">
         Motivated front-end focused web-developer, with full stack experience.
