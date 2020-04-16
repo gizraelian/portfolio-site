@@ -163,7 +163,7 @@
 }
 
 .main__splashBox--container__scrollDown--img {
-  width: 7vw;
+  width: 6vw;
   cursor: pointer;
   opacity: 50%;
   -webkit-transform: rotate(270deg);
@@ -259,7 +259,7 @@
 
 .main__skillsBox--background {
   position: absolute;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
   background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
