@@ -600,12 +600,12 @@ url("../backgrounds/splash.jpg");
     background-size: cover;
 }
 #bandDemo:hover{
-    background-image: url("../backgrounds/band4.gif");
+    background-image: url("../backgrounds/band.gif");
     animation-play-state: initial;
 }
 
 #brainFlixDemo{
-    background-image: url("../backgrounds/brainflix.jpg");
+    background-image: url("../backgrounds/brainflix-still.jpg");
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
@@ -617,15 +617,17 @@ url("../backgrounds/splash.jpg");
 }
 
 #ivgDemo{
-    background-image: url("../backgrounds/github.jpg");
+    background-image: url("../backgrounds/ivg-still.jpg");
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
     background-position: center;
-    background-size: cover;
+    // background-size: cover;
+    background-size: 900px;
+    background-position: top left;
 }
 #ivgDemo:hover{
-    background-image: url("../backgrounds/portfolio.gif");
+    background-image: url("../backgrounds/ivg2.gif");
     animation-play-state: initial;
 }
 

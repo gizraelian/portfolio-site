@@ -9,6 +9,7 @@ import PortfolioInfo from './PortfolioInfo';
 import IvgInfo from './IvgInfo';
 import About from './About';
 import Footer from './Footer';
+import ScrollIntoView from './ScrollIntoView';
 import './css/styles.css'
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
       <div>
         <Router>
           <div>
+            <ScrollIntoView>
             <Navbar />
             <div>
               <Switch>
@@ -30,6 +32,7 @@ class App extends Component {
               </Switch>
             </div>
             <Footer />
+            </ScrollIntoView>
           </div>
         </Router>
       </div>

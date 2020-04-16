@@ -464,13 +464,13 @@
 }
 
 #bandDemo:hover {
-  background-image: url("../backgrounds/band4.gif");
+  background-image: url("../backgrounds/band.gif");
   -webkit-animation-play-state: initial;
           animation-play-state: initial;
 }
 
 #brainFlixDemo {
-  background-image: url("../backgrounds/brainflix.jpg");
+  background-image: url("../backgrounds/brainflix-still.jpg");
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
@@ -482,15 +482,16 @@
 }
 
 #ivgDemo {
-  background-image: url("../backgrounds/github.jpg");
+  background-image: url("../backgrounds/ivg-still.jpg");
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
-  background-size: cover;
+  background-size: 900px;
+  background-position: top left;
 }
 
 #ivgDemo:hover {
-  background-image: url("../backgrounds/portfolio.gif");
+  background-image: url("../backgrounds/ivg2.gif");
   -webkit-animation-play-state: initial;
           animation-play-state: initial;
 }

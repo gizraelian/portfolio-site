@@ -49,9 +49,7 @@ export default class navbar extends Component {
         </div>
         <div className="navbar__linksBox">
           <Link to={'/'} className="navbar__linksBox--links">{'Home'}</Link>
-          <Link to={'/about'} className="navbar__linksBox--links">{'About'}</Link>
-
-           <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>Button</button>
+          <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>Projects Info</button>
           {
           this.state.showMenu
             ? (
@@ -61,18 +59,29 @@ export default class navbar extends Component {
                 }}
                 className="navbar__linksBox--dropMenuBtn__container"
               >
-                <Link to={'/'}>
-                  <button className="navbar__linksBox--dropMenuBtn__container--button"> Home </button>
+                <Link to={'/bandpage'}>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> Bandpage </button>
                 </Link>
-                <Link to={'/about'}>
-                  <button className="navbar__linksBox--dropMenuBtn__container--button"> About </button>
+
+                <Link to={'/brainflix'}>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> Brainflix </button>
                 </Link>
+
+                <Link to={'/portfolio'}>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> Portfolio Site </button>
+                </Link>
+
+                <Link to={'/ivg'}>
+                  <button className="navbar__linksBox--dropMenuBtn__container--button"> IVG Fiber </button>
+                </Link>
+
               </div>
             )
             : (
               null
             )
         }
+          <Link to={'/about'} className="navbar__linksBox--links">{'About'}</Link>
         </div>
       </div>
     )
