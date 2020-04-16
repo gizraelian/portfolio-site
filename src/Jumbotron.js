@@ -8,10 +8,10 @@ export default class Jumbotron extends React.Component {
 <div className="main__jumbotron" id="jumbotron">
     <div className="main__jumbotron--leftBox">
     <h2 className="main__jumbotron--leftBox__textContainer">
-        Motivated front-end focused web-developer, with full stack experience.
+        Awesome front-end focused web-developer with full stack experience
     </h2>
     <h2 className="main__jumbotron--leftBox__textContainer">
-        Delivering superior results through challenging projects.
+        Delivering superior results through challenging projects
     </h2>
     </div>
     <div className="main__jumbotron--rightBox">
@@ -20,10 +20,13 @@ export default class Jumbotron extends React.Component {
     <img src="../assets/react.png" className="main__jumbotron--rightBox__img" /> */}
 
     <h3 className="main__jumbotron--rightBox__textContainer">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
+      Toronto-based web-developer with a strong appreciation for elegant, succint code. I am here to create websites that you can proud of.
     </h3>
     <h3 className="main__jumbotron--rightBox__textContainer">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit. Habitant morbi tristique senectus et.
+      My attention to detail translates into logical, managable product.
+      I build pages that showcase your unique vision.
+
+      {/* As a true Torontian, friendly and approachable, I create pages that showcase your unique vision. */}
     </h3>
     </div>
 </div>

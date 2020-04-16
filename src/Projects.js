@@ -14,6 +14,7 @@ export default class Projects extends React.Component {
         <img className="main__projectsBox--card__img" id="bandDemo" />
         <div className="main__projectsBox--card__textBox">
             <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
+            <h3 className="main__projectsBox--card__textBox--subHeader">HTML5 | CSS | JS</h3>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
         </div>
@@ -23,6 +24,7 @@ export default class Projects extends React.Component {
         <img className="main__projectsBox--card__img" id="brainFlixDemo" />
         <div className="main__projectsBox--card__textBox">
             <h2 className="main__projectsBox--card__textBox--header">BrainFlix</h2>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React || NodeJS || CSS</h3>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
         </div>
@@ -33,17 +35,18 @@ export default class Projects extends React.Component {
         <img className="main__projectsBox--card__img" id="portfolioDemo" />
         <div className="main__projectsBox--card__textBox">
             <h2 className="main__projectsBox--card__textBox--header">Portfolio site</h2>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
         </div>
     </div>
 
     <div className="main__projectsBox--card">
-        <img className="main__projectsBox--card__img" id="bandDemo" />
+        <img className="main__projectsBox--card__img" id="ivgDemo" />
         <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
-            <a className="main__projectsBox--card__textBox--link"
-            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
+            <h2 className="main__projectsBox--card__textBox--header">IVG Fiber</h2>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
+            {/* <a className="main__projectsBox--card__textBox--link">Coming soon</a> */}
         </div>
     </div>
 

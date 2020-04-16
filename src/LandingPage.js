@@ -15,7 +15,7 @@ export default class LandingPage extends React.Component {
             spy={true}
             smooth={true}
             offset={-70}
-            duration= {1000} >
+            duration= {800} >
             <img src="../assets/arrows-left_500x500.png" className="main__goUp--img"/>
         </Link>
 
@@ -32,7 +32,7 @@ export default class LandingPage extends React.Component {
             spy={true}
             smooth={true}
             offset={-70}
-            duration= {1000} >
+            duration= {800} >
             <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img"/>
         </Link>
     </div>

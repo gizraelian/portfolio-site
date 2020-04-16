@@ -10,21 +10,22 @@ export default class Footer extends Component {
             <img src="../assets/fast.gif"
               className="footer__container--sloganBox__logo"
               alt='myImg'/>
-            <p className="footer__container--sloganBox__text">{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'}</p>
+            <p className="footer__container--sloganBox__text">Contact</p>
           </div>
           <div className="footer__container--contactBox">
             <ul className="footer__container--contactBox__column">
-              <li className="footer__container--contactBox__column--row">Lorem Ipsum</li>
-              <li className="footer__container--contactBox__column--row">Lorem Ipsum</li>
               <a className="footer__container--contactBox__column--row"
-              href="mailto:g.izraelian@gmail.com">
-                {'g.izraelian@gmail.com'}
+                href="mailto:g.izraelian@gmail.com">
+                {/* {'g.izraelian@gmail.com'} */}Email
               </a>
+              <a className="footer__container--contactBox__column--row"
+            target="_blank" href="https://www.linkedin.com/in/george-izraelian">LinkedIn</a>
+
             </ul>
             <ul className="footer__container--contactBox__column">
-              <li className="footer__container--contactBox__column--row">Lorem Ipsum</li>
-              <li className="footer__container--contactBox__column--row">Lorem Ipsum</li>
-              <li className="footer__container--contactBox__column--row">Lorem Ipsum</li>
+              <a className="footer__container--contactBox__column--row"
+              target="_blank" href="https://github.com/gizraelian/">GitHub</a>
+              <li className="footer__container--contactBox__column--row">Resume</li>
             </ul>
           </div>
           <div className="footer__container--linkBox">
