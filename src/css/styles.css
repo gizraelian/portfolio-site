@@ -96,7 +96,7 @@
 .main__goUp--img {
   width: 3vw;
   cursor: pointer;
-  opacity: 95%;
+  opacity: 70%;
   -webkit-transition: -webkit-transform .1s ease;
   transition: -webkit-transform .1s ease;
   transition: transform .1s ease;

@@ -10,9 +10,9 @@ export default class Jumbotron extends React.Component {
     <h2 className="main__jumbotron--leftBox__textContainer">
         Awesome front-end focused web-developer with full stack experience
     </h2>
-    <h2 className="main__jumbotron--leftBox__textContainer">
+    {/* <h2 className="main__jumbotron--leftBox__textContainer">
         Delivering superior results through challenging projects
-    </h2>
+    </h2> */}
     </div>
     <div className="main__jumbotron--rightBox">
     {/* <img src="../assets/javascript.png" className="main__jumbotron--rightBox__img" />
@@ -26,7 +26,7 @@ export default class Jumbotron extends React.Component {
       My attention to detail translates into logical, managable product.
       I build pages that showcase your unique vision.
 
-      {/* As a true Torontian, friendly and approachable, I create pages that showcase your unique vision. */}
+      {/* As a true Torontonian, friendly and approachable, I create pages that showcase your unique vision. */}
     </h3>
     </div>
 </div>
