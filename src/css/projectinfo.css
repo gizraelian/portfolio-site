@@ -1,0 +1,86 @@
+.projectInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.projectInfo__linkBox {
+  overflow: hidden;
+}
+
+.projectInfo__linkBox--link {
+  cursor: default;
+  overflow: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.projectInfo__linkBox--link__img {
+  background-image: url("../backgrounds/code.jpg");
+  width: 100%;
+  height: 98vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.projectInfo__linkBox--link__header {
+  position: absolute;
+  left: 1%;
+  top: 5%;
+  color: white;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.projectInfo__textSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 1vw;
+  background-size: cover;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
+  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
+  z-index: 0;
+}
+
+.projectInfo__textSection--row {
+  width: 50%;
+}
+
+.projectInfo__textSection--row__text {
+  text-shadow: 0.5px 0.25px grey;
+}
+
+.projectInfo__textSection--imgBox {
+  padding-left: 10px;
+}
+
+.projectInfo__textSection--imgBox__img {
+  width: 7vw;
+  background-color: transparent;
+  margin: 0 5px;
+}
+/*# sourceMappingURL=projectinfo.css.map */

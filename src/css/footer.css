@@ -1,0 +1,128 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #252525;
+  padding: 10vh 0 10vh 0;
+}
+
+.footer__container {
+  background-color: transparent;
+}
+
+.footer__container--sloganBox {
+  padding-top: 5vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__container--sloganBox__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 0;
+  width: 40vw;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer__container--sloganBox__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 0;
+  width: 40vw;
+}
+
+.footer__container--contactBox {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__container--contactBox__column {
+  border-top: thin solid whitesmoke;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 20px 1vh 20px;
+}
+
+.footer__container--contactBox__column--row:hover {
+  text-shadow: 1.5px 1.5px 5px white;
+}
+
+.footer__container--contactBox__column--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  padding: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-shadow: 0.5px 0.25px grey;
+}
+
+.footer__container--linkBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+
+.footer__container--linkBox__link {
+  border-top: thin solid whitesmoke;
+  padding: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.25px grey;
+  background-color: transparent;
+}
+
+.footer__container--linkBox__link:hover {
+  padding: 20px;
+  text-decoration: none;
+  text-shadow: 1.5px 1.5px 5px white;
+  border-bottom: whitesmoke solid thin;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/*# sourceMappingURL=footer.css.map */
