@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
 import { Link } from "react-scroll";
 
 export default class LandingPage extends React.Component {
@@ -15,7 +16,7 @@ export default class LandingPage extends React.Component {
             smooth={true}
             offset={0}
             duration= {800} >
-            <img src="../assets/arrows-left_500x500.png" className="main__goUp--img"/>
+            <img src="../assets/arrows-left_500x500.png" className="main__goUp--img" alt='myImg' />
         </Link>
 
     <div className="main__splashBox--background">
@@ -32,7 +33,7 @@ export default class LandingPage extends React.Component {
             smooth={true}
             offset={0}
             duration= {800} >
-            <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img"/>
+            <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img" alt='myImg' />
         </Link>
     </div>
 

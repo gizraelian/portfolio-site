@@ -9,7 +9,7 @@ export default class BandpageInfo extends Component {
 
         <div className="projectInfo__linkBox">
           <Link to={'/bandpage'} className="projectInfo__linkBox--link">
-              <img className="projectInfo__linkBox--link__img" id="bandDemo" />
+              <img className="projectInfo__linkBox--link__img" alt='myImg' id="bandDemo" />
               <h2 className="projectInfo__linkBox--link__header">Bandpage</h2>
           </Link>
         </div>
@@ -27,11 +27,11 @@ export default class BandpageInfo extends Component {
             target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
             </div>
             <div className="projectInfo__textSection--imgBox">
-                <img src="../assets/html5.png" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/html5.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
-                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
-                <img src="../assets/javascript.png" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/javascript.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
             </div>
         </div>
 

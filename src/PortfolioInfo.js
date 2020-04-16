@@ -9,7 +9,7 @@ export default class PortfolioInfo extends Component {
 
         <div className="projectInfo__linkBox">
           <Link to={'/portfolio'} className="projectInfo__linkBox--link">
-              <img className="projectInfo__linkBox--link__img" id="portfolioDemo" ></img>
+              <img className="projectInfo__linkBox--link__img" alt='myImg' id="portfolioDemo" ></img>
               <h2 className="projectInfo__linkBox--link__header">Portfolio Site</h2>
           </Link>
         </div>
@@ -30,11 +30,11 @@ export default class PortfolioInfo extends Component {
             target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
             </div>
             <div className="projectInfo__textSection--imgBox">
-            <img src="../assets/react.svg" className="projectInfo__textSection--imgBox__img"/>
+            <img src="../assets/react.svg" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
-            <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img"/>
+            <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
-            <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
+            <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
             </div>
         </div>
 

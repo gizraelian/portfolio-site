@@ -9,7 +9,7 @@ export default class BrainFlixInfo extends Component {
 
         <div className="projectInfo__linkBox">
           <Link to={'/brainflix'} className="projectInfo__linkBox--link">
-              <img className="projectInfo__linkBox--link__img" id="brainFlixDemo" />
+              <img className="projectInfo__linkBox--link__img" alt='myImg' id="brainFlixDemo" />
               <h2 className="projectInfo__linkBox--link__header">BrainFlix</h2>
           </Link>
         </div>
@@ -28,11 +28,9 @@ export default class BrainFlixInfo extends Component {
             </div>
             <div className="projectInfo__textSection--imgBox">
 
-                <img src="../assets/react.svg" className="projectInfo__textSection--imgBox__img"/>
-
-                <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img"/>
-
-                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/react.svg" className="projectInfo__textSection--imgBox__img" alt='myImg' />
+                <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
+                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
             </div>
         </div>
