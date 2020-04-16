@@ -40,6 +40,8 @@
   position: absolute;
   left: 1%;
   top: 5%;
+  font-size: 24px;
+  font-weight: bold;
   color: white;
   text-shadow: 1px 1px 2px grey;
 }
@@ -72,6 +74,23 @@
 
 .projectInfo__textSection--row__text {
   text-shadow: 0.5px 0.25px grey;
+}
+
+.projectInfo__textSection--row__link:hover {
+  color: white;
+  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+  background-color: orangered;
+}
+
+.projectInfo__textSection--row__link {
+  font-weight: bold;
+  color: black;
+  text-shadow: 0.5px 0.25px grey;
+  text-decoration: none;
+  -webkit-box-shadow: 10px 0 0 orange, -10px 0 0 orange;
+          box-shadow: 10px 0 0 orange, -10px 0 0 orange;
+  background-color: orange;
 }
 
 .projectInfo__textSection--imgBox {

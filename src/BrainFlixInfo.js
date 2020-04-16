@@ -23,6 +23,8 @@ export default class BrainFlixInfo extends Component {
                 <p className="projectInfo__textSection--row__text">
                     Built with React, CSS3, and NodeJS
                 </p>
+                <a className="projectInfo__textSection--row__link"
+            target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
             </div>
             <div className="projectInfo__textSection--imgBox">
 
@@ -30,7 +32,7 @@ export default class BrainFlixInfo extends Component {
 
                 <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img"/>
 
-                <img src="../assets/css3.svg" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
 
             </div>
         </div>

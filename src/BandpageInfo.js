@@ -23,11 +23,13 @@ export default class BandpageInfo extends Component {
                 <p className="projectInfo__textSection--row__text">
                     Built with HTML5, CSS3, and Javascript
                 </p>
+                <a className="projectInfo__textSection--row__link"
+            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
             </div>
             <div className="projectInfo__textSection--imgBox">
                 <img src="../assets/html5.png" className="projectInfo__textSection--imgBox__img"/>
 
-                <img src="../assets/css3.svg" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
 
                 <img src="../assets/javascript.png" className="projectInfo__textSection--imgBox__img"/>
             </div>

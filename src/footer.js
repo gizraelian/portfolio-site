@@ -7,17 +7,15 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="footer__container">
           <div className="footer__container--sloganBox">
-            <img src="../assets/fast.gif"
+            {/* <img src="../assets/placeholder2.jpg"
               className="footer__container--sloganBox__logo"
-              alt='myImg'/>
-            <p className="footer__container--sloganBox__text">Contact</p>
+              alt='myImg'/> */}
+            {/* <p className="footer__container--sloganBox__text">Contact</p> */}
           </div>
           <div className="footer__container--contactBox">
             <ul className="footer__container--contactBox__column">
               <a className="footer__container--contactBox__column--row"
-                href="mailto:g.izraelian@gmail.com">
-                {/* {'g.izraelian@gmail.com'} */}Email
-              </a>
+                href="mailto:g.izraelian@gmail.com">Email</a>
               <a className="footer__container--contactBox__column--row"
             target="_blank" href="https://www.linkedin.com/in/george-izraelian">LinkedIn</a>
 
@@ -30,8 +28,6 @@ export default class Footer extends Component {
           </div>
           <div className="footer__container--linkBox">
             <Link to={'/'} className="footer__container--linkBox__link">HOME</Link>
-            <Link to={'/about'} className="footer__container--linkBox__link">ABOUT</Link>
-            
           </div>
       </div>
     </div>

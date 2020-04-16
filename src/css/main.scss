@@ -160,6 +160,9 @@ url("../backgrounds/splash.jpg");
         z-index: 0;
         // background-size: auto 100%;
         // background-repeat: no-repeat;
+        @media (max-width: 992px) {
+            height: 430vh;
+        }
 
     }
 
@@ -315,7 +318,8 @@ url("../backgrounds/splash.jpg");
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            justify-content: center;
+            // justify-content: center;
+            justify-content: space-between;
             align-items: center;
             // width: 200px;
             width: 180px;
@@ -334,21 +338,22 @@ url("../backgrounds/splash.jpg");
             z-index: 2;
 
             &__img{
-                // width: 120px;
-                width: 7vw;
+                width: 120px;
                 background-color: transparent;
-                padding: 30px 5px;
+                padding: 30px 5px 5px 5px;
             }
 
             &__header{
                 text-align: center;
                 background-color: inherit;
-                color: white;
+                // color: white;
+                color: rgba(41, 36, 36, 0.863);
+                // font-weight: Normal;
+                font-weight: bolder;
                 background-color: transparent;
                 padding: 5px;
-                font-weight: normal;
                 // text-shadow: 0.75px 0.75px 1.25px lightgray;
-                text-shadow: 1px 1px 2px gray;
+                text-shadow: 0.75px 0.75px 2px gray;
             }
         }
     }
@@ -377,6 +382,9 @@ url("../backgrounds/splash.jpg");
         overflow: hidden;
         height: 100vh;
         z-index: 2;
+        @media (max-width: 992px) {
+            height: 200vh;
+        }
 
         &--card:hover{
             transform: scale(1.008);
@@ -404,12 +412,36 @@ url("../backgrounds/splash.jpg");
 
             &__img{
                 background-image: url("../backgrounds/code.jpg");
-                // width: 48vw;
-                width: 44vw;
+                // width: 750px;
                 height: 50vh;
                 object-fit: cover;
                 background-position: center;
                 background-size: cover;
+                @media (min-width: 1200px) {
+                    // width: 750px;
+                    width: 45vw;
+                }
+                @media (max-width: 1200px) {
+                    // width: 700px;
+                    width: 43vw;
+                }
+                // @media (max-width: 1600px) {
+                //     width: 600px;
+                // }
+                // @media (max-width: 1250px) {
+                //     width: 500px;
+                // }
+                // @media (max-width: 1050px) {
+                //     width: 450px;
+                // }
+                @media (max-width: 992px) {
+                    width: 90vw;
+                    // height: 40vh;
+                }
+                @media (max-width: 768px) {
+                }
+                @media (max-width: 576px) {
+                }
             }
 
             &__textBox{
@@ -472,8 +504,11 @@ url("../backgrounds/splash.jpg");
                 }
 
                 &--link:hover{
-                    color: burlywood;
-                    text-shadow: 1.5px 1.5px 5px white;
+                    // color: burlywood;
+                    // text-shadow: 1.5px 1.5px 5px white;
+                    text-shadow: 1px 1px 1px grey;
+                    box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+                    background-color: orangered;
                 }
             }
         }

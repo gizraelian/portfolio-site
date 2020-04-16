@@ -30,7 +30,7 @@ export default class IvgInfo extends Component {
 
                 {/* <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img"/> */}
 
-                <img src="../assets/css3.svg" className="projectInfo__textSection--imgBox__img"/>
+                <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
 
             </div>
         </div>

@@ -26,13 +26,15 @@ export default class PortfolioInfo extends Component {
                 <p className="projectInfo__textSection--row__text">
                     Updating regularly
                 </p>
+                <a className="projectInfo__textSection--row__link"
+            target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
             </div>
             <div className="projectInfo__textSection--imgBox">
             <img src="../assets/react.svg" className="projectInfo__textSection--imgBox__img"/>
 
             <img src="../assets/node.png" className="projectInfo__textSection--imgBox__img"/>
 
-            <img src="../assets/css3.svg" className="projectInfo__textSection--imgBox__img"/>
+            <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img"/>
             </div>
         </div>
 

@@ -120,6 +120,12 @@
   z-index: 0;
 }
 
+@media (max-width: 992px) {
+  .main .animationContainer {
+    height: 430vh;
+  }
+}
+
 .main__jumbotron {
   background-size: cover;
   background-position: center;
@@ -227,9 +233,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: hidden;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -248,19 +254,19 @@
 }
 
 .main__skillsBox--card__img {
-  width: 7vw;
+  width: 120px;
   background-color: transparent;
-  padding: 30px 5px;
+  padding: 30px 5px 5px 5px;
 }
 
 .main__skillsBox--card__header {
   text-align: center;
   background-color: inherit;
-  color: white;
+  color: rgba(41, 36, 36, 0.863);
+  font-weight: bolder;
   background-color: transparent;
   padding: 5px;
-  font-weight: normal;
-  text-shadow: 1px 1px 2px gray;
+  text-shadow: 0.75px 0.75px 2px gray;
 }
 
 .main__projectsBox {
@@ -278,6 +284,12 @@
   overflow: hidden;
   height: 100vh;
   z-index: 2;
+}
+
+@media (max-width: 992px) {
+  .main__projectsBox {
+    height: 200vh;
+  }
 }
 
 .main__projectsBox--card:hover {
@@ -311,12 +323,29 @@
 
 .main__projectsBox--card__img {
   background-image: url("../backgrounds/code.jpg");
-  width: 44vw;
   height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-width: 1200px) {
+  .main__projectsBox--card__img {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__projectsBox--card__img {
+    width: 43vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__projectsBox--card__img {
+    width: 90vw;
+  }
 }
 
 .main__projectsBox--card__textBox {
@@ -371,8 +400,10 @@
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  color: burlywood;
-  text-shadow: 1.5px 1.5px 5px white;
+  text-shadow: 1px 1px 1px grey;
+  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+  background-color: orangered;
 }
 
 #portfolioDemo {

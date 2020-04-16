@@ -14,7 +14,19 @@
 }
 
 .footer__container {
-  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__container--sloganBox {
@@ -68,10 +80,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-top: thin solid whitesmoke;
+  width: 50%;
 }
 
 .footer__container--contactBox__column {
-  border-top: thin solid whitesmoke;
   background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,16 +119,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: transparent;
+  border-top: thin solid whitesmoke;
+  width: 50%;
 }
 
 .footer__container--linkBox__link {
-  border-top: thin solid whitesmoke;
   padding: 20px;
   text-decoration: none;
   color: whitesmoke;
   text-shadow: 0.5px 0.25px grey;
-  background-color: transparent;
 }
 
 .footer__container--linkBox__link:hover {
