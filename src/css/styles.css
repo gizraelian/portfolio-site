@@ -150,7 +150,7 @@
   opacity: 80%;
   font-size: 350%;
   font-weight: normal;
-  margin: 10px 0 140px 0;
+  margin: 10px 0 40vh 0;
   padding: 2px 7px;
   text-shadow: 1px 1px 2px grey;
   cursor: default;
@@ -207,8 +207,17 @@
 }
 
 .main__jumbotron--leftBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: #222;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 20px;
   width: 35%;
 }
@@ -226,8 +235,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   color: #222;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 20px;
   width: 35%;
 }
@@ -287,13 +299,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 180px;
   height: 250px;
   background-color: rgba(234, 235, 238, 0.685) !important;
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
   border-radius: 7px;
-  margin: 20px;
+  margin: 2vw;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
@@ -393,7 +405,7 @@
   -webkit-box-shadow: 1px 1px 2px gray;
           box-shadow: 1px 1px 2px gray;
   padding: 5px;
-  top: 80%;
+  top: 85%;
   width: 90%;
 }
 
@@ -426,6 +438,7 @@
 
 .main__projectsBox--card__textBox--link:hover {
   color: burlywood;
+  text-shadow: 1.5px 1.5px 5px white;
 }
 
 #portfolioDemo {

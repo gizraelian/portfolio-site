@@ -207,7 +207,8 @@ url("../backgrounds/splash.jpg");
                 font-size: 350%;
                 font-weight: normal;
                 // margin: 10px 0 100px 0;
-                margin: 10px 0 140px 0;
+                // margin: 10px 0 150px 0;
+                margin: 10px 0 40vh 0;
                 padding: 2px 7px;
                 text-shadow: 1px 1px 2px grey;
                 cursor: default;
@@ -287,10 +288,13 @@ url("../backgrounds/splash.jpg");
         // border: brown dashed medium;
 
         &--leftBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             color: #222;
             // color: gray;
             // padding-right: 20px;
-            padding: 0 20px;
+            padding: 0 10px;
             margin: 20px;
             width: 35%;
             // border: green dashed medium;
@@ -306,10 +310,11 @@ url("../backgrounds/splash.jpg");
         &--rightBox{
             display: flex;
             flex-direction: column;
+            justify-content: space-evenly;
             color: #222;
             // color: gray;
             // padding-left: 20px;
-            padding: 0 20px;
+            padding: 0 10px;
             margin: 20px;
             width: 35%;
             // border: green dashed medium;
@@ -363,6 +368,7 @@ url("../backgrounds/splash.jpg");
 
         display: flex;
         justify-content: center;
+        // justify-content: space-around;
         align-items: center;
         padding: 0 0 20px 0;
         overflow: hidden;
@@ -407,8 +413,8 @@ url("../backgrounds/splash.jpg");
             overflow: hidden;
             justify-content: center;
             align-items: center;
-            width: 200px;
-            // height: 300px;
+            // width: 200px;
+            width: 180px;
             height: 250px;
 
             // text-decoration: none;
@@ -417,7 +423,8 @@ url("../backgrounds/splash.jpg");
             background-color: rgba(234, 235, 238, 0.685) !important; 
             box-shadow: 2px 2px 3px grey;
             border-radius: 7px;
-            margin: 20px;
+            // margin: 20px;
+            margin: 2vw;
 
             transition: transform .3s ease;
             z-index: 2;
@@ -515,7 +522,8 @@ url("../backgrounds/splash.jpg");
                 // padding: 10px;
                 padding: 5px;
                 // left: 5%;
-                top: 80%;
+                // top: 80%;
+                top: 85%;
                 width: 90%;
                 // overflow: hidden;
 
@@ -560,6 +568,7 @@ url("../backgrounds/splash.jpg");
 
                 &--link:hover{
                     color: burlywood;
+                    text-shadow: 1.5px 1.5px 5px white;
                 }
             }
         }
