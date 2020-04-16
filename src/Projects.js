@@ -10,46 +10,45 @@ export default class Projects extends React.Component {
 
 <div className="main__projectsBox" id="projects">
 
-    {/* <div className="main__projectsBox--card"> */}
-    <Link to={'/bandpage'} className="main__projectsBox--card">
+    <div className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="bandDemo" />
         <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">Bandpage</h2>
+            <Link to={'/bandpage'} className="main__projectsBox--card__textBox--header">Bandpage</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">HTML5 | CSS | JS</h3>
         </div>
-    </Link>
+    </div>
 
-    <Link to={'/brainflix'} className="main__projectsBox--card">
+    <div className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="brainFlixDemo" />
         <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">BrainFlix</h2>
+            <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">BrainFlix</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">React || NodeJS || CSS</h3>
         </div>
-    </Link>
+    </div>
 
-    <Link to={'/portfolio'} className="main__projectsBox--card">
+    <div className="main__projectsBox--card">
         {/* <img src="../assets/placeholder2.jpg" className="main__projectsBox--card__img"/> */}
         <img className="main__projectsBox--card__img" id="portfolioDemo" />
         <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">Portfolio site</h2>
+            <Link to={'/portfolio'} className="main__projectsBox--card__textBox--header">Portfolio site</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
         </div>
-    </Link>
+    </div>
 
-    <Link to={'/ivg'} className="main__projectsBox--card">
+    <div to={'/ivg'} className="main__projectsBox--card">
         <img className="main__projectsBox--card__img" id="ivgDemo" />
         <div className="main__projectsBox--card__textBox">
-            <h2 className="main__projectsBox--card__textBox--header">IVG Fiber</h2>
+            <Link to={'/ivg'} className="main__projectsBox--card__textBox--header">IVG Fiber</Link>
             <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
             {/* <a className="main__projectsBox--card__textBox--link">Coming soon</a> */}
         </div>
-    </Link>
+    </div>
 
 </div>
 

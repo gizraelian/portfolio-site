@@ -9,7 +9,7 @@ export default class PortfolioInfo extends Component {
 
         <div className="projectInfo__linkBox">
           <Link to={'/portfolio'} className="projectInfo__linkBox--link">
-              <img className="projectInfo__linkBox--link__img" id="portfolioDemo" />
+              <img className="projectInfo__linkBox--link__img" id="portfolioDemo" ></img>
               <h2 className="projectInfo__linkBox--link__header">Portfolio Site</h2>
           </Link>
         </div>

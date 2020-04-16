@@ -372,12 +372,18 @@
   width: 90%;
 }
 
+.main__projectsBox--card__textBox--header:hover {
+  background-color: orangered;
+}
+
 .main__projectsBox--card__textBox--header {
-  color: white;
+  text-decoration: none;
   font-weight: normal;
+  color: white;
   font-size: 24px;
   text-shadow: 1px 1px 1px grey;
   margin: 0;
+  pointer-events: auto;
 }
 
 .main__projectsBox--card__textBox--subHeader {
@@ -386,6 +392,13 @@
   font-size: 16px;
   text-shadow: 1px 1px 1px grey;
   margin: 0;
+}
+
+.main__projectsBox--card__textBox--link:hover {
+  text-shadow: 1px 1px 1px grey;
+  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+  background-color: orangered;
 }
 
 .main__projectsBox--card__textBox--link {
@@ -397,13 +410,6 @@
   text-shadow: 1px 1px 1px grey;
   margin: 0;
   pointer-events: auto;
-}
-
-.main__projectsBox--card__textBox--link:hover {
-  text-shadow: 1px 1px 1px grey;
-  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
-          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
-  background-color: orangered;
 }
 
 #portfolioDemo {

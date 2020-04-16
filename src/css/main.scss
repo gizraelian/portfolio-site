@@ -425,15 +425,6 @@ url("../backgrounds/splash.jpg");
                     // width: 700px;
                     width: 43vw;
                 }
-                // @media (max-width: 1600px) {
-                //     width: 600px;
-                // }
-                // @media (max-width: 1250px) {
-                //     width: 500px;
-                // }
-                // @media (max-width: 1050px) {
-                //     width: 450px;
-                // }
                 @media (max-width: 992px) {
                     width: 90vw;
                     // height: 40vh;
@@ -464,13 +455,18 @@ url("../backgrounds/splash.jpg");
                 width: 90%;
                 // overflow: hidden;
 
+                &--header:hover{
+                    background-color: orangered;
+                }
+
                 &--header{
-                    color: white;
+                    text-decoration: none;
                     font-weight: normal;
-                    // font-weight: bold;
+                    color: white;
                     font-size: 24px;
                     text-shadow: 1px 1px 1px grey;
                     margin: 0;
+                    pointer-events: auto;
                     // padding: 0 10px 10px 10px;
                     
                 }
@@ -487,6 +483,12 @@ url("../backgrounds/splash.jpg");
                     // padding: 0 10px 10px 10px;
                 }
 
+                &--link:hover{
+                    text-shadow: 1px 1px 1px grey;
+                    box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+                    background-color: orangered;
+                }
+
                 &--link{
                     text-decoration: none;
                     text-align: center;
@@ -501,14 +503,6 @@ url("../backgrounds/splash.jpg");
                     // padding: 0 10px 10px 11px;
                     // pointer-events: all;
                     pointer-events: auto;
-                }
-
-                &--link:hover{
-                    // color: burlywood;
-                    // text-shadow: 1.5px 1.5px 5px white;
-                    text-shadow: 1px 1px 1px grey;
-                    box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
-                    background-color: orangered;
                 }
             }
         }

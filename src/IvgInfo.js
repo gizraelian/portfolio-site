@@ -9,7 +9,7 @@ export default class IvgInfo extends Component {
 
         <div className="projectInfo__linkBox">
           <Link to={'/ivg'} className="projectInfo__linkBox--link">
-              <img className="projectInfo__linkBox--link__img" id="ivgDemo" />
+              <img className="projectInfo__linkBox--link__img" id="ivgDemo" ></img>
               <h2 className="projectInfo__linkBox--link__header"></h2>
           </Link>
         </div>
