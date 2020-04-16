@@ -10,7 +10,6 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  z-index: 2;
 }
 
 .main__goUp {
@@ -205,8 +204,9 @@
 
 .main__skillsBox--background {
   position: absolute;
-  height: 70vh;
+  height: 40vh;
   width: 100%;
+  border-radius: 7px;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
   background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
   opacity: 0.4;

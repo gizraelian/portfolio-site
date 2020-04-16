@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    z-index: 2;
+    // z-index: 2;
 
     &__goUp{
         // position: absolute;
@@ -63,7 +63,7 @@ url("../backgrounds/splash.jpg");
             // -webkit-filter: blur(2px);
 
             // &__filter{
-            //     background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
+                // background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
             //     background-size: cover;
             //     margin-top: -20rem;
             // //     transform: rotate(45deg);
@@ -283,10 +283,11 @@ url("../backgrounds/splash.jpg");
 
         &--background{
             position: absolute;
-            height: 70vh;
-
+            // height: 70vh;
+            height: 40vh;
             // height: 100vh;
             width: 100%;
+            border-radius: 7px;
 
             background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
             // background-color: whitesmoke;

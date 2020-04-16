@@ -114,6 +114,7 @@
                     padding: 5px;
                     color: whitesmoke;
                     text-decoration: none;
+                    cursor: pointer;
                     text-shadow: 0.5px 0.25px grey;
                     // text-shadow: 1px 1px 2px grey;
                 }
@@ -156,9 +157,6 @@
                 // text-shadow: 1px 0.5px brown;
                 // text-shadow: 1.8px 1.8px 5px grey;
                 text-shadow: 1.5px 1.5px 5px white;
-                border-bottom: whitesmoke solid thin;
-                border-bottom-left-radius: 3px;
-                border-bottom-right-radius: 3px;
                 // @media (max-width: 1000px)
                 // {
                 //     padding: 10px;   

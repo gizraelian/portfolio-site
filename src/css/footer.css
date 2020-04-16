@@ -95,6 +95,7 @@
   padding: 5px;
   color: whitesmoke;
   text-decoration: none;
+  cursor: pointer;
   text-shadow: 0.5px 0.25px grey;
 }
 
@@ -121,8 +122,5 @@
   padding: 20px;
   text-decoration: none;
   text-shadow: 1.5px 1.5px 5px white;
-  border-bottom: whitesmoke solid thin;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
 }
 /*# sourceMappingURL=footer.css.map */
