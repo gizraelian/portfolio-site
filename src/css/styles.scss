@@ -112,9 +112,9 @@
         position: fixed;
         bottom: 0;
         // top: 92%;
-        top: 90vh;
+        top: 93vh;
         // left: 95%;
-        left: 90vw;
+        left: 95vw;
 
         &--img:hover{
             opacity: 100%;
@@ -126,7 +126,8 @@
             // width: 4vw;
             width: 3vw;
             cursor: pointer;
-            opacity: 40%;
+            // opacity: 80%;
+            opacity: 95%;
             transition: transform .1s ease;
             transform: rotate(90deg);
         }
@@ -134,9 +135,6 @@
     }
 
     &__splashBox{
-        // background-position: center;
-        // background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
-        // background-size: cover;
         display: flex;
         justify-content: center;
         // align-items: center;
@@ -248,13 +246,14 @@ url("../backgrounds/splash.jpg");
         transform: translateY(100vh);
         background-size: cover;
         background-position: center;
-        // background-image:
-        // linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
-        // url("../backgrounds/water.gif");
-
         background-image:
         linear-gradient(to top, rgba(187, 186, 181, 0.829), rgba(160, 155, 204, 0.836)),
         url("../backgrounds/water.gif");
+
+        // background-image:
+        // linear-gradient(to top, rgba(160, 155, 204, 0.829), rgba(160, 155, 204, 0.836)),
+        // url("../backgrounds/water.gif");
+
 
         z-index: 0;
         // background-size: auto 100%;
@@ -341,10 +340,6 @@ url("../backgrounds/splash.jpg");
 
         // background-image:
         // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
-        // url("../backgrounds/macro-photography-of-orange-fiber-optic-lamp-3363556.jpg");
-
-        // background-image:
-        // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
         // url("../backgrounds/water.gif");
 
         // background-image:
@@ -374,7 +369,33 @@ url("../backgrounds/splash.jpg");
         height: 100vh;
         width: 100%;
         cursor: default;
+        
         z-index: 2;
+
+        &--background{
+            position: absolute;
+            height: 80vh;
+
+            // height: 100vh;
+            width: 100%;
+
+            background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+            // background-color: whitesmoke;
+
+            // background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");
+
+            // background-image:
+            // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
+            // url("../backgrounds/photo-of-road-near-buildings-2530579.jpg");
+            // background-size: 1200px;
+            // background-position: bottom left;
+            // filter: blur(1px);
+
+            opacity: 0.4;
+            z-index: 0;
+
+            // border: red dashed medium;
+        }
 
         &--card:hover{
             transform: scale(1.05);
@@ -387,15 +408,19 @@ url("../backgrounds/splash.jpg");
             justify-content: center;
             align-items: center;
             width: 200px;
-            height: 300px;
+            // height: 300px;
+            height: 250px;
+
             // text-decoration: none;
             // color: #222;
-            background-color: rgba(234, 235, 238, 0.459) !important; 
+            // background-color: rgba(234, 235, 238, 0.459) !important; 
+            background-color: rgba(234, 235, 238, 0.685) !important; 
             box-shadow: 2px 2px 3px grey;
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 20px;
 
             transition: transform .3s ease;
+            z-index: 2;
 
             &__img{
                 // width: 120px;
@@ -436,6 +461,7 @@ url("../backgrounds/splash.jpg");
         flex-wrap: wrap;
         // align-items: center;
         padding: 4vh 0 24vh 0;
+        // padding: 0 0 24vh 0;
         overflow: hidden;
         height: 100vh;
         z-index: 2;
@@ -452,9 +478,11 @@ url("../backgrounds/splash.jpg");
             cursor: default;
             position: relative;
             display: flex;
-            border-radius: 5px;
+            // border-radius: 5px;
+            border-radius: 7px;
             // margin: 5px;
-            margin: 6px;
+            // margin: 6px;
+            margin: 10px;
             text-shadow: 1px 1px 2px grey;
             overflow: hidden;
             box-shadow: 2px 2px 3px gray;
@@ -464,7 +492,8 @@ url("../backgrounds/splash.jpg");
 
             &__img{
                 background-image: url("../backgrounds/code.jpg");
-                width: 48vw;
+                // width: 48vw;
+                width: 44vw;
                 height: 50vh;
                 object-fit: cover;
                 background-position: center;
@@ -478,7 +507,7 @@ url("../backgrounds/splash.jpg");
                 position: absolute; 
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
-                backdrop-filter: blur(3px) invert(.2);
+                backdrop-filter: blur(3px) invert(.3);
                 pointer-events: none;
                 border: solid 1px white;
                 border-radius: 5px;
@@ -495,7 +524,7 @@ url("../backgrounds/splash.jpg");
                     font-weight: normal;
                     // font-weight: bold;
                     font-size: 24px;
-                    // text-shadow: 1px 1px 1px grey;
+                    text-shadow: 1px 1px 1px grey;
                     margin: 0;
                     // padding: 0 10px 10px 10px;
                     
@@ -506,7 +535,9 @@ url("../backgrounds/splash.jpg");
                     font-weight: normal;
                     // font-weight: bold;
                     // font-size: 24px;
-                    font-size: 18px;
+                    // font-size: 18px;
+                    font-size: 16px;
+                    text-shadow: 1px 1px 1px grey;
                     margin: 0;
                     // padding: 0 10px 10px 10px;
                 }
@@ -517,10 +548,9 @@ url("../backgrounds/splash.jpg");
                     color: white;
                     font-weight: normal;
                     // font-weight: bold;
-                    font-size: 18px;
-                    // font-size: 20px;
-                    // font-size: 24px;
-                    // text-shadow: 1px 1px 1px grey;
+                    // font-size: 18px;
+                    font-size: 16px;
+                    text-shadow: 1px 1px 1px grey;
                     margin: 0;
                     // padding: 10px 10px;
                     // padding: 0 10px 10px 11px;
@@ -538,8 +568,8 @@ url("../backgrounds/splash.jpg");
 
 #portfolioDemo{
     background-image: url("../backgrounds/github.jpg");
-    width: 48vw;
-    height: 50vh;
+    // width: 48vw;
+    // height: 50vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -554,8 +584,8 @@ url("../backgrounds/splash.jpg");
     background-image: url("../backgrounds/band-still.jpg");
     // background-image: url("../backgrounds/band2.gif");
     // animation-play-state: paused!important;
-    width: 48vw;
-    height: 50vh;
+    // width: 48vw;
+    // height: 50vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -567,8 +597,8 @@ url("../backgrounds/splash.jpg");
 
 #brainFlixDemo{
     background-image: url("../backgrounds/brainflix.jpg");
-    width: 48vw;
-    height: 50vh;
+    // width: 48vw;
+    // height: 50vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -579,8 +609,8 @@ url("../backgrounds/splash.jpg");
 
 #ivgDemo{
     background-image: url("../backgrounds/github.jpg");
-    width: 48vw;
-    height: 50vh;
+    // width: 48vw;
+    // height: 50vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;

@@ -83,8 +83,8 @@
   z-index: 10;
   position: fixed;
   bottom: 0;
-  top: 90vh;
-  left: 90vw;
+  top: 93vh;
+  left: 95vw;
 }
 
 .main__goUp--img:hover {
@@ -96,7 +96,7 @@
 .main__goUp--img {
   width: 3vw;
   cursor: pointer;
-  opacity: 40%;
+  opacity: 95%;
   -webkit-transition: -webkit-transform .1s ease;
   transition: -webkit-transform .1s ease;
   transition: transform .1s ease;
@@ -257,6 +257,16 @@
   z-index: 2;
 }
 
+.main__skillsBox--background {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e4d8e1), to(#a9b0c9));
+  background-image: linear-gradient(to right bottom, #e4d8e1, #a9b0c9);
+  opacity: 0.4;
+  z-index: 0;
+}
+
 .main__skillsBox--card:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -278,16 +288,17 @@
       -ms-flex-align: center;
           align-items: center;
   width: 200px;
-  height: 300px;
-  background-color: rgba(234, 235, 238, 0.459) !important;
+  height: 250px;
+  background-color: rgba(234, 235, 238, 0.685) !important;
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
-  border-radius: 5px;
+  border-radius: 7px;
   margin: 20px;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
+  z-index: 2;
 }
 
 .main__skillsBox--card__img {
@@ -336,8 +347,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 5px;
-  margin: 6px;
+  border-radius: 7px;
+  margin: 10px;
   text-shadow: 1px 1px 2px grey;
   overflow: hidden;
   -webkit-box-shadow: 2px 2px 3px gray;
@@ -354,7 +365,7 @@
 
 .main__projectsBox--card__img {
   background-image: url("../backgrounds/code.jpg");
-  width: 48vw;
+  width: 44vw;
   height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
@@ -374,8 +385,8 @@
           align-items: center;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.15);
-  -webkit-backdrop-filter: blur(3px) invert(0.2);
-          backdrop-filter: blur(3px) invert(0.2);
+  -webkit-backdrop-filter: blur(3px) invert(0.3);
+          backdrop-filter: blur(3px) invert(0.3);
   pointer-events: none;
   border: solid 1px white;
   border-radius: 5px;
@@ -390,13 +401,15 @@
   color: white;
   font-weight: normal;
   font-size: 24px;
+  text-shadow: 1px 1px 1px grey;
   margin: 0;
 }
 
 .main__projectsBox--card__textBox--subHeader {
   color: white;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px grey;
   margin: 0;
 }
 
@@ -405,7 +418,8 @@
   text-align: center;
   color: white;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px grey;
   margin: 0;
   pointer-events: auto;
 }
@@ -416,8 +430,6 @@
 
 #portfolioDemo {
   background-image: url("../backgrounds/github.jpg");
-  width: 48vw;
-  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
@@ -432,8 +444,6 @@
 
 #bandDemo {
   background-image: url("../backgrounds/band-still.jpg");
-  width: 48vw;
-  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
@@ -448,8 +458,6 @@
 
 #brainFlixDemo {
   background-image: url("../backgrounds/brainflix.jpg");
-  width: 48vw;
-  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
@@ -462,8 +470,6 @@
 
 #ivgDemo {
   background-image: url("../backgrounds/github.jpg");
-  width: 48vw;
-  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;

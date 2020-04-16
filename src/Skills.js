@@ -6,6 +6,7 @@ export default class Skills extends React.Component {
     return (
 
 <div className="main__skillsBox" id="skills">
+    <div className="main__skillsBox--background" />
 
     <div className="main__skillsBox--card">
     <img src="../assets/html5.png" 
