@@ -81,7 +81,6 @@ export default class navbar extends Component {
               null
             )
         }
-          <Link to={'/about'} className="navbar__linksBox--links">{'About'}</Link>
         </div>
       </div>
     )

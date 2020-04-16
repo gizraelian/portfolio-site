@@ -9,12 +9,10 @@ export default class LandingPage extends React.Component {
 <div className="main__splashBox" id="landingPage">
 
         <Link
-            // activeClass="active"
             className="main__goUp"
             to="landingPage"
             spy={true}
             smooth={true}
-            // offset={-70}
             offset={0}
             duration= {800} >
             <img src="../assets/arrows-left_500x500.png" className="main__goUp--img"/>
@@ -32,7 +30,6 @@ export default class LandingPage extends React.Component {
             to="projects"
             spy={true}
             smooth={true}
-            // offset={55}
             offset={0}
             duration= {800} >
             <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img"/>
