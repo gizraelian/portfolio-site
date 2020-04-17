@@ -5,7 +5,7 @@ import Main from './main';
 import BandpageInfo from './bandpageinfo';
 import BrainFlixInfo from './brainflixinfo';
 import PortfolioInfo from './portfolioinfo';
-import IvgInfo from './ivgInfo';
+import IvgInfo from './ivginfo';
 import Footer from './footer';
 import ScrollIntoView from './scrollintoview';
 import './css/styles.css'
