@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect,} from 'react-router-dom';
-import Navbar from './Navbar';
-import Main from './Main';
-import BandpageInfo from './BandpageInfo';
-import BrainFlixInfo from './BrainFlixInfo';
-import PortfolioInfo from './PortfolioInfo';
-import IvgInfo from './IvgInfo';
-import Footer from './Footer';
-import ScrollIntoView from './ScrollIntoView';
+import Navbar from './navbar';
+import Main from './main';
+import BandpageInfo from './bandpageinfo';
+import BrainFlixInfo from './brainflixinfo';
+import PortfolioInfo from './portfolioinfo';
+import IvgInfo from './ivgInfo';
+import Footer from './footer';
+import ScrollIntoView from './scrollintoview';
 import './css/styles.css'
 import './css/navbar.css'
 import './css/main.css'

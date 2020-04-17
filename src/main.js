@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Projects from './Projects';
-import LandingPage from './LandingPage';
-import Jumbotron from './Jumbotron';
-import Skills from './Skills';
+import Projects from './projects';
+import LandingPage from './landingpage';
+import Jumbotron from './jumbotron';
+import Skills from './skills';
 // import ReadyToScroll from './ReadyToScroll';
 // import { Link } from 'react-router-dom';
 
