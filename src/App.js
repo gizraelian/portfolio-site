@@ -24,8 +24,9 @@ class App extends Component {
             <Navbar />
             <div>
               <Switch>
-                <Route path="/main" exact component={Main} />
-                <Route exact path="/" render={() =><Redirect to='/main'/>} />
+                <Route path="/" exact component={Main} />
+                {/* <Route path="/main" exact component={Main} />
+                <Route exact path="/" render={() =><Redirect to='/main'/>} /> */}
                 <Route path="/bandpage" exact component={BandpageInfo} />
                 <Route path="/brainflix" exact component={BrainFlixInfo} />
                 <Route path="/portfolio" exact component={PortfolioInfo} />
