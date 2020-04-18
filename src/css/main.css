@@ -67,6 +67,7 @@
 
 .main__splashBox--container__header {
   color: white;
+  opacity: 80%;
   font-size: 600%;
   font-weight: normal;
   margin: 0 0 10px 0;
@@ -77,6 +78,7 @@
 
 .main__splashBox--container__subHeader {
   color: white;
+  opacity: 80%;
   font-size: 350%;
   font-weight: normal;
   margin: 10px 0 40vh 0;
