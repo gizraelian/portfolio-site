@@ -19,9 +19,7 @@ export default class LandingPage extends React.Component {
             <img src="../assets/arrows-left_500x500.png" className="main__goUp--img" alt='myImg' />
         </Link>
 
-    <div className="main__splashBox--background">
-          {/* <div className="main__splashBox--background__filter" /> */}
-    </div>
+    <div className="main__splashBox--background"></div>
 
     <div className="main__splashBox--container">
         <h1 className="main__splashBox--container__header">George Izraelian</h1>
