@@ -7,7 +7,40 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4d8e1), to(#98a4ce));
+  background-image: linear-gradient(to bottom, #e4d8e1, #98a4ce);
+}
+
+@media (min-width: 1200px) {
+  .projectInfo {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projectInfo {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .projectInfo {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectInfo {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .projectInfo {
+    height: 115vh;
+  }
 }
 
 .projectInfo__linkBox {
@@ -28,12 +61,29 @@
 
 .projectInfo__linkBox--link__img {
   background-image: url("../backgrounds/code.jpg");
-  width: 100%;
-  height: 98vh;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  .projectInfo__linkBox--link__img {
+    height: 98vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projectInfo__linkBox--link__img {
+    height: 98vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .projectInfo__linkBox--link__img {
+    height: 80vh;
+  }
 }
 
 .projectInfo__linkBox--link__header {
@@ -50,10 +100,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -61,14 +107,39 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 1vw;
-  background-size: cover;
-  background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4d8e1), to(#98a4ce));
-  background-image: linear-gradient(to bottom, #e4d8e1, #98a4ce);
 }
 
-.projectInfo__textSection--row {
-  width: 50%;
+@media (max-width: 992px) {
+  .projectInfo__textSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projectInfo__textSection--row {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projectInfo__textSection--row {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .projectInfo__textSection--row {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .projectInfo__textSection--row {
+    padding: 8vh 0;
+  }
 }
 
 .projectInfo__textSection--row__text {
@@ -92,13 +163,21 @@
   background-color: orange;
 }
 
-.projectInfo__textSection--imgBox {
-  padding-left: 10px;
+.projectInfo__textSection--imgBox__img {
+  background-color: transparent;
 }
 
-.projectInfo__textSection--imgBox__img {
-  width: 7vw;
-  background-color: transparent;
-  margin: 0 5px;
+@media (min-width: 1200px) {
+  .projectInfo__textSection--imgBox__img {
+    width: 120px;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projectInfo__textSection--imgBox__img {
+    width: 120px;
+    margin: 0 5px;
+  }
 }
 /*# sourceMappingURL=projectinfo.css.map */
