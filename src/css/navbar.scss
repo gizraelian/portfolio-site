@@ -35,7 +35,7 @@
             background-color: rgba(0, 0, 0, 0);
             text-shadow: 0.5px 0.25px grey;
             @media (max-width: 576px) {
-                padding: 20px;
+                padding: 15px;
                 font-size: 20px;
             }
         }
@@ -53,7 +53,7 @@
             outline: none;
             font-size: inherit;
             @media (max-width: 576px) {
-                padding: 20px;
+                padding: 15px;
                 font-size: 20px;
             }
 
@@ -85,7 +85,6 @@
                 }
                 @media (max-width: 576px) {
                     top: 100%;
-                    // left: 275px;
                     left: 65vw;
                 }
 
@@ -124,7 +123,8 @@
                     }
                     @media (max-width: 576px) {
                         // width: 120px;
-                        width: 32vw;
+                        font-size: 18px;
+                        width: 33vw;
                     }
                 }
             }

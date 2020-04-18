@@ -46,7 +46,7 @@
 
 @media (max-width: 576px) {
   .navbar__linksBox--links {
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
   }
 }
@@ -67,7 +67,7 @@
 
 @media (max-width: 576px) {
   .navbar__linksBox--dropMenuBtn {
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
   }
 }
@@ -170,7 +170,8 @@
 
 @media (max-width: 576px) {
   .navbar__linksBox--dropMenuBtn__container--button {
-    width: 32vw;
+    font-size: 18px;
+    width: 33vw;
   }
 }
 /*# sourceMappingURL=navbar.css.map */
