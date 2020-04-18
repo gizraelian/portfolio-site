@@ -9,13 +9,14 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#9aa1c2), to(#a9b0c9));
-  background-image: linear-gradient(to left bottom, #9aa1c2, #a9b0c9);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(154, 161, 194, 0.829)), to(rgba(169, 176, 201, 0.836))), url("../backgrounds/abstract-background.gif");
+  background-image: linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)), url("../backgrounds/abstract-background.gif");
+  background-size: cover;
 }
 
 @media (min-width: 1200px) {
   .projectInfo {
-    height: 100vh;
+    height: 110vh;
   }
 }
 
@@ -27,19 +28,21 @@
 
 @media (max-width: 992px) {
   .projectInfo {
-    height: 120vh;
+    height: 125vh;
   }
 }
 
 @media (max-width: 768px) {
   .projectInfo {
-    height: 130vh;
+    height: 125vh;
   }
 }
 
 @media (max-width: 576px) {
   .projectInfo {
-    height: 115vh;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#9aa1c2), to(#a9b0c9));
+    background-image: linear-gradient(to left bottom, #9aa1c2, #a9b0c9);
+    height: 140vh;
   }
 }
 
@@ -138,7 +141,7 @@
 
 @media (max-width: 576px) {
   .projectInfo__textSection--row {
-    padding: 8vh 0;
+    padding: 0 0 10vh 0;
   }
 }
 
@@ -178,6 +181,12 @@
   .projectInfo__textSection--imgBox__img {
     width: 120px;
     margin: 0 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .projectInfo__textSection--imgBox__img {
+    width: 100px;
   }
 }
 /*# sourceMappingURL=projectinfo.css.map */

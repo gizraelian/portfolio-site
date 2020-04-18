@@ -84,12 +84,12 @@
   border: none;
   -webkit-box-shadow: 1px 1px 1px gray;
           box-shadow: 1px 1px 1px gray;
-  border-radius: 0 0 5px 5px;
   overflow: hidden;
 }
 
 @media (min-width: 1200px) {
   .navbar__linksBox--dropMenuBtn__container {
+    border-radius: 0 0 5px 5px;
     top: 100%;
     left: 83vw;
   }
@@ -97,6 +97,7 @@
 
 @media (max-width: 1200px) {
   .navbar__linksBox--dropMenuBtn__container {
+    border-radius: 0 0 5px 5px;
     top: 100%;
     left: 85vw;
   }
@@ -118,6 +119,7 @@
 
 @media (max-width: 576px) {
   .navbar__linksBox--dropMenuBtn__container {
+    border-radius: 0 0 3px 3px;
     top: 100%;
     left: 65vw;
   }

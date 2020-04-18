@@ -7,21 +7,32 @@
     background-size: cover;
     background-position: center;
     // background-image: linear-gradient(to left bottom, rgb(228, 216, 225), rgb(152, 164, 206));
-    background-image: linear-gradient(to left bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+
+    background-image:
+    linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)),
+    url("../backgrounds/abstract-background.gif");
+
+
+
+    background-size: cover;
+
+
     @media (min-width: 1200px) {
-        height: 100vh;
+        // height: 100vh;
+        height: 110vh;
     }
     @media (max-width: 1200px) {
         height: 110vh;
     }
     @media (max-width: 992px) {
-        height: 120vh;
+        height: 125vh;
     }
     @media (max-width: 768px) {
-        height: 130vh;
+        height: 125vh;
     }
     @media (max-width: 576px) {
-        height: 115vh;
+        background-image: linear-gradient(to left bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+        height: 140vh;
     }
     
     // z-index: 2;
@@ -143,7 +154,8 @@
             @media (max-width: 768px) {
             }
             @media (max-width: 576px) {
-                padding: 8vh 0;
+                // padding: 8vh 0;
+                padding: 0 0 10vh 0;
             }
 
             &__text{
@@ -185,14 +197,17 @@
                     margin: 0 5px;
                 }
                 @media (max-width: 992px) {
+                    width: 100px;
                     // margin: 0 5px;
                     // margin: 0;
                 }
                 @media (max-width: 768px) {
                     // width: 70px;
                     // margin: 0;
+                    // width: 100px;
                 }
                 @media (max-width: 576px) {
+                    // width: 100px;
                 }
             }
         }

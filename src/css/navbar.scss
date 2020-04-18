@@ -64,14 +64,15 @@
                 position: absolute;
                 border: none;
                 box-shadow: 1px 1px 1px gray;
-                border-radius: 0 0 5px 5px;
                 overflow: hidden;
 
                 @media (min-width: 1200px) {
+                    border-radius: 0 0 5px 5px;
                     top: 100%;
                     left: 83vw;
                 }
                 @media (max-width: 1200px) {
+                    border-radius: 0 0 5px 5px;
                     top: 100%;
                     left: 85vw;
                 }
@@ -84,6 +85,7 @@
                     left: 76vw;
                 }
                 @media (max-width: 576px) {
+                    border-radius: 0 0 3px 3px;
                     top: 100%;
                     left: 65vw;
                 }
