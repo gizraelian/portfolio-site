@@ -16,7 +16,7 @@ export default class LandingPage extends React.Component {
             smooth={true}
             offset={0}
             duration= {800} >
-            <img src="../assets/arrows-left_500x500.png" className="main__goUp--img" alt='myImg' />
+            <img src="../assets/arrows-grey.png" className="main__goUp--img" alt='myImg' />
         </Link>
 
     <div className="main__splashBox--background"></div>

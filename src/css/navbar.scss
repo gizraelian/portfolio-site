@@ -58,6 +58,7 @@
                 box-shadow: 1px 1px 1px gray;
                 border-radius: 0 0 5px 5px;
                 overflow: hidden;
+
                 @media (min-width: 1200px) {
                     top: 100%;
                     left: 83vw;
@@ -83,6 +84,7 @@
                 &--button:hover{
                     background-image: linear-gradient(to top right, rgba(86, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
                     color: white;
+                    opacity: 0.8;
                 }
 
                 &--button{
