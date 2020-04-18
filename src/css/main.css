@@ -306,6 +306,13 @@
   text-shadow: 0.5px 0.5px 1px grey;
 }
 
+@media (max-width: 576px) {
+  .main__jumbotron--leftBox__textContainer {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
 .main__jumbotron--rightBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,9 +358,16 @@
   text-shadow: 0.5px 0.5px 1px grey;
 }
 
+@media (max-width: 576px) {
+  .main__jumbotron--rightBox__textContainer {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(#a9b0c9));
-  background-image: linear-gradient(to bottom, #9aa1c2, #a9b0c9);
+  background-image: url("../backgrounds/abstract-background.gif");
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,11 +381,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 0 20px 0;
   overflow: hidden;
   height: 100vh;
   width: 100%;
   cursor: default;
+  z-index: 2;
 }
 
 @media (max-width: 992px) {
@@ -395,8 +409,11 @@
 
 .main__skillsBox--background {
   position: absolute;
-  height: 40vh;
-  height: 70%;
+  height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to bottom, #9aa1c2, #a9b0c9);
+  opacity: 0.9;
 }
 
 .main__skillsBox--card:hover {
@@ -419,11 +436,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(234, 235, 238, 0.685) !important;
+  z-index: 1;
+  background-color: rgba(241, 243, 243, 0.575) !important;
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
   border-radius: 7px;
-  margin: 2vw;
+  margin: 0 2vw;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
