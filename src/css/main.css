@@ -131,14 +131,26 @@
 
 @media (max-width: 1200px) {
   .main__splashBox--container__header {
-    font-size: 400%;
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__splashBox--container__header {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__splashBox--container__header {
+    font-size: 50px;
   }
 }
 
 @media (max-width: 576px) {
   .main__splashBox--container__header {
     font-size: 40px;
-    padding: 20px 5px;
+    padding: 20px 5px 5px 5px;
     margin: 0 0 10px 0;
   }
 }
@@ -161,16 +173,27 @@
 
 @media (max-width: 1200px) {
   .main__splashBox--container__subHeader {
-    font-size: 300%;
+    font-size: 50px;
     margin: 10px 0 25vh 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__splashBox--container__subHeader {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__splashBox--container__subHeader {
+    font-size: 35px;
   }
 }
 
 @media (max-width: 576px) {
   .main__splashBox--container__subHeader {
-    font-size: 40px;
-    margin: 10px 0 25vh 0;
-    padding: 2px 7px;
+    font-size: 30px;
+    padding: 0 0 120px 0;
   }
 }
 
@@ -217,8 +240,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -231,6 +252,15 @@
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .main__jumbotron {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .main__jumbotron--leftBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,17 +269,28 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   color: #222;
-  border: green dashed medium;
 }
 
 @media (min-width: 1200px) {
   .main__jumbotron--leftBox {
     padding: 0 10px;
-    margin: 20px;
+    margin: 10px;
     width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__jumbotron--leftBox {
+    padding: 0 10px;
+    margin: 10px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__jumbotron--leftBox {
+    width: 90%;
   }
 }
 
@@ -263,7 +304,6 @@
 .main__jumbotron--leftBox__textContainer {
   font-weight: normal;
   text-shadow: 0.5px 0.5px 1px grey;
-  border: brown dashed 1px;
 }
 
 .main__jumbotron--rightBox {
@@ -274,18 +314,28 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   color: #222;
-  border: green dashed medium;
 }
 
 @media (min-width: 1200px) {
   .main__jumbotron--rightBox {
     padding: 0 10px;
-    margin: 20px;
+    margin: 10px;
     width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__jumbotron--rightBox {
+    padding: 0 10px;
+    margin: 10px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__jumbotron--rightBox {
+    width: 90%;
   }
 }
 
@@ -299,7 +349,6 @@
 .main__jumbotron--rightBox__textContainer {
   font-weight: normal;
   text-shadow: 0.5px 0.5px 1px grey;
-  border: brown dashed 1px;
 }
 
 .main__skillsBox {

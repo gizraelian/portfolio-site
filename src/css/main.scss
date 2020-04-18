@@ -136,15 +136,17 @@
                     padding: 2px;
                 }
                 @media (max-width: 1200px) {
-                    font-size: 400%;
+                    font-size: 75px;
                 }
                 @media (max-width: 992px) {
+                    font-size: 65px;
                 }
                 @media (max-width: 768px) {
+                    font-size: 50px;
                 }
                 @media (max-width: 576px) {
                     font-size: 40px;
-                    padding: 20px 5px;
+                    padding: 20px 5px 5px 5px;
                     margin: 0 0 10px 0;
                 }
 
@@ -164,17 +166,20 @@
                     padding: 2px 7px;
                 }
                 @media (max-width: 1200px) {
-                    font-size: 300%;
+                    font-size: 50px;
                     margin: 10px 0 25vh 0;
                 }
                 @media (max-width: 992px) {
+                    font-size: 40px;
                 }
                 @media (max-width: 768px) {
+                    font-size: 35px;
                 }
                 @media (max-width: 576px) {
-                    font-size: 40px;
-                    margin: 10px 0 25vh 0;
-                    padding: 2px 7px;
+                    font-size: 30px;
+                    // margin: 5px 0 25vh 0;
+                    padding: 0 0 120px 0;
+                    // padding: 2px 7px;
                 }
 
             }
@@ -270,7 +275,6 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 0 0 20px 0;
@@ -280,21 +284,39 @@
         // z-index: 2;
 
         // border: brown dashed medium;
+        @media (min-width: 1200px) {
+        }
+        @media (max-width: 1200px) {
+        }
+        @media (max-width: 992px) {
+            // flex-wrap: wrap;
+            flex-direction: column;
+        }
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 576px) {
+        }
 
         &--leftBox{
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            // justify-content: space-around;
             color: #222;
-            border: green dashed medium;
+
+            // border: green dashed medium;
             @media (min-width: 1200px) {
                 padding: 0 10px;
-                margin: 20px;
+                margin: 10px;
                 width: 45%;
             }
             @media (max-width: 1200px) {
+                padding: 0 10px;
+                margin: 10px;
+                width: 45%;
             }
             @media (max-width: 992px) {
+                width: 90%;
+                // margin: 0;
             }
             @media (max-width: 768px) {
             }
@@ -307,24 +329,30 @@
                 font-weight: normal;
                 text-shadow: 0.5px 0.5px 1px grey;
                 // font-size: 1.7rem;
-                border: brown dashed 1px;
+                // border: brown dashed 1px;
             }
         }
 
         &--rightBox{
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            // justify-content: space-evenly;
             color: #222;
-            border: green dashed medium;
+
+            // border: green dashed medium;
             @media (min-width: 1200px) {
                 padding: 0 10px;
-                margin: 20px;
+                margin: 10px;
                 width: 45%;
             }
             @media (max-width: 1200px) {
+                padding: 0 10px;
+                margin: 10px;
+                width: 45%;
             }
             @media (max-width: 992px) {
+                width: 90%;
+                // margin: 0;
             }
             @media (max-width: 768px) {
             }
@@ -348,7 +376,7 @@
                 // text-shadow: 1px 1px 1px grey;
                 text-shadow: 0.5px 0.5px 1px grey;
                 // font-size: 1.2rem;
-                border: brown dashed 1px;
+                // border: brown dashed 1px;
             }
         }
     }
