@@ -442,8 +442,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--background {
-    height: 200vh;
-    opacity: 0.05;
+    background: none !important;
   }
 }
 
@@ -507,7 +506,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card {
-    width: 60%;
+    width: 70%;
     margin: 10px;
   }
 }
@@ -622,8 +621,8 @@
   -webkit-backdrop-filter: blur(3px) invert(0.3);
           backdrop-filter: blur(3px) invert(0.3);
   pointer-events: none;
-  border: solid 1px white;
-  border-radius: 5px;
+  border: solid thin white;
+  border-radius: 2px;
   -webkit-box-shadow: 1px 1px 2px gray;
           box-shadow: 1px 1px 2px gray;
   padding: 5px;
@@ -645,12 +644,24 @@
   pointer-events: auto;
 }
 
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--header {
+    font-size: 18px;
+  }
+}
+
 .main__projectsBox--card__textBox--subHeader {
   color: white;
   font-weight: normal;
   font-size: 16px;
   text-shadow: 1px 1px 1px grey;
   margin: 0;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--subHeader {
+    font-size: 14px;
+  }
 }
 
 .main__projectsBox--card__textBox--link:hover {
@@ -669,6 +680,12 @@
   text-shadow: 1px 1px 1px grey;
   margin: 0;
   pointer-events: auto;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--link {
+    font-size: 14px;
+  }
 }
 
 #portfolioDemo {

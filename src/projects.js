@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
             <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">BrainFlix</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
-            <h3 className="main__projectsBox--card__textBox--subHeader">React || NodeJS || CSS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React/NodeJS/CSS</h3>
         </div>
     </div>
 
@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
             <Link to={'/portfolio'} className="main__projectsBox--card__textBox--header">Portfolio site</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
-            <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React/CSS</h3>
         </div>
     </div>
 
@@ -46,7 +46,7 @@ export default class Projects extends React.Component {
         <div className="main__projectsBox--card__img" id="ivgDemo"/>
         <div className="main__projectsBox--card__textBox">
             <Link to={'/ivg'} className="main__projectsBox--card__textBox--header">IVG Fiber</Link>
-            <h3 className="main__projectsBox--card__textBox--subHeader">React || CSS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React/CSS</h3>
             {/* <a className="main__projectsBox--card__textBox--link">Coming soon</a> */}
         </div>
     </div>

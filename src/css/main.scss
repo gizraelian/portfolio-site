@@ -500,9 +500,9 @@
             @media (max-width: 768px) {
             }
             @media (max-width: 576px) {
-                // background: none !important;
-                height: 200vh;
-                opacity: 0.05;
+                background: none !important;
+                // height: 200vh;
+                // opacity: 0.05;
             }
 
             // border: red dashed medium;
@@ -547,15 +547,13 @@
             }
             @media (max-width: 992px) {
                 width: 200px;
-
             }
             @media (max-width: 768px) {
                 width: 180px;
             }
             @media (max-width: 576px) {
-                width: 60%;
+                width: 70%;
                 margin: 10px;
-
             }
 
             &__img{
@@ -668,8 +666,8 @@
                 // backdrop-filter: blur(5px) contrast(.8);
                 backdrop-filter: blur(3px) invert(.3);
                 pointer-events: none;
-                border: solid 1px white;
-                border-radius: 5px;
+                border: solid thin white;
+                border-radius: 2px;
                 box-shadow: 1px 1px 2px gray;
                 // padding: 10px;
                 padding: 5px;
@@ -692,6 +690,9 @@
                     margin: 0;
                     pointer-events: auto;
                     // padding: 0 10px 10px 10px;
+                    @media (max-width: 576px) {
+                        font-size: 18px;
+                    }
                     
                 }
 
@@ -705,6 +706,10 @@
                     text-shadow: 1px 1px 1px grey;
                     margin: 0;
                     // padding: 0 10px 10px 10px;
+                    @media (max-width: 576px) {
+                        font-size: 14px;
+                    }
+
                 }
 
                 &--link:hover{
@@ -727,6 +732,10 @@
                     // padding: 0 10px 10px 11px;
                     // pointer-events: all;
                     pointer-events: auto;
+                    @media (max-width: 576px) {
+                        font-size: 14px;
+                    }
+
                 }
             }
         }
