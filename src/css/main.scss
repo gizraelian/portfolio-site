@@ -18,7 +18,7 @@
         left: 95vw;
 
         &--img:hover{
-            // opacity: 100%;
+            opacity: 0.95;
             transform: scale(1.1)(rotate(90deg));
         }
 
@@ -27,7 +27,7 @@
             // width: 4vw;
             width: 3vw;
             cursor: pointer;
-            // opacity: 70%;
+            opacity: 0.7;
             transition: transform .1s ease;
             transform: rotate(90deg);
         }
@@ -89,7 +89,7 @@ url("../backgrounds/splash.jpg");
 
             &__header{
                 color: white;
-                opacity: 80%;
+                opacity: 0.8;
                 font-size: 600%;
                 font-weight: normal;
                 margin: 0 0 10px 0;
@@ -103,7 +103,7 @@ url("../backgrounds/splash.jpg");
 
             &__subHeader{
                 color: white;
-                opacity: 80%;
+                opacity: 0.8;
                 font-size: 350%;
                 font-weight: normal;
                 // margin: 10px 0 100px 0;
@@ -120,7 +120,7 @@ url("../backgrounds/splash.jpg");
             &__scrollDown{
 
                 &--img:hover{
-                    // opacity: 90%;
+                    opacity: 0.9;
                     transform: scale(1.2)(rotate(270deg));
                 }
 
@@ -129,7 +129,7 @@ url("../backgrounds/splash.jpg");
                     // width: 7vw;
                     width: 6vw;
                     cursor: pointer;
-                    // opacity: 50%;
+                    opacity: 0.5;
                     transform: rotate(270deg);
                     transition: transform .1s ease;
                     

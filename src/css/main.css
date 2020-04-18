@@ -21,6 +21,7 @@
 }
 
 .main__goUp--img:hover {
+  opacity: 0.95;
   -webkit-transform: scale(1.1) rotate(90deg);
           transform: scale(1.1) rotate(90deg);
 }
@@ -28,6 +29,7 @@
 .main__goUp--img {
   width: 3vw;
   cursor: pointer;
+  opacity: 0.7;
   -webkit-transition: -webkit-transform .1s ease;
   transition: -webkit-transform .1s ease;
   transition: transform .1s ease;
@@ -67,7 +69,7 @@
 
 .main__splashBox--container__header {
   color: white;
-  opacity: 80%;
+  opacity: 0.8;
   font-size: 600%;
   font-weight: normal;
   margin: 0 0 10px 0;
@@ -78,7 +80,7 @@
 
 .main__splashBox--container__subHeader {
   color: white;
-  opacity: 80%;
+  opacity: 0.8;
   font-size: 350%;
   font-weight: normal;
   margin: 10px 0 40vh 0;
@@ -88,6 +90,7 @@
 }
 
 .main__splashBox--container__scrollDown--img:hover {
+  opacity: 0.9;
   -webkit-transform: scale(1.2) rotate(270deg);
           transform: scale(1.2) rotate(270deg);
 }
@@ -95,6 +98,7 @@
 .main__splashBox--container__scrollDown--img {
   width: 6vw;
   cursor: pointer;
+  opacity: 0.5;
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
   -webkit-transition: -webkit-transform .1s ease;
