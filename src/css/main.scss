@@ -27,7 +27,7 @@
         }
         @media (max-width: 576px) {
             top: 85vh;
-            left: 85vw;
+            left: 88vw;
         }
 
         &--img:hover{
@@ -55,7 +55,7 @@
             @media (max-width: 768px) {
             }
             @media (max-width: 576px) {
-                width: 30px;
+                width: 35px;
             }
         }
 
@@ -178,7 +178,7 @@
                 @media (max-width: 576px) {
                     font-size: 30px;
                     // margin: 5px 0 25vh 0;
-                    padding: 0 0 20px 0;
+                    padding: 0 0 30px 0;
                     // padding: 2px 7px;
                 }
 
@@ -676,6 +676,13 @@
                 top: 85%;
                 width: 90%;
                 // overflow: hidden;
+                @media (max-width: 576px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    top: 75%;
+                    left: 5%;
+                    width: auto;
+                }
 
                 &--header:hover{
                     background-color: orangered;
@@ -691,7 +698,7 @@
                     pointer-events: auto;
                     // padding: 0 10px 10px 10px;
                     @media (max-width: 576px) {
-                        font-size: 18px;
+                        // font-size: 18px;
                     }
                     
                 }
