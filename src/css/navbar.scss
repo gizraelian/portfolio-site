@@ -56,11 +56,29 @@
                 position: absolute;
                 border: none;
                 box-shadow: 1px 1px 1px gray;
-                top: 100%;
-                // left: 94px;
-                left: 83vw;
                 border-radius: 0 0 5px 5px;
                 overflow: hidden;
+                @media (min-width: 1200px) {
+                    top: 100%;
+                    left: 83vw;
+                }
+                @media (max-width: 1200px) {
+                    top: 100%;
+                    left: 85vw;
+                }
+                @media (max-width: 992px) {
+                    top: 100%;
+                    left: 83vw;
+                }
+                @media (max-width: 768px) {
+                    top: 100%;
+                    left: 76vw;
+                }
+                @media (max-width: 576px) {
+                    top: 100%;
+                    // left: 275px;
+                    left: 65vw;
+                }
 
                 &--button:hover{
                     background-image: linear-gradient(to top right, rgba(86, 57, 153, 0.75), rgba(30, 115, 172, 0.75));
@@ -69,10 +87,6 @@
 
                 &--button{
                     text-align: start;
-                    font-size: 15px;
-                    padding: 10px;
-                    // width: 20vw;
-                    width: 15vw;
                     border: none;
                     cursor: pointer;                    
                     // outline: none;
@@ -80,6 +94,28 @@
                     background-color: whitesmoke;
                     text-shadow: 0.5px 0.5px 1px grey;
                     // text-decoration: none;
+                    @media (min-width: 1200px) {
+                        font-size: 15px;
+                        padding: 10px;
+                        width: 15vw;
+                    }
+                    @media (max-width: 1200px) {
+                        font-size: 15px;
+                        padding: 8px;
+                        width: 13vw;
+                    }
+                    @media (max-width: 992px) {
+                        font-size: 15px;
+                        padding: 8px;
+                        width: 14vw;
+                    }
+                    @media (max-width: 768px) {
+                        width: 22vw;
+                    }
+                    @media (max-width: 576px) {
+                        // width: 120px;
+                        width: 32vw;
+                    }
                 }
             }
         }

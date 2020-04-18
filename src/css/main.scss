@@ -12,10 +12,23 @@
         z-index: 10;
         position: fixed;
         bottom: 0;
-        // top: 92%;
-        top: 93vh;
-        // left: 95%;
-        left: 95vw;
+
+        @media (min-width: 1200px) {
+            top: 93vh;
+            left: 95vw;
+        }
+        @media (max-width: 1200px) {
+            top: 90vh;
+            left: 90vw;
+        }
+        @media (max-width: 992px) {
+        }
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 576px) {
+            top: 90vh;
+            left: 85vw;
+        }
 
         &--img:hover{
             opacity: 0.95;
@@ -25,11 +38,25 @@
         &--img{
             // width: 50px;
             // width: 4vw;
-            width: 3vw;
+            // width: 3vw;
             cursor: pointer;
             opacity: 0.7;
             transition: transform .1s ease;
             transform: rotate(90deg);
+
+            @media (min-width: 1200px) {
+                width: 3vw;
+            }
+            @media (max-width: 1200px) {
+                width: 35px;
+            }
+            @media (max-width: 992px) {
+            }
+            @media (max-width: 768px) {
+            }
+            @media (max-width: 576px) {
+                width: 30px;
+            }
         }
 
     }
@@ -96,12 +123,12 @@
 
             &__header{
                 color: white;
-                opacity: 0.8;
+                opacity: 0.9;
                 text-shadow: 1px 1px 2px grey;
                 font-weight: normal;
                 cursor: default;
 
-                border: brown dashed thin;
+                // border: brown dashed thin;
                 @media (min-width: 1200px) {
                     font-size: 600%;
                     margin: 0 0 10px 0;
@@ -137,6 +164,7 @@
                 }
                 @media (max-width: 1200px) {
                     font-size: 300%;
+                    margin: 10px 0 25vh 0;
                 }
                 @media (max-width: 992px) {
                 }
@@ -158,17 +186,16 @@
                 }
 
                 &--img{
-                    // width: 125px;
-                    // width: 7vw;
-                    width: 6vw;
                     cursor: pointer;
                     opacity: 0.5;
                     transform: rotate(270deg);
                     transition: transform .1s ease;
                     
                     @media (min-width: 1200px) {
+                        width: 6vw;
                     }
                     @media (max-width: 1200px) {
+                        width: 70px;
                     }
                     @media (max-width: 992px) {
                     }
