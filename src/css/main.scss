@@ -159,8 +159,16 @@ url("../backgrounds/splash.jpg");
         z-index: 0;
         // background-size: auto 100%;
         // background-repeat: no-repeat;
+        @media (min-width: 1200px) {
+        }
+        @media (max-width: 1200px) {
+        }
         @media (max-width: 992px) {
             height: 430vh;
+        }
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 576px) {
         }
 
     }
@@ -272,6 +280,7 @@ url("../backgrounds/splash.jpg");
         // background-position: bottom left;
 
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         // justify-content: space-around;
         align-items: center;
@@ -280,13 +289,23 @@ url("../backgrounds/splash.jpg");
         height: 100vh;
         width: 100%;
         cursor: default;
-        
-        z-index: 2;
+        // z-index: 2;
+        @media (min-width: 1200px) {
+        }
+        @media (max-width: 1200px) {
+        }
+        @media (max-width: 992px) {
+        }
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 576px) {
+        }
 
         &--background{
             position: absolute;
             // height: 70vh;
-            height: 40vh;
+            // height: 40vh;
+            height: 70%;
             // height: 100vh;
             width: 100%;
             border-radius: 7px;
