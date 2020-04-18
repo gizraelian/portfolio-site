@@ -426,12 +426,24 @@
   width: 100%;
   background-image: url("../backgrounds/abstract-background.gif");
   background-size: cover;
-  opacity: 0.1;
+}
+
+@media (min-width: 1200px) {
+  .main__skillsBox--background {
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__skillsBox--background {
+    opacity: 0.1;
+  }
 }
 
 @media (max-width: 576px) {
   .main__skillsBox--background {
-    background: none !important;
+    height: 200vh;
+    opacity: 0.05;
   }
 }
 
@@ -495,7 +507,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card {
-    width: 90%;
+    width: 60%;
     margin: 10px;
   }
 }

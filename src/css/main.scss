@@ -487,18 +487,22 @@
 
             background-image: url("../backgrounds/abstract-background.gif");
             background-size: cover;
-            opacity: 0.1;
+            // opacity: 0.1;
             
             @media (min-width: 1200px) {
+                opacity: 0.1;
             }
             @media (max-width: 1200px) {
+                opacity: 0.1;
             }
             @media (max-width: 992px) {
             }
             @media (max-width: 768px) {
             }
             @media (max-width: 576px) {
-                background: none !important;
+                // background: none !important;
+                height: 200vh;
+                opacity: 0.05;
             }
 
             // border: red dashed medium;
@@ -549,7 +553,7 @@
                 width: 180px;
             }
             @media (max-width: 576px) {
-                width: 90%;
+                width: 60%;
                 margin: 10px;
 
             }

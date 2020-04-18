@@ -34,6 +34,10 @@
             text-decoration: none;
             background-color: rgba(0, 0, 0, 0);
             text-shadow: 0.5px 0.25px grey;
+            @media (max-width: 576px) {
+                padding: 20px;
+                font-size: 20px;
+            }
         }
 
         &--dropMenuBtn:hover{
@@ -48,6 +52,10 @@
             color: whitesmoke;
             outline: none;
             font-size: inherit;
+            @media (max-width: 576px) {
+                padding: 20px;
+                font-size: 20px;
+            }
 
 
             &__container{

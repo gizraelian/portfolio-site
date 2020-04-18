@@ -44,6 +44,13 @@
   text-shadow: 0.5px 0.25px grey;
 }
 
+@media (max-width: 576px) {
+  .navbar__linksBox--links {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
 .navbar__linksBox--dropMenuBtn:hover {
   text-shadow: 1.5px 1.5px 5px white;
 }
@@ -56,6 +63,13 @@
   color: whitesmoke;
   outline: none;
   font-size: inherit;
+}
+
+@media (max-width: 576px) {
+  .navbar__linksBox--dropMenuBtn {
+    padding: 20px;
+    font-size: 20px;
+  }
 }
 
 .navbar__linksBox--dropMenuBtn__container {
