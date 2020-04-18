@@ -366,7 +366,8 @@
 }
 
 .main__skillsBox {
-  background-image: url("../backgrounds/abstract-background.gif");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to bottom, #9aa1c2, #a9b0c9);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,10 +383,22 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  height: 100vh;
-  width: 100%;
   cursor: default;
   z-index: 2;
+}
+
+@media (min-width: 1200px) {
+  .main__skillsBox {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__skillsBox {
+    height: 100vh;
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -411,9 +424,15 @@
   position: absolute;
   height: 100vh;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(#a9b0c9));
-  background-image: linear-gradient(to bottom, #9aa1c2, #a9b0c9);
-  opacity: 0.9;
+  background-image: url("../backgrounds/abstract-background.gif");
+  background-size: cover;
+  opacity: 0.1;
+}
+
+@media (max-width: 576px) {
+  .main__skillsBox--background {
+    background: none !important;
+  }
 }
 
 .main__skillsBox--card:hover {
@@ -477,6 +496,7 @@
 @media (max-width: 576px) {
   .main__skillsBox--card {
     width: 90%;
+    margin: 10px;
   }
 }
 

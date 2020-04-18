@@ -9,8 +9,8 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4d8e1), to(#98a4ce));
-  background-image: linear-gradient(to bottom, #e4d8e1, #98a4ce);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to left bottom, #9aa1c2, #a9b0c9);
 }
 
 @media (min-width: 1200px) {
@@ -83,6 +83,7 @@
 @media (max-width: 576px) {
   .projectInfo__linkBox--link__img {
     height: 80vh;
+    width: 95%;
   }
 }
 

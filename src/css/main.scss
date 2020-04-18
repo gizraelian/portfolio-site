@@ -416,7 +416,8 @@
 
         //-----------------------
 
-        background-image: url("../backgrounds/abstract-background.gif");
+        background-image: linear-gradient(to bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+        // background-image: url("../backgrounds/abstract-background.gif");
         background-size: cover;
         // background-size: 2000px;
         // background-position: center;
@@ -428,13 +429,15 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        height: 100vh;
-        width: 100%;
         cursor: default;
         z-index: 2;
         @media (min-width: 1200px) {
+            height: 100vh;
+            width: 100%;
         }
         @media (max-width: 1200px) {
+            height: 100vh;
+            width: 100%;
             // justify-content: space-around;
         }
         @media (max-width: 992px) {
@@ -476,14 +479,27 @@
             // linear-gradient(to top, rgba(112, 74, 207, 0.384), rgba(169, 176, 201, 0.1)),
             // url("../backgrounds/photo-of-road-near-buildings-2530579.jpg");
 
-            background-image: linear-gradient(to bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+            // background-image: linear-gradient(to bottom, rgb(154, 161, 194), rgb(169, 176, 201));
 
             // background-size: 1200px;
             // background-position: bottom left;
             // filter: blur(1px);
 
-            opacity: 0.9;
+            background-image: url("../backgrounds/abstract-background.gif");
+            background-size: cover;
+            opacity: 0.1;
             
+            @media (min-width: 1200px) {
+            }
+            @media (max-width: 1200px) {
+            }
+            @media (max-width: 992px) {
+            }
+            @media (max-width: 768px) {
+            }
+            @media (max-width: 576px) {
+                background: none !important;
+            }
 
             // border: red dashed medium;
         }
@@ -534,6 +550,7 @@
             }
             @media (max-width: 576px) {
                 width: 90%;
+                margin: 10px;
 
             }
 
