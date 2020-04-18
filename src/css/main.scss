@@ -138,9 +138,9 @@ url("../backgrounds/splash.jpg");
         }
     }
 
-// ----------------- Background Animation -----------------
+// ----------------- Background Container -----------------
 
-    .animationContainer{
+    .longBackgroundContainer{
         position: absolute;
         width: 100%;
         height: 335vh;
@@ -155,12 +155,14 @@ url("../backgrounds/splash.jpg");
         // linear-gradient(to top, rgba(160, 155, 204, 0.829), rgba(160, 155, 204, 0.836)),
         // url("../backgrounds/water.gif");
 
-        background-image:
-        linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774)),
-        url("../backgrounds/water.gif");
+        // background-image:
+        // linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774)),
+        // url("../backgrounds/water.gif");
+
+        background-image: linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774));
 
 
-        z-index: 0;
+        // z-index: 0;
         // background-size: auto 100%;
         // background-repeat: no-repeat;
         @media (min-width: 1200px) {
@@ -188,6 +190,8 @@ url("../backgrounds/splash.jpg");
         // background-image:
         // linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
         // url("../backgrounds/water.gif");
+
+        // background-image: url("../backgrounds/water.gif");
 
         background-size: cover;
         background-position: center;
@@ -309,12 +313,17 @@ url("../backgrounds/splash.jpg");
             position: absolute;
             // height: 70vh;
             // height: 40vh;
-            height: 70%;
-            // height: 100vh;
-            width: 100%;
-            border-radius: 7px;
+            // height: 70%;
 
-            background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+            //current ---------------
+
+            // height: 100vh;
+            // width: 100%;
+            // border-radius: 7px;
+            // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+            //-----------------------
+
             // background-color: whitesmoke;
 
             // background-image: url("../backgrounds/photo-of-cn-tower-during-golden-hour-2773226.jpg");

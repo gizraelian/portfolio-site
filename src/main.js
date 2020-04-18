@@ -12,7 +12,7 @@ export default class Main extends Component {
     return (
       <div className="main">
 
-        <div className="animationContainer"/>
+        <div className="longBackgroundContainer"/>
 
         <LandingPage />
 
