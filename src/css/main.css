@@ -50,8 +50,8 @@
 }
 
 .main__splashBox--background {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(112, 74, 207, 0.384)), to(rgba(155, 71, 172, 0.1))), url("../backgrounds/splash.jpg");
-  background-image: linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/splash.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(143, 123, 196, 0.384)), to(rgba(155, 71, 172, 0.1))), url("../backgrounds/splash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(143, 123, 196, 0.384), rgba(155, 71, 172, 0.1)), url("../backgrounds/splash.jpg");
   background-size: cover;
   background-size: 2300px;
   background-position: center;
@@ -107,25 +107,9 @@
   transition: transform .1s ease, -webkit-transform .1s ease;
 }
 
-.main .longBackgroundContainer {
-  position: absolute;
-  width: 100%;
-  height: 335vh;
-  -webkit-transform: translateY(100vh);
-          transform: translateY(100vh);
-  background-size: cover;
-  background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(160, 155, 204, 0.836)), to(rgba(32, 31, 36, 0.774)));
-  background-image: linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774));
-}
-
-@media (max-width: 992px) {
-  .main .longBackgroundContainer {
-    height: 430vh;
-  }
-}
-
 .main__jumbotron {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to top, #9aa1c2, #a9b0c9);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -188,8 +172,8 @@
 }
 
 .main__skillsBox {
-  background-size: cover;
-  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to bottom, #9aa1c2, #a9b0c9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,8 +194,8 @@
 
 .main__skillsBox--background {
   position: absolute;
-  opacity: 0.4;
-  z-index: 0;
+  height: 40vh;
+  height: 70%;
 }
 
 .main__skillsBox--card:hover {
@@ -265,8 +249,8 @@
 }
 
 .main__projectsBox {
-  background-position: center;
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9aa1c2), to(#a9b0c9));
+  background-image: linear-gradient(to top, #9aa1c2, #a9b0c9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

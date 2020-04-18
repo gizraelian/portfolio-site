@@ -47,9 +47,13 @@
 
             // background-image: url("../backgrounds/splash.jpg");
 
+//             background-image:
+// linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
+// url("../backgrounds/splash.jpg");
+
             background-image:
-linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
-url("../backgrounds/splash.jpg");
+            linear-gradient(to right bottom, rgba(143, 123, 196, 0.384), rgba(155, 71, 172, 0.1)),
+            url("../backgrounds/splash.jpg");
 
             background-size: cover;
             background-size: 2300px;
@@ -140,44 +144,44 @@ url("../backgrounds/splash.jpg");
 
 // ----------------- Background Container -----------------
 
-    .longBackgroundContainer{
-        position: absolute;
-        width: 100%;
-        height: 335vh;
-        transform: translateY(100vh);
-        background-size: cover;
-        background-position: center;
-        // background-image:
-        // linear-gradient(to top, rgba(187, 186, 181, 0.829), rgba(160, 155, 204, 0.836)),
-        // url("../backgrounds/water.gif");
+    // .longBackgroundContainer{
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 335vh;
+    //     transform: translateY(100vh);
+    //     background-size: cover;
+    //     background-position: center;
 
-        // background-image:
-        // linear-gradient(to top, rgba(160, 155, 204, 0.829), rgba(160, 155, 204, 0.836)),
-        // url("../backgrounds/water.gif");
+    //     // background-image:
+    //     // linear-gradient(to top, rgba(187, 186, 181, 0.829), rgba(160, 155, 204, 0.836)),
+    //     // url("../backgrounds/water.gif");
 
-        // background-image:
-        // linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774)),
-        // url("../backgrounds/water.gif");
+    //     // background-image:
+    //     // linear-gradient(to top, rgba(160, 155, 204, 0.829), rgba(160, 155, 204, 0.836)),
+    //     // url("../backgrounds/water.gif");
 
-        background-image: linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774));
+    //     // background-image:
+    //     // linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774)),
+    //     // url("../backgrounds/water.gif");
+
+    //     background-image: linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774));
 
 
-        // z-index: 0;
-        // background-size: auto 100%;
-        // background-repeat: no-repeat;
-        @media (min-width: 1200px) {
-        }
-        @media (max-width: 1200px) {
-        }
-        @media (max-width: 992px) {
-            height: 430vh;
-        }
-        @media (max-width: 768px) {
-        }
-        @media (max-width: 576px) {
-        }
-
-    }
+    //     // z-index: 0;
+    //     // background-size: auto 100%;
+    //     // background-repeat: no-repeat;
+    //     @media (min-width: 1200px) {
+    //     }
+    //     @media (max-width: 1200px) {
+    //     }
+    //     @media (max-width: 992px) {
+    //         height: 430vh;
+    //     }
+    //     @media (max-width: 768px) {
+    //     }
+    //     @media (max-width: 576px) {
+    //     }
+    // }
 
 // --------------------- Jumbotron Section ---------------------
 
@@ -185,13 +189,15 @@ url("../backgrounds/splash.jpg");
         // background-image: url("../backgrounds/body-of-water-2276928.jpg");
         // background-image: linear-gradient(to right, #64495E, #4C5F9A);
 
-        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
-
-        // background-image:
-        // linear-gradient(to left top, rgba(228, 225, 235, 0.829), rgba(217, 197, 240, 0.836)),
-        // url("../backgrounds/water.gif");
+        background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
 
         // background-image: url("../backgrounds/water.gif");
+
+        // background-image:
+        // linear-gradient(to bottom, rgba(1, 1, 2, 0.918), rgba(217, 197, 240, 0.836)),
+        // url("../backgrounds/water.gif");
+
+
 
         background-size: cover;
         background-position: center;
@@ -274,6 +280,8 @@ url("../backgrounds/splash.jpg");
 
         // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
 
+        background-image: linear-gradient(to bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+
         // background-size: cover;
         // margin-top: -20rem;
         // transform: skewY(-5deg);
@@ -282,9 +290,9 @@ url("../backgrounds/splash.jpg");
 
         //-----------------------
 
-        background-size: cover;
+        // background-size: cover;
         // background-size: 2000px;
-        background-position: center;
+        // background-position: center;
         // background-position: bottom left;
 
         display: flex;
@@ -312,8 +320,8 @@ url("../backgrounds/splash.jpg");
         &--background{
             position: absolute;
             // height: 70vh;
-            // height: 40vh;
-            // height: 70%;
+            height: 40vh;
+            height: 70%;
 
             //current ---------------
 
@@ -321,6 +329,10 @@ url("../backgrounds/splash.jpg");
             // width: 100%;
             // border-radius: 7px;
             // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+            // background-image:
+            // linear-gradient(to bottom, rgba(159, 159, 226, 0.918), rgba(217, 197, 240, 0.836)),
+            // url("../backgrounds/water.gif");
 
             //-----------------------
 
@@ -335,8 +347,8 @@ url("../backgrounds/splash.jpg");
             // background-position: bottom left;
             // filter: blur(1px);
 
-            opacity: 0.4;
-            z-index: 0;
+            // opacity: 0.4;
+            // z-index: 0;
 
             // border: red dashed medium;
         }
@@ -400,8 +412,11 @@ url("../backgrounds/splash.jpg");
 
         // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
 
-        background-position: center;
-        background-size: cover;
+        // background-position: center;
+        // background-size: cover;
+
+        background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
+
 
         display: flex;
         justify-content: center;
