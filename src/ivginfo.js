@@ -21,7 +21,7 @@ export default class IvgInfo extends Component {
                     A private marketing site
                 </p>
                 <p className="projectInfo__textSection--row__text">
-                    Built with React and CSS3
+                    In development with React and CSS3
                 </p>
             </div>
             <div className="projectInfo__textSection--imgBox">
