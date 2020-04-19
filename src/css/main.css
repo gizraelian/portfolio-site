@@ -124,7 +124,7 @@
 @media (min-width: 1200px) {
   .main__splashBox--container__header {
     font-size: 600%;
-    margin: 0 0 10px 0;
+    margin: 0;
     padding: 2px;
   }
 }
@@ -132,6 +132,7 @@
 @media (max-width: 1200px) {
   .main__splashBox--container__header {
     font-size: 75px;
+    margin: 0;
   }
 }
 
@@ -416,6 +417,7 @@
             flex-direction: column;
     -ms-flex-wrap: unset;
         flex-wrap: unset;
+    background-color: whitesmoke;
   }
 }
 
@@ -505,7 +507,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card {
-    width: 70%;
+    width: 90%;
     margin: 10px;
   }
 }
@@ -514,6 +516,12 @@
   width: 120px;
   background-color: transparent;
   padding: 30px 5px 5px 5px;
+}
+
+@media (max-width: 576px) {
+  .main__skillsBox--card__img {
+    width: 140px;
+  }
 }
 
 .main__skillsBox--card__header {
@@ -657,7 +665,7 @@
   font-weight: normal;
   color: white;
   font-size: 24px;
-  text-shadow: 1px 1px 1px grey;
+  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
   pointer-events: auto;
 }
@@ -665,7 +673,6 @@
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--header {
     font-size: 22px;
-    text-shadow: none;
     padding: 5px;
   }
 }
@@ -674,20 +681,18 @@
   color: white;
   font-weight: normal;
   font-size: 16px;
-  text-shadow: 1px 1px 1px grey;
+  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
 }
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--subHeader {
     font-size: 22px;
-    text-shadow: none;
     padding: 5px;
   }
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  text-shadow: 1px 1px 1px grey;
   -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
           box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
   background-color: orangered;
@@ -699,7 +704,7 @@
   color: white;
   font-weight: normal;
   font-size: 16px;
-  text-shadow: 1px 1px 1px grey;
+  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
   pointer-events: auto;
 }
@@ -707,7 +712,6 @@
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link {
     font-size: 22px;
-    text-shadow: none;
     padding: 5px;
   }
 }

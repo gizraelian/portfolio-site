@@ -132,11 +132,14 @@
                 // border: brown dashed thin;
                 @media (min-width: 1200px) {
                     font-size: 600%;
-                    margin: 0 0 10px 0;
+                    // margin: 0 0 10px 0;
+                    margin: 0;
                     padding: 2px;
                 }
                 @media (max-width: 1200px) {
                     font-size: 75px;
+                    margin: 0;
+                    // padding: 2px;
                 }
                 @media (max-width: 992px) {
                     font-size: 65px;
@@ -422,11 +425,7 @@
         //-----------------------
 
         background-image: linear-gradient(to bottom, rgb(154, 161, 194), rgb(169, 176, 201));
-        // background-image: url("../backgrounds/abstract-background.gif");
         background-size: cover;
-        // background-size: 2000px;
-        // background-position: center;
-        // background-position: bottom left;
 
         display: flex;
         
@@ -454,6 +453,7 @@
             height: 200vh;
             flex-direction: column;
             flex-wrap: unset;
+            background-color: whitesmoke;
         }
 
         &--background{
@@ -506,6 +506,8 @@
             }
             @media (max-width: 576px) {
                 background: none !important;
+
+                // background-image: linear-gradient(to right, rgb(207, 209, 214), rgb(169, 176, 201));
                 // height: 200vh;
                 // opacity: 0.05;
             }
@@ -557,7 +559,8 @@
                 width: 180px;
             }
             @media (max-width: 576px) {
-                width: 70%;
+                // width: 70%;
+                width: 90%;
                 margin: 10px;
             }
 
@@ -565,6 +568,9 @@
                 width: 120px;
                 background-color: transparent;
                 padding: 30px 5px 5px 5px;
+                @media (max-width: 576px) {
+                    width: 140px;
+                }
             }
 
             &__header{
@@ -701,13 +707,13 @@
                     font-weight: normal;
                     color: white;
                     font-size: 24px;
-                    text-shadow: 1px 1px 1px grey;
+                    text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
                     margin: 0;
                     pointer-events: auto;
                     // padding: 0 10px 10px 10px;
                     @media (max-width: 576px) {
                         font-size: 22px;
-                        text-shadow: none;
+                        // text-shadow: none;
                         padding: 5px;
                     }
                     
@@ -720,19 +726,19 @@
                     // font-size: 24px;
                     // font-size: 18px;
                     font-size: 16px;
-                    text-shadow: 1px 1px 1px grey;
+                    // text-shadow: 1px 1px 1px grey;
+                    text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
                     margin: 0;
                     // padding: 0 10px 10px 10px;
                     @media (max-width: 576px) {
                         font-size: 22px;
-                        text-shadow: none;
+                        // text-shadow: none;
                         padding: 5px;
                     }
 
                 }
 
                 &--link:hover{
-                    text-shadow: 1px 1px 1px grey;
                     box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
                     background-color: orangered;
                 }
@@ -745,7 +751,7 @@
                     // font-weight: bold;
                     // font-size: 18px;
                     font-size: 16px;
-                    text-shadow: 1px 1px 1px grey;
+                    text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
                     margin: 0;
                     // padding: 10px 10px;
                     // padding: 0 10px 10px 11px;
@@ -753,7 +759,7 @@
                     pointer-events: auto;
                     @media (max-width: 576px) {
                         font-size: 22px;
-                        text-shadow: none;
+                        // text-shadow: none;
                         padding: 5px;
                     }
 
