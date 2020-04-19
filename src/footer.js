@@ -6,12 +6,14 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer__container">
+
           <div className="footer__container--sloganBox">
             {/* <img src="../assets/placeholder2.jpg"
               className="footer__container--sloganBox__logo"
               alt='myImg'/> */}
             {/* <p className="footer__container--sloganBox__text">Contact</p> */}
           </div>
+
           <div className="footer__container--contactBox">
             <ul className="footer__container--contactBox__column">
               <a className="footer__container--contactBox__column--row"
@@ -29,6 +31,11 @@ export default class Footer extends Component {
           <div className="footer__container--linkBox">
             <Link to={'/'} className="footer__container--linkBox__link">HOME</Link>
           </div>
+
+          <div className="footer__container--signatureBox">
+            <p className="footer__container--signatureBox__signature">Site by George Izraelian</p>
+          </div>
+
       </div>
     </div>
     )
