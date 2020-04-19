@@ -642,12 +642,13 @@
           box-shadow: 1px 1px 2px gray;
   padding: 5px;
   top: 85%;
+  top: 80%;
   width: 90%;
 }
 
 @media (max-width: 768px) {
   .main__projectsBox--card__textBox {
-    top: 75%;
+    top: 70%;
   }
 }
 
@@ -662,7 +663,7 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    top: 66%;
+    top: 60%;
     left: 5%;
     width: auto;
     border-radius: 5px;
