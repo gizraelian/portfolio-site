@@ -576,6 +576,12 @@
           justify-content: center;
 }
 
+@media (max-width: 576px) {
+  .main__projectsBox--card {
+    border-radius: 4px;
+  }
+}
+
 .main__projectsBox--card__img {
   background-image: url("../backgrounds/code.jpg");
   height: 50vh;
