@@ -516,7 +516,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card__img {
-    width: 140px;
+    padding: 0;
   }
 }
 
@@ -525,6 +525,7 @@
   background-color: inherit;
   color: rgba(41, 36, 36, 0.863);
   font-weight: bolder;
+  font-size: 1rem;
   background-color: transparent;
   padding: 5px;
   text-shadow: 0.75px 0.75px 2px gray;
