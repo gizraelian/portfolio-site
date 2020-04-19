@@ -16,7 +16,7 @@ export default class IvgInfo extends Component {
 
         <div className="projectInfo__textSection">
             <div className="projectInfo__textSection--row">
-                <h3>About</h3>
+                <h3>IVG Fiber</h3>
                 <p className="projectInfo__textSection--row__text">
                     A private marketing site
                 </p>

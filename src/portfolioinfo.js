@@ -10,18 +10,18 @@ export default class PortfolioInfo extends Component {
         <div className="projectInfo__linkBox">
           <Link to={'/portfolio'} className="projectInfo__linkBox--link">
               <img className="projectInfo__linkBox--link__img" alt='myImg' id="portfolioDemo" ></img>
-              <h2 className="projectInfo__linkBox--link__header">Portfolio Site</h2>
+              {/* <h2 className="projectInfo__linkBox--link__header">Portfolio Site</h2> */}
           </Link>
         </div>
 
         <div className="projectInfo__textSection">
             <div className="projectInfo__textSection--row">
-                <h3>About</h3>
+                <h3>Portfolio Site</h3>
                 <p className="projectInfo__textSection--row__text">
-                    Personal portfolio site
+                    My personal portfolio site
                 </p>
                 <p className="projectInfo__textSection--row__text">
-                    Built with React and CSS3. Integrating NodeJS
+                    Built with React and CSS3. Integrating NodeJS.
                 </p>
                 <p className="projectInfo__textSection--row__text">
                     Updating regularly

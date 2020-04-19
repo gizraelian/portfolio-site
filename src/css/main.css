@@ -274,9 +274,9 @@
 
 @media (min-width: 1200px) {
   .main__jumbotron--leftBox {
-    padding: 0 10px;
+    padding: 0 0 0 50px;
     margin: 10px;
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -296,8 +296,8 @@
 
 @media (max-width: 576px) {
   .main__jumbotron--leftBox {
-    padding: 5px;
-    width: 90%;
+    color: black;
+    width: 80%;
   }
 }
 
@@ -308,7 +308,7 @@
 
 @media (max-width: 576px) {
   .main__jumbotron--leftBox__textContainer {
-    text-align: center;
+    text-align: start;
     font-size: 25px;
   }
 }
@@ -328,7 +328,7 @@
   .main__jumbotron--rightBox {
     padding: 0 10px;
     margin: 10px;
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -348,8 +348,7 @@
 
 @media (max-width: 576px) {
   .main__jumbotron--rightBox {
-    padding: 5px;
-    width: 90%;
+    width: 85%;
   }
 }
 

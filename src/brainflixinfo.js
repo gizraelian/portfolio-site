@@ -10,13 +10,13 @@ export default class BrainFlixInfo extends Component {
         <div className="projectInfo__linkBox">
           <Link to={'/brainflix'} className="projectInfo__linkBox--link">
               <img className="projectInfo__linkBox--link__img" alt='myImg' id="brainFlixDemo" />
-              <h2 className="projectInfo__linkBox--link__header">BrainFlix</h2>
+              {/* <h2 className="projectInfo__linkBox--link__header">BrainFlix</h2> */}
           </Link>
         </div>
 
         <div className="projectInfo__textSection">
             <div className="projectInfo__textSection--row">
-                <h3>About</h3>
+                <h3>BrainFlix</h3>
                 <p className="projectInfo__textSection--row__text">
                     A proof-of-concept YouTube clone, with videos served by NodeJS
                 </p>

@@ -10,13 +10,13 @@ export default class BandpageInfo extends Component {
         <div className="projectInfo__linkBox">
           <Link to={'/bandpage'} className="projectInfo__linkBox--link">
               <img className="projectInfo__linkBox--link__img" alt='myImg' id="bandDemo" />
-              <h2 className="projectInfo__linkBox--link__header">Bandpage</h2>
+              {/* <h2 className="projectInfo__linkBox--link__header">Bandpage</h2> */}
           </Link>
         </div>
 
         <div className="projectInfo__textSection">
             <div className="projectInfo__textSection--row">
-                <h3>About</h3>
+                <h3>Bandpage</h3>
                 <p className="projectInfo__textSection--row__text">
                     A responsive portfolio site for a hypothetical music band, the "Bees Knees"
                 </p>

@@ -12,7 +12,7 @@ export default class Jumbotron extends React.Component {
       Front-end focused with full stack experience
     </h1> */}
     <h1 className="main__jumbotron--leftBox__textContainer">
-        Here to create websites you can be proud of
+        Here to build awesome full stack apps and websites
     </h1>
     </div>
     <div className="main__jumbotron--rightBox">
@@ -26,11 +26,9 @@ export default class Jumbotron extends React.Component {
     <h2 className="main__jumbotron--rightBox__textContainer">
       My attention to detail translates into logical, manageable product.
       I build pages that showcase your unique vision.
-
     </h2>
     </div>
 </div>
-
     )
   }
 }
