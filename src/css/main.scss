@@ -727,6 +727,10 @@
                 &--header:hover{
                     background-color: orangered;
                     box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+                    @media (max-width: 576px) {
+                        box-shadow: none;
+                        background-color: orangered;
+                    }
                 }
 
                 &--header{
@@ -768,6 +772,10 @@
                 &--link:hover{
                     box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
                     background-color: orangered;
+                    @media (max-width: 576px) {
+                        box-shadow: none;
+                        background-color: orangered;
+                    }
                 }
 
                 &--link{

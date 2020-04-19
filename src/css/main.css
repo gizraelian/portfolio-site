@@ -665,6 +665,14 @@
           box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
 }
 
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--header:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: orangered;
+  }
+}
+
 .main__projectsBox--card__textBox--header {
   text-decoration: none;
   font-weight: normal;
@@ -701,6 +709,14 @@
   -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
           box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
   background-color: orangered;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: orangered;
+  }
 }
 
 .main__projectsBox--card__textBox--link {
