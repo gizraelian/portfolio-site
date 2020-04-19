@@ -628,8 +628,8 @@
   -webkit-backdrop-filter: blur(3px) invert(0.3);
           backdrop-filter: blur(3px) invert(0.3);
   pointer-events: none;
-  border: solid thin white;
-  border-radius: 2px;
+  border: solid 1px white;
+  border-radius: 7px;
   -webkit-box-shadow: 1px 1px 2px gray;
           box-shadow: 1px 1px 2px gray;
   padding: 5px;
@@ -651,6 +651,7 @@
     top: 62%;
     left: 5%;
     width: auto;
+    border-radius: 5px;
   }
 }
 
