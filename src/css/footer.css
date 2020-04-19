@@ -186,13 +186,7 @@
 
 @media (max-width: 992px) {
   .footer__container--signatureBox {
-    top: 570%;
-  }
-}
-
-@media (max-width: 576px) {
-  .footer__container--signatureBox {
-    top: 670%;
+    display: none;
   }
 }
 

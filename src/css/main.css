@@ -403,6 +403,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main__skillsBox {
+    height: 150vh;
+  }
+}
+
 @media (max-width: 576px) {
   .main__skillsBox {
     height: 200vh;
@@ -547,6 +553,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main__projectsBox {
+    height: 250vh;
+  }
+}
+
 .main__projectsBox--card:hover {
   -webkit-transform: scale(1.008);
           transform: scale(1.008);
@@ -603,6 +615,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main__projectsBox--card__img {
+    height: 60vh;
+  }
+}
+
 .main__projectsBox--card__textBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -625,6 +643,12 @@
   padding: 5px;
   top: 85%;
   width: 90%;
+}
+
+@media (max-width: 768px) {
+  .main__projectsBox--card__textBox {
+    top: 75%;
+  }
 }
 
 @media (max-width: 576px) {
