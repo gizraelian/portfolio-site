@@ -174,13 +174,13 @@
 
 @media (min-width: 1200px) {
   .footer__container--signatureBox {
-    top: 470%;
+    top: 468%;
   }
 }
 
 @media (max-width: 1200px) {
   .footer__container--signatureBox {
-    top: 470%;
+    top: 468%;
   }
 }
 

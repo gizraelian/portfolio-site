@@ -21,7 +21,7 @@ export default class BrainFlixInfo extends Component {
                     A proof-of-concept YouTube clone, with videos served by NodeJS
                 </p>
                 <p className="projectInfo__textSection--row__text">
-                    Built with React, CSS3, and NodeJS
+                    Built with React, CSS3, Express and NodeJS
                 </p>
                 <a className="projectInfo__textSection--row__link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
