@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
             <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">BrainFlix</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
-            <h3 className="main__projectsBox--card__textBox--subHeader">React/Express/NodeJS/CSS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React/Express/Node/CSS</h3>
         </div>
     </div>
 

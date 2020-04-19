@@ -664,9 +664,8 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    top: 60%;
-    left: 5%;
-    width: auto;
+    top: 62%;
+    left: 2%;
     border-radius: 5px;
   }
 }
