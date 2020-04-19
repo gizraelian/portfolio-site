@@ -115,8 +115,6 @@
 
 .main__splashBox--container__header {
   color: white;
-  opacity: 0.9;
-  text-shadow: 1px 1px 2px grey;
   font-weight: normal;
   cursor: default;
 }
@@ -158,9 +156,7 @@
 
 .main__splashBox--container__subHeader {
   color: white;
-  opacity: 0.8;
   font-weight: normal;
-  text-shadow: 1px 1px 2px grey;
   cursor: default;
 }
 
