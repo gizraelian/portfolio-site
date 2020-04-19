@@ -170,24 +170,8 @@
   position: absolute;
   left: 1%;
   z-index: 999;
-}
-
-@media (min-width: 1200px) {
-  .footer__container--signatureBox {
-    top: 468%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .footer__container--signatureBox {
-    top: 468%;
-  }
-}
-
-@media (max-width: 992px) {
-  .footer__container--signatureBox {
-    display: none;
-  }
+  bottom: 0;
+  display: none;
 }
 
 .footer__container--signatureBox__signature {

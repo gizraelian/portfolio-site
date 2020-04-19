@@ -127,20 +127,8 @@
             position: absolute;
             left: 1%;
             z-index: 999;
-
-            @media (min-width: 1200px) {
-                top: 468%;
-            }
-            @media (max-width: 1200px) {
-                top: 468%;
-            }
-            @media (max-width: 992px) {
-                // top: 570%;
-                display: none;
-            }
-            @media (max-width: 576px) {
-                // top: 670%;
-            }
+            bottom: 0;
+            display: none;
 
             &__signature{
                 color: white;
