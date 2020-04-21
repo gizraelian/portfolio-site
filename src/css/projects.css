@@ -1,6 +1,6 @@
 .main__projectsBox {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#797c8a), to(rgba(209, 186, 231, 0.418)));
-  background-image: linear-gradient(to top, #797c8a, rgba(209, 186, 231, 0.418));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(26, 32, 39, 0.829)), to(rgba(92, 72, 110, 0.418)));
+  background-image: linear-gradient(to top, rgba(26, 32, 39, 0.829), rgba(92, 72, 110, 0.418));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
