@@ -6,16 +6,12 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    // background-image: linear-gradient(to left bottom, rgb(228, 216, 225), rgb(152, 164, 206));
+    background-image: linear-gradient(to left bottom, rgb(228, 216, 225), rgb(152, 164, 206));
 
-    background-image:
-    linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)),
-    url("../backgrounds/abstract-background.gif");
-
-
-
+    // background-image:
+    // linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)),
+    // url("../backgrounds/abstract-background.gif");
     background-size: cover;
-
 
     @media (min-width: 1200px) {
         // height: 100vh;

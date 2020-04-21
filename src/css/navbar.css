@@ -64,10 +64,11 @@
 }
 
 .navbar__linksBox--dropMenuBtn__img {
-  width: 30px;
-  height: 25px;
+  height: 20px;
   padding: 5px 0 0 5px;
   opacity: 0.5;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .navbar__linksBox--dropMenuBtn__container {

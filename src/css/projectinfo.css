@@ -9,8 +9,8 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(154, 161, 194, 0.829)), to(rgba(169, 176, 201, 0.836))), url("../backgrounds/abstract-background.gif");
-  background-image: linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)), url("../backgrounds/abstract-background.gif");
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#e4d8e1), to(#98a4ce));
+  background-image: linear-gradient(to left bottom, #e4d8e1, #98a4ce);
   background-size: cover;
 }
 

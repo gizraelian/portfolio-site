@@ -29,10 +29,13 @@
         height: 100vh;
         z-index: 2;
         @media (max-width: 992px) {
-            height: 200vh;
+            height: 250vh;
         }
         @media (max-width: 768px) {
-            height: 250vh;
+            // height: 250vh;
+        }
+        @media (max-width: 576px) {
+            // height: 200vh;
         }
 
         &--header{
@@ -42,10 +45,10 @@
 
         &--card:hover{
             // border: solid 1px white;
-            border-top: solid 1px whitesmoke;
-            border-right: solid 1px whitesmoke;
-            border-bottom: solid 1px whitesmoke;
-            border-left: solid 1px whitesmoke;
+            border-top: solid 2px whitesmoke;
+            border-right: solid 2px whitesmoke;
+            border-bottom: solid 2px whitesmoke;
+            border-left: solid 2px whitesmoke;
 
             @media (max-width: 576px) {
                 border: none;
@@ -64,10 +67,10 @@
             border-radius: 7px;
             // border: solid 1px grey;
             // border-right: lightsteelblue solid 1px;
-            border-top: solid 1px transparent;
-            border-right: solid 1px grey;
-            border-bottom: solid 1px grey;
-            border-left: solid 1px transparent;
+            border-top: solid 2px transparent;
+            border-right: solid 2px grey;
+            border-bottom: solid 2px grey;
+            border-left: solid 2px transparent;
             margin: 10px;
 
             // text-shadow: 1px 1px 2px grey;

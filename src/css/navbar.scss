@@ -57,10 +57,10 @@
             }
 
             &__img{
-                width: 30px;
-                height: 25px;
+                height: 20px;
                 padding: 5px 0 0 5px;
                 opacity: 0.5;
+                transform: rotate(90deg);
             }
 
             // @media (max-width: 576px) {
