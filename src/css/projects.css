@@ -113,7 +113,6 @@
   pointer-events: none;
   -webkit-box-shadow: 1px 1px 2px gray;
           box-shadow: 1px 1px 2px gray;
-  padding: 5px;
 }
 
 .main__projectsBox--card__textBox--header:hover {
@@ -138,7 +137,6 @@
   background-color: rgba(255, 255, 255, 0.15);
   padding: 0 10px;
   border-radius: 15px;
-  margin: 0;
   pointer-events: auto;
 }
 
@@ -152,7 +150,7 @@
   color: white;
   font-weight: normal;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0 5px;
   margin: 0;
 }
 
@@ -183,7 +181,7 @@
   font-weight: normal;
   font-size: 16px;
   background-color: rgba(255, 255, 255, 0.15);
-  padding: 0 10px;
+  padding: 5px 10px;
   border-radius: 15px;
   margin: 0;
   pointer-events: auto;
