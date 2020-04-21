@@ -51,8 +51,6 @@ export default class Main extends Component {
 
         <Skills />
 
-        <h2 className="main__subHeader">Projects</h2>
-
         <Projects />
 
       </div>

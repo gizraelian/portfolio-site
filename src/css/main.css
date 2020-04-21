@@ -6,14 +6,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   overflow: hidden;
 }
 
 .main__subHeader {
-  text-align: left;
+  background-color: transparent;
 }
 
 .main__goUp {

@@ -3,13 +3,13 @@
 .main{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
     overflow: hidden;
     // z-index: 2;
 
     &__subHeader{
-        // color: white;
-        text-align: left;
+        background-color: transparent;
+        
     }
 
     &__goUp{
