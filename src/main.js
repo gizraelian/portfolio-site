@@ -27,8 +27,6 @@ export default class Main extends Component {
             duration= {1500} >
             {/* <img src="../assets/arrows-grey.png" className="main__goUp--img" alt='myImg' /> */}
             <img src="../assets/arrow-down-empty-circle_LightBlue_500x500.png" className="main__goUp--imgBlue" alt='myImg' />
-            <img src="../assets/arrow-down-empty-circle_White_500x500.png" className="main__goUp--imgWhite" alt='myImg' />
-            
              
         </Link>
 

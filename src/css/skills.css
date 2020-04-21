@@ -122,8 +122,8 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card {
-    width: 90%;
-    margin: 10px;
+    width: 95%;
+    margin: 5px 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
