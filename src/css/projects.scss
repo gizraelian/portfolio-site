@@ -36,7 +36,15 @@
         }
 
         &--card:hover{
-            transform: scale(1.008);
+            // border: solid 1px white;
+            border-top: solid 1px whitesmoke;
+            border-right: solid 1px whitesmoke;
+            border-bottom: solid 1px whitesmoke;
+            border-left: solid 1px whitesmoke;
+
+            @media (max-width: 576px) {
+                border: none;
+            }
         }
 
         &--card{
@@ -49,21 +57,24 @@
             display: flex;
             // border-radius: 5px;
             border-radius: 7px;
-            // margin: 5px;
-            // margin: 6px;
+            // border: solid 1px grey;
+            // border-right: lightsteelblue solid 1px;
+            border-top: solid 1px transparent;
+            border-right: solid 1px grey;
+            border-bottom: solid 1px grey;
+            border-left: solid 1px transparent;
             margin: 10px;
 
             // text-shadow: 1px 1px 2px grey;
 
             overflow: hidden;
-
             box-shadow: 2px 2px 3px gray;
-            transition: transform .3s ease;
             display: flex;
             justify-content: center;
             // align-items: center;
             @media (max-width: 576px) {
-                border-radius: 4px;
+                border: none;
+                border-radius: 0;
                 margin: 5px;
             }
             
@@ -96,6 +107,10 @@
                 }
             }
 
+            &__textBox:hover{
+                background-color: rgba(137, 135, 168, 0.466);
+            }
+
             &__textBox{
                 display: flex;
                 justify-content: space-between;
@@ -108,7 +123,7 @@
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
                 backdrop-filter: blur(3px) invert(.3);
-                pointer-events: none;
+                // pointer-events: none;
                 box-shadow: 1px 1px 2px gray;
                 // padding: 5px;
 
@@ -132,7 +147,7 @@
                     background-color: orangered;
                     box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
                     @media (max-width: 576px) {
-                        box-shadow: none;
+                        // box-shadow: none;
                         background-color: orangered;
                     }
                 }
@@ -144,7 +159,9 @@
                     font-size: 24px;
                     background-color: rgba(255, 255, 255, .15);
                     padding: 0 10px;
-                    border-radius: 15px;
+                    box-shadow: 5px 0 0 rgba(255, 255, 255, .15), -5px 0 0 rgba(255, 255, 255, .15);
+                    border-radius: 7px;
+
                     // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
 
                     // margin: 0;
@@ -152,6 +169,8 @@
                     // padding: 0 10px 10px 10px;
                     @media (max-width: 576px) {
                         font-size: 20px;
+                        box-shadow: none;
+                        // border-radius: 15px;
 
                     }
                     
@@ -161,7 +180,7 @@
                     box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
                     background-color: orangered;
                     @media (max-width: 576px) {
-                        box-shadow: none;
+                        // box-shadow: none;
                         background-color: orangered;
                     }
                 }
@@ -173,10 +192,11 @@
                     font-weight: normal;
                     // font-weight: bold;
                     // font-size: 18px;
-                    font-size: 16px;
+                    font-size: 24px;
                     background-color: rgba(255, 255, 255, .15);
                     padding: 0 10px;
-                    border-radius: 15px;
+                    box-shadow: 5px 0 0 rgba(255, 255, 255, .15), -5px 0 0 rgba(255, 255, 255, .15);
+                    border-radius: 7px;
 
                     // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
 
@@ -187,6 +207,7 @@
                     pointer-events: auto;
                     @media (max-width: 576px) {
                         font-size: 20px;
+                        box-shadow: none;
                     }
 
                 }
@@ -195,9 +216,9 @@
                     color: white;
                     font-weight: normal;
                     // font-weight: bold;
-                    // font-size: 24px;
                     // font-size: 18px;
-                    font-size: 16px;
+                    // font-size: 16px;
+                    font-size: 24px;
                     padding: 0 5px;
                     // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
 

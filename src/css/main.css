@@ -195,6 +195,8 @@
 .main__splashBox--container__scrollDown--toProjects:hover {
   color: gray;
   background-color: white;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main__splashBox--container__scrollDown--toProjects {
@@ -207,6 +209,10 @@
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
 .main__splashBox--container__scrollDown--img:hover {

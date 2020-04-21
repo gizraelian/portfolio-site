@@ -17,7 +17,7 @@ export default class Projects extends React.Component {
         <div className="main__projectsBox--card__textBox">
             <Link to={'/bandpage'} className="main__projectsBox--card__textBox--header">"Bandpage"</Link>
             <a className="main__projectsBox--card__textBox--link"
-            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
+            target="_blank" href="https://github.com/gizraelian/bandpage">Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">JS/HTML5/CSS</h3>
         </div>
     </div>
@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
         <div className="main__projectsBox--card__textBox">
             <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">"BrainFlix"</Link>
             <a className="main__projectsBox--card__textBox--link"
-            target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
+            target="_blank" href="https://github.com/gizraelian/brainflix">Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">React/Node/Express</h3>
         </div>
     </div>
@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
         <div className="main__projectsBox--card__textBox">
             <Link to={'/portfolio'} className="main__projectsBox--card__textBox--header">"Portfolio"</Link>
             <a className="main__projectsBox--card__textBox--link"
-            target="_blank" href="https://github.com/gizraelian/portfolio-site">Source Code</a>
+            target="_blank" href="https://github.com/gizraelian/portfolio-site">Code</a>
             <h3 className="main__projectsBox--card__textBox--subHeader">React/CSS</h3>
         </div>
     </div>

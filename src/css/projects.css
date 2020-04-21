@@ -28,8 +28,16 @@
 }
 
 .main__projectsBox--card:hover {
-  -webkit-transform: scale(1.008);
-          transform: scale(1.008);
+  border-top: solid 1px whitesmoke;
+  border-right: solid 1px whitesmoke;
+  border-bottom: solid 1px whitesmoke;
+  border-left: solid 1px whitesmoke;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card:hover {
+    border: none;
+  }
 }
 
 .main__projectsBox--card {
@@ -41,14 +49,14 @@
   display: -ms-flexbox;
   display: flex;
   border-radius: 7px;
+  border-top: solid 1px transparent;
+  border-right: solid 1px grey;
+  border-bottom: solid 1px grey;
+  border-left: solid 1px transparent;
   margin: 10px;
   overflow: hidden;
   -webkit-box-shadow: 2px 2px 3px gray;
           box-shadow: 2px 2px 3px gray;
-  -webkit-transition: -webkit-transform .3s ease;
-  transition: -webkit-transform .3s ease;
-  transition: transform .3s ease;
-  transition: transform .3s ease, -webkit-transform .3s ease;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -57,7 +65,8 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card {
-    border-radius: 4px;
+    border: none;
+    border-radius: 0;
     margin: 5px;
   }
 }
@@ -101,6 +110,10 @@
   }
 }
 
+.main__projectsBox--card__textBox:hover {
+  background-color: rgba(137, 135, 168, 0.466);
+}
+
 .main__projectsBox--card__textBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +130,6 @@
   background-color: rgba(255, 255, 255, 0.15);
   -webkit-backdrop-filter: blur(3px) invert(0.3);
           backdrop-filter: blur(3px) invert(0.3);
-  pointer-events: none;
   -webkit-box-shadow: 1px 1px 2px gray;
           box-shadow: 1px 1px 2px gray;
 }
@@ -130,8 +142,6 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--header:hover {
-    -webkit-box-shadow: none;
-            box-shadow: none;
     background-color: orangered;
   }
 }
@@ -143,13 +153,17 @@
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.15);
   padding: 0 10px;
-  border-radius: 15px;
+  -webkit-box-shadow: 5px 0 0 rgba(255, 255, 255, 0.15), -5px 0 0 rgba(255, 255, 255, 0.15);
+          box-shadow: 5px 0 0 rgba(255, 255, 255, 0.15), -5px 0 0 rgba(255, 255, 255, 0.15);
+  border-radius: 7px;
   pointer-events: auto;
 }
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--header {
     font-size: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 }
 
@@ -161,8 +175,6 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link:hover {
-    -webkit-box-shadow: none;
-            box-shadow: none;
     background-color: orangered;
   }
 }
@@ -172,10 +184,12 @@
   text-align: center;
   color: white;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
   background-color: rgba(255, 255, 255, 0.15);
   padding: 0 10px;
-  border-radius: 15px;
+  -webkit-box-shadow: 5px 0 0 rgba(255, 255, 255, 0.15), -5px 0 0 rgba(255, 255, 255, 0.15);
+          box-shadow: 5px 0 0 rgba(255, 255, 255, 0.15), -5px 0 0 rgba(255, 255, 255, 0.15);
+  border-radius: 7px;
   margin: 0;
   pointer-events: auto;
 }
@@ -183,13 +197,15 @@
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link {
     font-size: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 }
 
 .main__projectsBox--card__textBox--subHeader {
   color: white;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
   padding: 0 5px;
   margin: 0;
 }
