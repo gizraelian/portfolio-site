@@ -64,7 +64,8 @@
 }
 
 .navbar__linksBox--dropMenuBtn__img {
-  width: 25px;
+  width: 30px;
+  height: 25px;
   padding: 5px 0 0 5px;
   opacity: 0.5;
 }

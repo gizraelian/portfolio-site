@@ -17,7 +17,6 @@
           align-items: center;
   overflow: hidden;
   cursor: default;
-  z-index: 2;
 }
 
 @media (min-width: 1200px) {
@@ -93,7 +92,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 1;
   background-color: rgba(241, 243, 243, 0.575) !important;
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
@@ -141,6 +139,7 @@
 
 @media (max-width: 576px) {
   .main__skillsBox--card__img {
+    width: 80px;
     padding: 0;
   }
 }
@@ -153,5 +152,11 @@
   font-size: 1rem;
   background-color: transparent;
   padding: 5px;
+}
+
+@media (max-width: 576px) {
+  .main__skillsBox--card__header {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=skills.css.map */

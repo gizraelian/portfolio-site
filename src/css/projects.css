@@ -67,7 +67,7 @@
   .main__projectsBox--card {
     border: none;
     border-radius: 0;
-    margin: 5px;
+    margin: 10px 0;
   }
 }
 
