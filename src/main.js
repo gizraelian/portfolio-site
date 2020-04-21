@@ -26,7 +26,7 @@ export default class Main extends Component {
             offset={0}
             duration= {1500} >
             {/* <img src="../assets/arrows-grey.png" className="main__goUp--img" alt='myImg' /> */}
-            <img src="../assets/arrow-down-empty-circle_Violet_500x500.png" className="main__goUp--imgUp" alt='myImg' />
+            <img src="../assets/arrows-darkgrey.png" className="main__goUp--imgUp" alt='myImg' />
              
         </Link>
 

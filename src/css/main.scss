@@ -39,8 +39,8 @@
 
         &--imgUp:hover{
             opacity: 0.95;
-            // transform: scale(1.1)(rotate(90deg));
-            transform: scale(1.1)(rotate(180deg));
+            transform: scale(1.1)(rotate(90deg));
+            // transform: scale(1.1)(rotate(180deg));
         }
 
         &--imgUp{
@@ -50,8 +50,8 @@
             cursor: pointer;
             opacity: 0.5;
             transition: transform .1s ease;
-            // transform: rotate(90deg);
-            transform: rotate(180deg);
+            transform: rotate(90deg);
+            // transform: rotate(180deg);
 
             @media (min-width: 1200px) {
                 // width: 3vw;

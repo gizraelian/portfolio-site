@@ -1,6 +1,6 @@
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9b0c9), to(rgba(92, 72, 110, 0.418)));
-  background-image: linear-gradient(to bottom, #a9b0c9, rgba(92, 72, 110, 0.418));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9b0c9), to(rgba(222, 211, 233, 0.418)));
+  background-image: linear-gradient(to bottom, #a9b0c9, rgba(222, 211, 233, 0.418));
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .main__skillsBox {
     height: 200vh;
     -webkit-box-orient: vertical;
@@ -92,7 +92,7 @@
   -webkit-box-shadow: 2px 2px 3px grey;
           box-shadow: 2px 2px 3px grey;
   border-radius: 7px;
-  margin: 0 2vw;
+  margin: 10px;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
@@ -101,22 +101,19 @@
 
 @media (min-width: 1200px) {
   .main__skillsBox--card {
-    width: 180px;
     height: 250px;
   }
 }
 
 @media (max-width: 1200px) {
   .main__skillsBox--card {
-    width: 200px;
     height: 250px;
-    margin: 15px;
   }
 }
 
 @media (max-width: 768px) {
   .main__skillsBox--card {
-    width: 180px;
+    width: 200px;
   }
 }
 
