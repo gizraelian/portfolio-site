@@ -40,7 +40,8 @@ export default class Main extends Component {
             smooth={true}
             offset={0}
             duration= {1500} >
-            <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img" alt='myImg' />
+            {/* <img src="../assets/arrows-left_500x500.png" className="main__splashBox--container__scrollDown--img" alt='myImg' /> */}
+            <div className="main__splashBox--container__scrollDown--toProjects">SEE PROJECTS</div>
         </Link>
     </div>
 

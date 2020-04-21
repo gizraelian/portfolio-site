@@ -114,7 +114,6 @@
 
 .main__splashBox--container__header {
   color: white;
-  font-weight: normal;
   cursor: default;
 }
 
@@ -191,6 +190,23 @@
     font-size: 30px;
     padding: 0 0 30px 0;
   }
+}
+
+.main__splashBox--container__scrollDown--toProjects:hover {
+  color: gray;
+  background-color: white;
+}
+
+.main__splashBox--container__scrollDown--toProjects {
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: white 1px solid;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .main__splashBox--container__scrollDown--img:hover {

@@ -139,7 +139,7 @@
                 color: white;
                 // opacity: 0.9;
                 // text-shadow: 1px 1px 2px grey;
-                font-weight: normal;
+                // font-weight: normal;
                 cursor: default;
 
                 // border: brown dashed thin;
@@ -201,6 +201,23 @@
             }
 
             &__scrollDown{
+
+                &--toProjects:hover{
+                    color: gray;
+                    background-color: white;
+                }
+
+                &--toProjects{
+                    font-weight: normal;
+                    font-size: 20px;
+                    color: white;
+                    background-color: transparent;
+                    padding: 10px 20px;
+                    border: white 1px solid;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
 
                 &--img:hover{
                     opacity: 0.9;
