@@ -135,14 +135,14 @@
 }
 
 .main__projectsBox--card__textBox--header:hover {
-  background-color: orangered;
-  -webkit-box-shadow: 5px 0 0 orangered, -5px 0 0 orangered;
-          box-shadow: 5px 0 0 orangered, -5px 0 0 orangered;
+  background-color: rgba(109, 70, 70, 0.459);
+  -webkit-box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
+          box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
 }
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--header:hover {
-    background-color: orangered;
+    background-color: rgba(109, 70, 70, 0.459);
   }
 }
 
@@ -169,14 +169,14 @@
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  -webkit-box-shadow: 5px 0 0 orangered, -5px 0 0 orangered;
-          box-shadow: 5px 0 0 orangered, -5px 0 0 orangered;
-  background-color: orangered;
+  -webkit-box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
+          box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
+  background-color: rgba(109, 70, 70, 0.459);
 }
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link:hover {
-    background-color: orangered;
+    background-color: rgba(109, 70, 70, 0.459);
   }
 }
 
