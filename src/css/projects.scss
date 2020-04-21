@@ -15,8 +15,10 @@
 
         // background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
 
-        background-image: linear-gradient(to top, rgb(202, 202, 202), rgba(132, 132, 146, 0.87));
+        // rgba(209, 186, 231, 0.418)
+        // background-image: linear-gradient(to top, rgb(202, 202, 202), rgba(132, 132, 146, 0.87));
 
+        background-image: linear-gradient(to top, rgb(121, 124, 138), rgba(209, 186, 231, 0.418));
 
         display: flex;
         justify-content: center;
@@ -153,11 +155,12 @@
                 }
 
                 &--header:hover{
-                    background-color: rgba(109, 70, 70, 0.459);
-                    box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
+                    // background-color: rgba(109, 70, 70, 0.459);
+                    background-color: rgba(209, 186, 231, 0.418);
+                    box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
                     @media (max-width: 576px) {
                         // box-shadow: none;
-                        background-color: rgba(109, 70, 70, 0.459);
+                        // background-color: rgba(109, 70, 70, 0.459);
                     }
                 }
 
@@ -186,11 +189,11 @@
                 }
 
                 &--link:hover{
-                    box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
-                    background-color: rgba(109, 70, 70, 0.459);
+                    box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+                    background-color: rgba(209, 186, 231, 0.418);
                     @media (max-width: 576px) {
                         // box-shadow: none;
-                        background-color: rgba(109, 70, 70, 0.459);
+                        // background-color: rgba(109, 70, 70, 0.459);
                     }
                 }
 

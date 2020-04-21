@@ -1,6 +1,6 @@
 .main__projectsBox {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#cacaca), to(rgba(132, 132, 146, 0.87)));
-  background-image: linear-gradient(to top, #cacaca, rgba(132, 132, 146, 0.87));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#797c8a), to(rgba(209, 186, 231, 0.418)));
+  background-image: linear-gradient(to top, #797c8a, rgba(209, 186, 231, 0.418));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,15 +129,9 @@
 }
 
 .main__projectsBox--card__textBox--header:hover {
-  background-color: rgba(109, 70, 70, 0.459);
-  -webkit-box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
-          box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
-}
-
-@media (max-width: 576px) {
-  .main__projectsBox--card__textBox--header:hover {
-    background-color: rgba(109, 70, 70, 0.459);
-  }
+  background-color: rgba(209, 186, 231, 0.418);
+  -webkit-box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+          box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
 }
 
 .main__projectsBox--card__textBox--header {
@@ -163,15 +157,9 @@
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  -webkit-box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
-          box-shadow: 5px 0 0 rgba(109, 70, 70, 0.459), -5px 0 0 rgba(109, 70, 70, 0.459);
-  background-color: rgba(109, 70, 70, 0.459);
-}
-
-@media (max-width: 576px) {
-  .main__projectsBox--card__textBox--link:hover {
-    background-color: rgba(109, 70, 70, 0.459);
-  }
+  -webkit-box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+          box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+  background-color: rgba(209, 186, 231, 0.418);
 }
 
 .main__projectsBox--card__textBox--link {

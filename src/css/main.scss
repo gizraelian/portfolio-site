@@ -37,13 +37,13 @@
             left: 88vw;
         }
 
-        &--imgBlue:hover{
+        &--imgUp:hover{
             opacity: 0.95;
             // transform: scale(1.1)(rotate(90deg));
             transform: scale(1.1)(rotate(180deg));
         }
 
-        &--imgBlue{
+        &--imgUp{
             // width: 50px;
             // width: 4vw;
             // width: 3vw;
@@ -224,7 +224,7 @@
                     color: white;
                     background-color: transparent;
                     padding: 10px 20px;
-                    border: white 1px solid;
+                    border: white 2px solid;
                     border-radius: 15px;
                     overflow: hidden;
                     cursor: pointer;
