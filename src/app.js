@@ -8,11 +8,8 @@ import PortfolioInfo from './portfolioinfo';
 import IvgInfo from './ivginfo';
 import Footer from './footer';
 import ScrollIntoView from './scrollintoview';
-import './css/styles.css'
-import './css/navbar.css'
-import './css/main.css'
-import './css/projectinfo.css'
-import './css/footer.css'
+import './css/styles.css';
+import './css/projectinfo.css';
 
 class App extends Component {
   render() {

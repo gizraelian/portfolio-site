@@ -1,0 +1,130 @@
+.main__jumbotron {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#797c8a), to(#a9b0c9));
+  background-image: linear-gradient(to top, #797c8a, #a9b0c9);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 20px 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .main__jumbotron {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__jumbotron--leftBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #222;
+}
+
+@media (min-width: 1200px) {
+  .main__jumbotron--leftBox {
+    padding: 0 0 0 50px;
+    margin: 10px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__jumbotron--leftBox {
+    padding: 0 10px;
+    margin: 10px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__jumbotron--leftBox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__jumbotron--leftBox {
+    color: black;
+    width: 80%;
+  }
+}
+
+.main__jumbotron--leftBox__textContainer {
+  font-weight: normal;
+}
+
+@media (max-width: 576px) {
+  .main__jumbotron--leftBox__textContainer {
+    text-align: start;
+    font-size: 25px;
+  }
+}
+
+.main__jumbotron--rightBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #222;
+}
+
+@media (min-width: 1200px) {
+  .main__jumbotron--rightBox {
+    padding: 0 10px;
+    margin: 10px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__jumbotron--rightBox {
+    padding: 0 10px;
+    margin: 10px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__jumbotron--rightBox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__jumbotron--rightBox {
+    width: 85%;
+  }
+}
+
+.main__jumbotron--rightBox__textContainer {
+  font-weight: normal;
+}
+
+@media (max-width: 576px) {
+  .main__jumbotron--rightBox__textContainer {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=jumbotron.css.map */

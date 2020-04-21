@@ -1,5 +1,6 @@
 // import React, { Component } from 'react'
-import React from 'react'
+import React from 'react';
+import './css/skills.css';
 
 export default class Skills extends React.Component {
 

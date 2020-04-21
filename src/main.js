@@ -3,6 +3,7 @@ import Projects from './projects';
 import Jumbotron from './jumbotron';
 import Skills from './skills';
 import { Link } from "react-scroll";
+import './css/main.css';
 
 // import ReadyToScroll from './ReadyToScroll';
 // import { Link } from 'react-router-dom';
@@ -44,8 +45,6 @@ export default class Main extends Component {
     </div>
 
 </div>
-
-        {/* <LandingPage /> */}
 
         <Jumbotron />
 

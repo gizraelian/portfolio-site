@@ -1,0 +1,277 @@
+.main__projectsBox {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cacaca), to(rgba(132, 132, 146, 0.87)));
+  background-image: linear-gradient(to top, #cacaca, rgba(132, 132, 146, 0.87));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4vh 0 20vh 0;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+  .main__projectsBox {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__projectsBox {
+    height: 250vh;
+  }
+}
+
+.main__projectsBox--card:hover {
+  -webkit-transform: scale(1.008);
+          transform: scale(1.008);
+}
+
+.main__projectsBox--card {
+  background-attachment: fixed;
+  border: none;
+  cursor: default;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 7px;
+  margin: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 3px gray;
+          box-shadow: 2px 2px 3px gray;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card {
+    border-radius: 4px;
+  }
+}
+
+.main__projectsBox--card__img {
+  background-image: url("../backgrounds/code.jpg");
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 1200px) {
+  .main__projectsBox--card__img {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main__projectsBox--card__img {
+    width: 43vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__projectsBox--card__img {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__projectsBox--card__img {
+    height: 60vh;
+  }
+}
+
+.main__projectsBox--card__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(3px) invert(0.3);
+          backdrop-filter: blur(3px) invert(0.3);
+  pointer-events: none;
+  border: solid 1px white;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 1px 2px gray;
+          box-shadow: 1px 1px 2px gray;
+  padding: 5px;
+  top: 85%;
+  top: 80%;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .main__projectsBox--card__textBox {
+    top: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox {
+    -webkit-backdrop-filter: blur(3px) invert(0.6);
+            backdrop-filter: blur(3px) invert(0.6);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    top: 62%;
+    left: 2%;
+    width: auto;
+    border: solid thin white;
+    border-radius: 5px;
+  }
+}
+
+.main__projectsBox--card__textBox--header:hover {
+  background-color: orangered;
+  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--header:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: orangered;
+  }
+}
+
+.main__projectsBox--card__textBox--header {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  pointer-events: auto;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--header {
+    font-size: 22px;
+    padding: 5px;
+  }
+}
+
+.main__projectsBox--card__textBox--subHeader {
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--subHeader {
+    font-size: 22px;
+    padding: 5px;
+  }
+}
+
+.main__projectsBox--card__textBox--link:hover {
+  -webkit-box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+          box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+  background-color: orangered;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: orangered;
+  }
+}
+
+.main__projectsBox--card__textBox--link {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+  pointer-events: auto;
+}
+
+@media (max-width: 576px) {
+  .main__projectsBox--card__textBox--link {
+    font-size: 22px;
+    padding: 5px;
+  }
+}
+
+#portfolioDemo {
+  background-image: url("../backgrounds/github.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolioDemo:hover {
+  background-image: url("../backgrounds/portfolio.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
+}
+
+#bandDemo {
+  background-image: url("../backgrounds/band-still.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#bandDemo:hover {
+  background-image: url("../backgrounds/band.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
+}
+
+#brainFlixDemo {
+  background-image: url("../backgrounds/brainflix-still.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#brainFlixDemo:hover {
+  background-image: url("../backgrounds/brainflix.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
+}
+
+#ivgDemo {
+  background-image: url("../backgrounds/ivg-still2.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+#ivgDemo:hover {
+  background-image: url("../backgrounds/ivg2.gif");
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
+}
+/*# sourceMappingURL=projects.css.map */

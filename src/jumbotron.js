@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './css/jumbotron.css';
 
 export default class Jumbotron extends React.Component {
 

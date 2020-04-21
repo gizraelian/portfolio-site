@@ -1,0 +1,271 @@
+.main{
+    // --------------------- Projects Section ---------------------
+
+    &__projectsBox{
+        // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
+        // background-position: center;
+        // background-size: cover;
+
+        // background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
+
+        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+        // background-position: center;
+        // background-size: cover;
+
+        // background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
+
+        background-image: linear-gradient(to top, rgb(202, 202, 202), rgba(132, 132, 146, 0.87));
+
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        // align-items: center;
+        // padding: 4vh 0 24vh 0;
+        // padding: 0 0 24vh 0;
+        padding: 4vh 0 20vh 0;
+        overflow: hidden;
+        height: 100vh;
+        z-index: 2;
+        @media (max-width: 992px) {
+            height: 200vh;
+        }
+        @media (max-width: 768px) {
+            height: 250vh;
+        }
+
+        &--card:hover{
+            transform: scale(1.008);
+        }
+
+        &--card{
+            // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
+            // border: brown dashed medium;
+            background-attachment: fixed;
+            border: none;
+            cursor: default;
+            position: relative;
+            display: flex;
+            // border-radius: 5px;
+            border-radius: 7px;
+            // margin: 5px;
+            // margin: 6px;
+            margin: 10px;
+
+            // text-shadow: 1px 1px 2px grey;
+
+            overflow: hidden;
+
+            box-shadow: 2px 2px 3px gray;
+            transition: transform .3s ease;
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            @media (max-width: 576px) {
+                border-radius: 4px;
+            }
+            
+
+            &__img{
+                background-image: url("../backgrounds/code.jpg");
+                // width: 750px;
+                height: 50vh;
+                object-fit: cover;
+                background-position: center;
+                background-size: cover;
+                @media (min-width: 1200px) {
+                    // width: 750px;
+                    width: 45vw;
+                }
+                @media (max-width: 1200px) {
+                    // width: 700px;
+                    width: 43vw;
+                }
+                @media (max-width: 992px) {
+                    width: 90vw;
+                    // height: 40vh;
+                }
+                @media (max-width: 768px) {
+                    // width: 100vw;
+                    height: 60vh;
+                }
+                @media (max-width: 576px) {
+                }
+            }
+
+            &__textBox{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute; 
+                background-color: rgba(255, 255, 255, .15);
+                // backdrop-filter: blur(5px) contrast(.8);
+                backdrop-filter: blur(3px) invert(.3);
+                pointer-events: none;
+                // border: solid thin white;
+                border: solid 1px white;
+                border-radius: 7px;
+                box-shadow: 1px 1px 2px gray;
+                // padding: 10px;
+                padding: 5px;
+                top: 85%;
+                top: 80%;
+                width: 90%;
+                // overflow: hidden;
+                @media (max-width: 768px) {
+                    // top: 75%;
+                    top: 70%;
+                }
+                @media (max-width: 576px) {
+                    backdrop-filter: blur(3px) invert(.6);
+                    flex-direction: column;
+                    align-items: flex-start;
+                    top: 62%;
+                    left: 2%;
+                    width: auto;
+                    
+                    border: solid thin white;
+                    border-radius: 5px;
+                    // width: 220px;
+                }
+
+                &--header:hover{
+                    background-color: orangered;
+                    box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+                    @media (max-width: 576px) {
+                        box-shadow: none;
+                        background-color: orangered;
+                    }
+                }
+
+                &--header{
+                    text-decoration: none;
+                    font-weight: normal;
+                    color: white;
+                    font-size: 24px;
+
+                    // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
+
+                    margin: 0;
+                    pointer-events: auto;
+                    // padding: 0 10px 10px 10px;
+                    @media (max-width: 576px) {
+                        font-size: 22px;
+                        // text-shadow: none;
+                        padding: 5px;
+                    }
+                    
+                }
+
+                &--subHeader{
+                    color: white;
+                    font-weight: normal;
+                    // font-weight: bold;
+                    // font-size: 24px;
+                    // font-size: 18px;
+                    font-size: 16px;
+
+                    // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
+
+                    margin: 0;
+                    // padding: 0 10px 10px 10px;
+                    @media (max-width: 576px) {
+                        font-size: 22px;
+                        // text-shadow: none;
+                        padding: 5px;
+                    }
+
+                }
+
+                &--link:hover{
+                    box-shadow: 10px 0 0 orangered, -10px 0 0 orangered;
+                    background-color: orangered;
+                    @media (max-width: 576px) {
+                        box-shadow: none;
+                        background-color: orangered;
+                    }
+                }
+
+                &--link{
+                    text-decoration: none;
+                    text-align: center;
+                    color: white;
+                    font-weight: normal;
+                    // font-weight: bold;
+                    // font-size: 18px;
+                    font-size: 16px;
+
+                    // text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
+
+                    margin: 0;
+                    // padding: 10px 10px;
+                    // padding: 0 10px 10px 11px;
+                    // pointer-events: all;
+                    pointer-events: auto;
+                    @media (max-width: 576px) {
+                        font-size: 22px;
+                        // text-shadow: none;
+                        padding: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#portfolioDemo{
+    background-image: url("../backgrounds/github.jpg");
+    // width: 48vw;
+    // height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#portfolioDemo:hover{
+    background-image: url("../backgrounds/portfolio.gif");
+    animation-play-state: initial;
+}
+
+
+#bandDemo{
+    background-image: url("../backgrounds/band-still.jpg");
+    // background-image: url("../backgrounds/band2.gif");
+    // animation-play-state: paused!important;
+    // width: 48vw;
+    // height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#bandDemo:hover{
+    background-image: url("../backgrounds/band.gif");
+    animation-play-state: initial;
+}
+
+#brainFlixDemo{
+    background-image: url("../backgrounds/brainflix-still.jpg");
+    // width: 48vw;
+    // height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#brainFlixDemo:hover{
+    background-image: url("../backgrounds/brainflix.gif");
+    animation-play-state: initial;
+}
+
+#ivgDemo{
+    background-image: url("../backgrounds/ivg-still2.jpg");
+    // width: 48vw;
+    // height: 50vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#ivgDemo:hover{
+    background-image: url("../backgrounds/ivg2.gif");
+    animation-play-state: initial;
+}
