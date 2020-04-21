@@ -299,7 +299,6 @@
 
 .main__jumbotron--leftBox__textContainer {
   font-weight: normal;
-  text-shadow: 0.5px 0.5px 1px grey;
 }
 
 @media (max-width: 576px) {
@@ -350,7 +349,6 @@
 
 .main__jumbotron--rightBox__textContainer {
   font-weight: normal;
-  text-shadow: 0.5px 0.5px 1px grey;
 }
 
 @media (max-width: 576px) {
@@ -515,7 +513,6 @@
   font-size: 1rem;
   background-color: transparent;
   padding: 5px;
-  text-shadow: 0.75px 0.75px 2px gray;
 }
 
 .main__projectsBox {
@@ -562,7 +559,6 @@
   display: flex;
   border-radius: 7px;
   margin: 10px;
-  text-shadow: 1px 1px 2px grey;
   overflow: hidden;
   -webkit-box-shadow: 2px 2px 3px gray;
           box-shadow: 2px 2px 3px gray;
@@ -684,7 +680,6 @@
   font-weight: normal;
   color: white;
   font-size: 24px;
-  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
   pointer-events: auto;
 }
@@ -700,7 +695,6 @@
   color: white;
   font-weight: normal;
   font-size: 16px;
-  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
 }
 
@@ -731,7 +725,6 @@
   color: white;
   font-weight: normal;
   font-size: 16px;
-  text-shadow: 1px 1px 2px rgba(41, 36, 36, 0.863);
   margin: 0;
   pointer-events: auto;
 }
