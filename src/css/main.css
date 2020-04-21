@@ -86,8 +86,8 @@
 }
 
 .main__splashBox--background {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(123, 134, 184, 0.829)), to(#a9b0c9)), url("../backgrounds/abstract-background.gif");
-  background-image: linear-gradient(to bottom, rgba(123, 134, 184, 0.829), #a9b0c9), url("../backgrounds/abstract-background.gif");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(101, 118, 150, 0.829)), to(#a9b0c9)), url("../backgrounds/abstract-background.gif");
+  background-image: linear-gradient(to bottom, rgba(101, 118, 150, 0.829), #a9b0c9), url("../backgrounds/abstract-background.gif");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -229,8 +229,8 @@
 }
 
 .main__jumbotron {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#9aa1c2), to(#a9b0c9));
-  background-image: linear-gradient(to top, #9aa1c2, #a9b0c9);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#797c8a), to(#a9b0c9));
+  background-image: linear-gradient(to top, #797c8a, #a9b0c9);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -359,8 +359,8 @@
 }
 
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#9aa1c2), to(rgba(254, 254, 255, 0.87)));
-  background-image: linear-gradient(to bottom, #9aa1c2, rgba(254, 254, 255, 0.87));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#797c8a), to(rgba(132, 132, 146, 0.87)));
+  background-image: linear-gradient(to bottom, #797c8a, rgba(132, 132, 146, 0.87));
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,8 +516,8 @@
 }
 
 .main__projectsBox {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#cacaca), to(rgba(254, 254, 255, 0.87)));
-  background-image: linear-gradient(to top, #cacaca, rgba(254, 254, 255, 0.87));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cacaca), to(rgba(132, 132, 146, 0.87)));
+  background-image: linear-gradient(to top, #cacaca, rgba(132, 132, 146, 0.87));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
