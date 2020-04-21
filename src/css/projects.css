@@ -22,10 +22,7 @@
 }
 
 .main__projectsBox--card:hover {
-  border-top: solid 2px whitesmoke;
-  border-right: solid 2px whitesmoke;
-  border-bottom: solid 2px whitesmoke;
-  border-left: solid 2px whitesmoke;
+  border: solid 2px white;
 }
 
 @media (max-width: 576px) {
@@ -104,10 +101,6 @@
   }
 }
 
-.main__projectsBox--card__textBox:hover {
-  background-color: rgba(137, 135, 168, 0.466);
-}
-
 .main__projectsBox--card__textBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,9 +122,9 @@
 }
 
 .main__projectsBox--card__textBox--header:hover {
-  background-color: rgba(209, 186, 231, 0.418);
-  -webkit-box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
-          box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+  background-color: rgba(137, 135, 168, 0.466);
+  -webkit-box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+          box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
 }
 
 .main__projectsBox--card__textBox--header {
@@ -157,9 +150,9 @@
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  -webkit-box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
-          box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
-  background-color: rgba(209, 186, 231, 0.418);
+  -webkit-box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+          box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+  background-color: rgba(137, 135, 168, 0.466);
 }
 
 .main__projectsBox--card__textBox--link {

@@ -46,11 +46,19 @@
         }
 
         &--card:hover{
-            // border: solid 1px white;
-            border-top: solid 2px whitesmoke;
-            border-right: solid 2px whitesmoke;
-            border-bottom: solid 2px whitesmoke;
-            border-left: solid 2px whitesmoke;
+            // border: solid 2px whitesmoke;
+
+            border: solid 2px white;
+
+            // border-top: solid 2px whitesmoke;
+            // border-right: solid 2px whitesmoke;
+            // border-bottom: solid 2px whitesmoke;
+            // border-left: solid 2px whitesmoke;
+
+            // border-top: solid 2px rgba(63, 6, 117, 0.5);
+            // border-right: solid 2px rgba(63, 6, 117, 0.5);
+            // border-bottom: solid 2px rgba(63, 6, 117, 0.5);
+            // border-left: solid 2px rgba(63, 6, 117, 0.5);
 
             @media (max-width: 576px) {
                 border: none;
@@ -121,7 +129,7 @@
             }
 
             &__textBox:hover{
-                background-color: rgba(137, 135, 168, 0.466);
+                // background-color: rgba(137, 135, 168, 0.466);
             }
 
             &__textBox{
@@ -158,8 +166,10 @@
 
                 &--header:hover{
                     // background-color: rgba(109, 70, 70, 0.459);
-                    background-color: rgba(209, 186, 231, 0.418);
-                    box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
+                    
+                    // background-color: rgba(209, 186, 231, 0.418);
+                    background-color: rgba(137, 135, 168, 0.466);
+                    box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
                     @media (max-width: 576px) {
                         // box-shadow: none;
                         // background-color: rgba(109, 70, 70, 0.459);
@@ -191,8 +201,8 @@
                 }
 
                 &--link:hover{
-                    box-shadow: 5px 0 0 rgba(209, 186, 231, 0.418), -5px 0 0 rgba(209, 186, 231, 0.418);
-                    background-color: rgba(209, 186, 231, 0.418);
+                    box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+                    background-color: rgba(137, 135, 168, 0.466);
                     @media (max-width: 576px) {
                         // box-shadow: none;
                         // background-color: rgba(109, 70, 70, 0.459);
