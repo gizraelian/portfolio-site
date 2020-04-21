@@ -45,14 +45,20 @@
 
 .navbar__linksBox--links__backImg:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1) rotate(90deg);
+          transform: scale(1.1) rotate(90deg);
 }
 
 .navbar__linksBox--links__backImg {
   height: 20px;
   padding: 0 0 0 5px;
+  opacity: 0.5;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  opacity: 0.5;
+  -webkit-transition: -webkit-transform .1s ease;
+  transition: -webkit-transform .1s ease;
+  transition: transform .1s ease;
+  transition: transform .1s ease, -webkit-transform .1s ease;
 }
 
 @media (max-width: 576px) {
@@ -72,6 +78,8 @@
 
 .navbar__linksBox--dropMenuBtn__img:hover {
   opacity: 1;
+  -webkit-transform: scale(1.1) rotate(90deg);
+          transform: scale(1.1) rotate(90deg);
 }
 
 .navbar__linksBox--dropMenuBtn__img {
@@ -80,6 +88,10 @@
   opacity: 0.5;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  -webkit-transition: -webkit-transform .1s ease;
+  transition: -webkit-transform .1s ease;
+  transition: transform .1s ease;
+  transition: transform .1s ease, -webkit-transform .1s ease;
 }
 
 .navbar__linksBox--dropMenuBtn__container {
