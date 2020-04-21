@@ -45,7 +45,8 @@
             transform: rotate(90deg);
 
             @media (min-width: 1200px) {
-                width: 3vw;
+                // width: 3vw;
+                width: 40px;
             }
             @media (max-width: 1200px) {
                 width: 35px;
@@ -74,19 +75,25 @@
 
             // background-image: url("../backgrounds/splash.jpg");
 
-//             background-image:
-// linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
-// url("../backgrounds/splash.jpg");
+            // background-image:
+            // linear-gradient(to right bottom, rgba(112, 74, 207, 0.384), rgba(155, 71, 172, 0.1)),
+            // url("../backgrounds/splash.jpg");
 
             // background-image:
             // linear-gradient(to right bottom, rgba(143, 123, 196, 0.384), rgba(155, 71, 172, 0.1)),
             // url("../backgrounds/splash.jpg");
 
+            // background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
+
+            // background-image:
+            // linear-gradient(to  bottom, rgba(154, 161, 194, 0.829), rgb(169, 176, 201)),
+            // url("../backgrounds/abstract-background.gif");
+
             background-image:
-            linear-gradient(to  bottom, rgba(154, 161, 194, 0.829), rgb(169, 176, 201)),
+            linear-gradient(to  bottom, rgba(123, 134, 184, 0.829), rgb(169, 176, 201)),
             url("../backgrounds/abstract-background.gif");
 
-            // background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
+
 
             background-size: cover;
             // background-size: 2300px;
