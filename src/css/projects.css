@@ -149,7 +149,7 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--header {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -182,7 +182,7 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -196,7 +196,7 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--subHeader {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
