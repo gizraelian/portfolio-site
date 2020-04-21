@@ -38,6 +38,7 @@
         }
         @media (max-width: 576px) {
             // height: 200vh;
+            background-image: linear-gradient(to top, rgb(169, 176, 201), rgba(222, 211, 233, 0.418));
         }
 
         &--header{
@@ -48,7 +49,7 @@
         &--card:hover{
             // border: solid 2px whitesmoke;
 
-            border: solid 2px white;
+            // border: solid 2px white;
 
             // border-top: solid 2px whitesmoke;
             // border-right: solid 2px whitesmoke;
@@ -61,7 +62,7 @@
             // border-left: solid 2px rgba(63, 6, 117, 0.5);
 
             @media (max-width: 576px) {
-                border: none;
+                // border: none;
             }
         }
 
@@ -91,10 +92,15 @@
             justify-content: center;
             // align-items: center;
             @media (max-width: 576px) {
-                border: none;
+                // border: none;
                 border-radius: 0;
-                // margin: 10px 0;
-                margin: 0;
+                margin: 50px 0;
+                // margin: 0;
+
+                border-top: solid 10px darkgrey;
+                border-right: none;
+                border-bottom: solid 10px darkgrey;
+                border-left: none;
             }
             
 
@@ -139,8 +145,6 @@
                 position: absolute;
                 bottom: 0;
                 width: 100%; 
-                // top: 80%;
-                // width: 90%;
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
                 backdrop-filter: blur(3px) invert(.3);
@@ -149,9 +153,20 @@
                 // padding: 5px;
 
                 // overflow: hidden;
+                @media (min-width: 1200px) {
+                    // height: 35px;
+                }
+                @media (max-width: 1200px) {
+                    // height: 35px;
+                    box-shadow: none;
+                }
+                @media (max-width: 992px) {
+                }
                 @media (max-width: 768px) {
                 }
                 @media (max-width: 576px) {
+                    // height: auto;
+                    height: 40px;
                     // backdrop-filter: blur(3px) invert(.6);
                     // flex-direction: column;
                     // align-items: flex-start;
@@ -170,8 +185,17 @@
                     // background-color: rgba(209, 186, 231, 0.418);
                     background-color: rgba(137, 135, 168, 0.466);
                     box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+                    @media (min-width: 1200px) {
+                    }
+                    @media (max-width: 1200px) {
+                        box-shadow: none;
+                    }
+                    @media (max-width: 992px) {
+                    }
+                    @media (max-width: 768px) {
+                    }
                     @media (max-width: 576px) {
-                        // box-shadow: none;
+                        
                         // background-color: rgba(109, 70, 70, 0.459);
                     }
                 }
@@ -203,8 +227,10 @@
                 &--link:hover{
                     box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
                     background-color: rgba(137, 135, 168, 0.466);
+                    @media (max-width: 1200px) {
+                        box-shadow: none;
+                    }
                     @media (max-width: 576px) {
-                        // box-shadow: none;
                         // background-color: rgba(109, 70, 70, 0.459);
                     }
                 }
@@ -229,9 +255,11 @@
                     // padding: 0 10px 10px 11px;
                     // pointer-events: all;
                     pointer-events: auto;
+                    @media (max-width: 1200px) {
+                        box-shadow: none;
+                    }
                     @media (max-width: 576px) {
                         font-size: 20px;
-                        box-shadow: none;
                         border-radius: 7px;
                     }
 
