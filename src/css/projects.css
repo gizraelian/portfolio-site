@@ -58,6 +58,7 @@
 @media (max-width: 576px) {
   .main__projectsBox--card {
     border-radius: 4px;
+    margin: 5px;
   }
 }
 
@@ -84,7 +85,7 @@
 
 @media (max-width: 992px) {
   .main__projectsBox--card__img {
-    width: 90vw;
+    width: 95vw;
   }
 }
 
@@ -156,7 +157,7 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--subHeader {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -181,7 +182,7 @@
   font-weight: normal;
   font-size: 16px;
   background-color: rgba(255, 255, 255, 0.15);
-  padding: 5px 10px;
+  padding: 0 10px;
   border-radius: 15px;
   margin: 0;
   pointer-events: auto;
@@ -189,7 +190,7 @@
 
 @media (max-width: 576px) {
   .main__projectsBox--card__textBox--link {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
