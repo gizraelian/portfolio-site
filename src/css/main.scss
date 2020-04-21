@@ -7,6 +7,11 @@
     overflow: hidden;
     // z-index: 2;
 
+    &__subHeader{
+        // color: white;
+        text-align: left;
+    }
+
     &__goUp{
         // position: absolute;
         z-index: 10;

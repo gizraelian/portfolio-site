@@ -134,7 +134,6 @@
   border: none;
   cursor: pointer;
   background-color: whitesmoke;
-  text-shadow: 0.5px 0.5px 1px grey;
 }
 
 @media (min-width: 1200px) {

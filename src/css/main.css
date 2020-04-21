@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.main__subHeader {
+  text-align: left;
+}
+
 .main__goUp {
   z-index: 10;
   position: fixed;
