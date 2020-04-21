@@ -49,9 +49,11 @@ export default class navbar extends Component {
         <div className="navbar__topImgBox">
         </div>
         <div className="navbar__linksBox">
-          {/* <Link to={'/'} className="navbar__linksBox--links">{'Home'}</Link> */}
+          <Link to={'/'} className="navbar__linksBox--links">
+            <img src="./assets/arrow-down-empty-circle_White_500x500.png" className="navbar__linksBox--links__backImg" alt='myImg'/>
+          </Link>
           <button className="navbar__linksBox--dropMenuBtn" onClick={this.showMenu}>
-            <img src="./assets/menu-dots.png" className="navbar__linksBox--dropMenuBtn__img" alt='myImg'></img>
+            <img src="./assets/menu-dots.png" className="navbar__linksBox--dropMenuBtn__img" alt='myImg'/>
           </button>
           {
           this.state.showMenu
