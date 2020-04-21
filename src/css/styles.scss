@@ -13,6 +13,14 @@
     // font-family: 'Montserrat'!important;
     font-family: 'Montserrat', sans-serif;
 
+    .scrolled{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 0.1s, opacity 0.5s linear;
+    
+        // -- or --
+    }
+
     // background-color: whitesmoke;
 
     @media (min-width: 1200px) {

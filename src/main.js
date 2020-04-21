@@ -9,6 +9,30 @@ import './css/main.css';
 // import { Link } from 'react-router-dom';
 
 export default class Main extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+        scrolled: false,
+    };
+
+  }
+
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY > 500;
+      if (isTop !== true){
+        this.setState({ scrolled: true });
+      } else {
+        this.setState({ scrolled: false });
+      }
+    });
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll');
+  }
+
   render() {
     
     return (
@@ -19,7 +43,7 @@ export default class Main extends Component {
         <div className="main__splashBox" id="landingPage">
 
         <Link
-            className="main__goUp"
+            className={this.state.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
             to="landingPage"
             spy={true}
             smooth={true}

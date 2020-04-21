@@ -29,7 +29,7 @@ export default class navbar extends Component {
 
   componentDidMount(){
     window.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 100;
+      const isTop = window.scrollY < 500;
       if (isTop !== true){
         this.setState({ scrolled: true });
       } else {
