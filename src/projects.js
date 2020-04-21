@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
             <Link to={'/bandpage'} className="main__projectsBox--card__textBox--header">Bandpage</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
-            <h3 className="main__projectsBox--card__textBox--subHeader">HTML5/CSS/JS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">JS/HTML5/CSS</h3>
         </div>
     </div>
 
@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
             <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">BrainFlix</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/brainflix">Source Code</a>
-            <h3 className="main__projectsBox--card__textBox--subHeader">React/Express/Node/CSS</h3>
+            <h3 className="main__projectsBox--card__textBox--subHeader">React/Node/Express</h3>
         </div>
     </div>
 
