@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  .main__projectsBox {
+    height: 120vh;
+  }
+}
+
 .main__projectsBox--card:hover {
   border-top: solid 2px white;
   border-right: solid 2px whitesmoke;
@@ -55,6 +61,7 @@
   .main__projectsBox--card {
     border-radius: 0;
     margin: 10px 0;
+    height: 240px;
     border-top: solid 10px darkgrey;
     border-right: none;
     border-bottom: solid 10px darkgrey;
@@ -103,6 +110,7 @@
 @media (max-width: 576px) {
   .main__projectsBox--card__img {
     width: 100vw;
+    height: 200px;
     background-size: cover;
   }
 }

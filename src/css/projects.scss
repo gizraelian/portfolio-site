@@ -34,7 +34,7 @@
             // height: 250vh;
         }
         @media (max-width: 576px) {
-            // height: 200vh;
+            height: 120vh;
             // background-image: linear-gradient(to top, rgb(169, 176, 201), rgba(222, 211, 233, 0.418));
         }
 
@@ -98,6 +98,7 @@
                 border-radius: 0;
                 margin: 10px 0;
                 // margin: 0;
+                height: 240px;
 
                 border-top: solid 10px darkgrey;
                 border-right: none;
@@ -150,6 +151,8 @@
                 }
                 @media (max-width: 576px) {
                     width: 100vw;
+                    // height: 280px;
+                    height: 200px;
                     // background-size: 100vw;
                     // background-position: top left;
                     background-size: cover;
@@ -192,7 +195,7 @@
                     // backdrop-filter: blur(3px) invert(.6);
                     // flex-direction: column;
                     // align-items: flex-start;
-                    // top: 62%;
+                    // top: 40%;
                     // left: 2%;
                     // width: auto;
                     
@@ -337,6 +340,10 @@
 
 #bandDemo{
     background-image: url("../backgrounds/band-still.jpg");
+    // background-image: url("../backgrounds/band.gif");
+
+
+
     // background-image: url("../backgrounds/band2.gif");
     // animation-play-state: paused!important;
     // width: 48vw;

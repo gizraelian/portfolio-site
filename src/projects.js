@@ -5,6 +5,7 @@ import './css/projects.css';
 
 export default class Projects extends React.Component {
 
+
   render() {
     return (
 
@@ -13,17 +14,18 @@ export default class Projects extends React.Component {
 <div className="main__projectsBox" id="projects">
 
     <div className="main__projectsBox--card">
-        <div className="main__projectsBox--card__img" id="bandDemo"/>
+        <div className="main__projectsBox--card__img" id="bandDemo" />
         <div className="main__projectsBox--card__textBox">
             <Link to={'/bandpage'} className="main__projectsBox--card__textBox--header">"Bandpage"</Link>
             <a className="main__projectsBox--card__textBox--link"
             target="_blank" href="https://github.com/gizraelian/bandpage">Code</a>
+            {/* <div>Play</div> */}
             <h3 className="main__projectsBox--card__textBox--subHeader">JS/HTML5/CSS</h3>
         </div>
     </div>
 
     <div className="main__projectsBox--card">
-        <div className="main__projectsBox--card__img" id="brainFlixDemo"/>
+        <div className="main__projectsBox--card__img" id="brainFlixDemo" />
         <div className="main__projectsBox--card__textBox">
             <Link to={'/brainflix'} className="main__projectsBox--card__textBox--header">"BrainFlix"</Link>
             <a className="main__projectsBox--card__textBox--link"
