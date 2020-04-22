@@ -23,7 +23,7 @@ export default class Jumbotron extends React.Component {
     <img src="../assets/react.png" className="main__jumbotron--rightBox__img" /> */}
 
     <h2 className="main__jumbotron--rightBox__textContainer">
-      Toronto-based full stack web developer with a strong appreciation for elegant, succint code.
+      Toronto-based full stack web developer with a strong appreciation for elegant, efficient code.
     </h2>
     <h2 className="main__jumbotron--rightBox__textContainer">
       My attention to detail translates into logical, manageable product.
