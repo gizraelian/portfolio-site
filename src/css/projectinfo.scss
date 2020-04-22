@@ -6,7 +6,8 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to left bottom, rgb(228, 216, 225), rgb(152, 164, 206));
+    // background-image: linear-gradient(to left bottom, rgb(228, 216, 225), rgb(152, 164, 206));
+    background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(222, 211, 233, 0.418));
 
     // background-image:
     // linear-gradient(to right bottom, rgba(154, 161, 194, 0.829), rgba(169, 176, 201, 0.836)),
@@ -28,7 +29,7 @@
         height: 125vh;
     }
     @media (max-width: 576px) {
-        background-image: linear-gradient(to left bottom, rgb(154, 161, 194), rgb(169, 176, 201));
+        // background-image: linear-gradient(to left bottom, rgb(154, 161, 194), rgb(169, 176, 201));
         height: 140vh;
     }
     

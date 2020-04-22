@@ -9,8 +9,8 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#e4d8e1), to(#98a4ce));
-  background-image: linear-gradient(to left bottom, #e4d8e1, #98a4ce);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(250, 250, 250, 0.418)), to(rgba(222, 211, 233, 0.418)));
+  background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(222, 211, 233, 0.418));
   background-size: cover;
 }
 
@@ -40,8 +40,6 @@
 
 @media (max-width: 576px) {
   .projectInfo {
-    background-image: -webkit-gradient(linear, right top, left bottom, from(#9aa1c2), to(#a9b0c9));
-    background-image: linear-gradient(to left bottom, #9aa1c2, #a9b0c9);
     height: 140vh;
   }
 }
