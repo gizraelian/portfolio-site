@@ -51,9 +51,9 @@ class App extends Component {
               <Switch>
 
 
-                <Link to="/props-through-render">Props through render</Link>
+                {/* <Link to="/props-through-render">Props through render</Link>
 ...
-                <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} />
+                <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
 
 
                 <Route path="/" exact component={Main} />
