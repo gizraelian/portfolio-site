@@ -9,4 +9,12 @@
   -webkit-transition: visibility 0s 0.1s, opacity 0.5s linear;
   transition: visibility 0s 0.1s, opacity 0.5s linear;
 }
+
+.longBackgroundContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(135deg, rgba(79, 71, 146, 0), rgba(32, 31, 36, 0.075));
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=styles.css.map */

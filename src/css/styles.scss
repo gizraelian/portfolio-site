@@ -61,6 +61,63 @@
 
             // background-image: linear-gradient(to bottom, rgb(121, 124, 138), rgba(209, 186, 231, 0.418));
 
+            
 
 }
+
+// ----------------- Background Container -----------------
+
+    .longBackgroundContainer{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        // width: 200vw;
+        // height: 200vh;
+        // transform: translateY(40vh);
+        // transform: rotate(45deg);
+        // transform: translateX(-50vw)translateY(0vh)(rotate(45deg));
+        // z-index: -1;
+
+        // border: red dashed medium;
+
+        // height: 335vh;
+        // transform: translateY(100vh);
+
+        // background-size: cover;
+        // background-position: center;
+
+        // background-image:
+        // linear-gradient(to top, rgba(187, 186, 181, 0.829), rgba(160, 155, 204, 0.836)),
+        // url("../backgrounds/water.gif");
+
+        // background-image:
+        // linear-gradient(to top, rgba(160, 155, 204, 0.829), rgba(160, 155, 204, 0.836)),
+        // url("../backgrounds/water.gif");
+
+        // background-image:
+        // linear-gradient(to bottom, rgba(160, 155, 204, 0.836), rgba(32, 31, 36, 0.774)),
+        // url("../backgrounds/water.gif");
+
+        background-image: linear-gradient(135deg, rgba(79, 71, 146, 0), rgba(32, 31, 36, 0.075));
+        
+        // background-color: #8BC6EC;
+        // background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+        
+
+        
+        // background-size: auto 100%;
+        background-repeat: no-repeat;
+        @media (min-width: 1200px) {
+        }
+        @media (max-width: 1200px) {
+        }
+        @media (max-width: 992px) {
+            // height: 430vh;
+        }
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 576px) {
+        }
+    }
+
 

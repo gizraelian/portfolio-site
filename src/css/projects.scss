@@ -13,12 +13,9 @@
         // background-position: center;
         // background-size: cover;
 
-        // background-image: linear-gradient(to top, rgb(154, 161, 194), rgb(169, 176, 201));
+        // background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(169, 176, 201, 0.473));
 
-        // rgba(209, 186, 231, 0.418)
-        // background-image: linear-gradient(to top, rgb(202, 202, 202), rgba(132, 132, 146, 0.87));
-
-        background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(169, 176, 201, 0.473));
+        background-image: linear-gradient(to top, rgba(169, 176, 201, 0.473), rgba(169, 176, 201, 0.473));
 
         display: flex;
         justify-content: center;
@@ -107,22 +104,39 @@
             &__img{
                 background-image: url("../backgrounds/code.jpg");
                 // width: 750px;
-                height: 50vh;
+                // height: 50vh;
                 object-fit: cover;
-                background-position: center;
-                background-size: cover;
+                // background-position: center;
+                // background-size: cover;
+
+                // background-position: top left;
+                // background-size: 40vw;
+                // background-size: auto;
+                background-repeat: no-repeat;
+
                 @media (min-width: 1200px) {
                     // width: 750px;
                     // width: 45vw;
                     width: 40vw;
+                    height: 50vh;
+                    // background-size: 40vw;
+                    // background-size: 710px;
+                    background-size: cover;
+                    background-position: top left;
                 }
                 @media (max-width: 1200px) {
                     // width: 700px;
                     // width: 43vw;
-                    width: 35vw;
+                    width: 38vw;
+                    height: 50vh;
+                    // background-size: 35vw;
+                    background-size: cover;
+                    background-position: top left;
                 }
                 @media (max-width: 992px) {
                     width: 95vw;
+                    height: 62vh;
+                    
                     // height: 40vh;
                 }
                 @media (max-width: 768px) {
@@ -131,6 +145,9 @@
                 }
                 @media (max-width: 576px) {
                     width: 100vw;
+                    // background-size: 100vw;
+                    // background-position: top left;
+                    background-size: cover;
                 }
             }
 
@@ -293,8 +310,8 @@
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
-    background-position: center;
-    background-size: cover;
+    // background-position: center;
+    // background-size: cover;
 }
 #portfolioDemo:hover{
     background-image: url("../backgrounds/portfolio.gif");
@@ -309,8 +326,8 @@
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
-    background-position: center;
-    background-size: cover;
+    // background-position: center;
+    // background-size: cover;
 }
 #bandDemo:hover{
     background-image: url("../backgrounds/band.gif");
@@ -322,8 +339,8 @@
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
-    background-position: center;
-    background-size: cover;
+    // background-position: center;
+    // background-size: cover;
 }
 #brainFlixDemo:hover{
     background-image: url("../backgrounds/brainflix.gif");
@@ -335,8 +352,8 @@
     // width: 48vw;
     // height: 50vh;
     object-fit: cover;
-    background-position: center;
-    background-size: cover;
+    // background-position: center;
+    // background-size: cover;
 }
 #ivgDemo:hover{
     background-image: url("../backgrounds/ivg2.gif");

@@ -13,8 +13,9 @@ export default class Main extends Component {
     // console.log(this.props.scrolled);
     return (
       <div className="main">
-
+        
         {/* <div className="longBackgroundContainer"/> */}
+
         <div className="main__splashBox" id="landingPage">
 
         <Link
