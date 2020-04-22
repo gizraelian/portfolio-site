@@ -124,7 +124,8 @@
         }
 
         &--card:hover{
-            transform: scale(1.05);
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 4px 6px grey;
         }
 
         &--card{

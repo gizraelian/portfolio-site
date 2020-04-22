@@ -76,8 +76,10 @@
 }
 
 .main__skillsBox--card:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.05) translateY(-5px);
+          transform: scale(1.05) translateY(-5px);
+  -webkit-box-shadow: 0 4px 6px grey;
+          box-shadow: 0 4px 6px grey;
 }
 
 .main__skillsBox--card {
