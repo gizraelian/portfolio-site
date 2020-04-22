@@ -1,6 +1,6 @@
 .main__skillsBox {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9b0c9), to(rgba(222, 211, 233, 0.418)));
-  background-image: linear-gradient(to bottom, #a9b0c9, rgba(222, 211, 233, 0.418));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a9b0c9), to(rgba(169, 176, 201, 0.473)));
+  background-image: linear-gradient(to bottom, #a9b0c9, rgba(169, 176, 201, 0.473));
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;

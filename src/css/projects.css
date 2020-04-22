@@ -1,6 +1,6 @@
 .main__projectsBox {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(250, 250, 250, 0.418)), to(rgba(222, 211, 233, 0.418)));
-  background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(222, 211, 233, 0.418));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(250, 250, 250, 0.418)), to(rgba(169, 176, 201, 0.473)));
+  background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(169, 176, 201, 0.473));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,11 +21,8 @@
   }
 }
 
-@media (max-width: 576px) {
-  .main__projectsBox {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#a9b0c9), to(rgba(222, 211, 233, 0.418)));
-    background-image: linear-gradient(to top, #a9b0c9, rgba(222, 211, 233, 0.418));
-  }
+.main__projectsBox--card:hover {
+  border: solid 2px white;
 }
 
 .main__projectsBox--card {

@@ -197,6 +197,7 @@
 
 .main__splashBox--container__scrollDown--toProjects:hover {
   color: gray;
+  border: white 2px solid;
   background-color: white;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -208,14 +209,17 @@
   color: white;
   background-color: transparent;
   padding: 10px 20px;
-  border: white 2px solid;
-  border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
+  border-radius: 15px;
+  border-top: solid 2px lightgrey;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px lightgrey;
 }
 
 .main__splashBox--container__scrollDown--img:hover {

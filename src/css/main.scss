@@ -218,6 +218,7 @@
 
                 &--toProjects:hover{
                     color: gray;
+                    border: white 2px solid;
                     background-color: white;
                     transform: scale(1.05);
                 }
@@ -228,11 +229,17 @@
                     color: white;
                     background-color: transparent;
                     padding: 10px 20px;
-                    border: white 2px solid;
-                    border-radius: 15px;
                     overflow: hidden;
                     cursor: pointer;
                     transition: transform .3s ease;
+                    // border: white 2px solid;
+                    border-radius: 15px;
+
+                    border-top: solid 2px lightgrey;
+                    border-right: solid 2px white;
+                    border-bottom: solid 2px white;
+                    border-left: solid 2px lightgrey;
+
                     // backdrop-filter: blur(3px) invert(.1);
                 }
 

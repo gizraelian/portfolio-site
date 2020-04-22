@@ -14,8 +14,7 @@ export default class Main extends Component {
     return (
       <div className="main">
 
-        <div className="longBackgroundContainer"/>
-
+        {/* <div className="longBackgroundContainer"/> */}
         <div className="main__splashBox" id="landingPage">
 
         <Link
@@ -25,7 +24,6 @@ export default class Main extends Component {
             smooth={true}
             offset={0}
             duration= {1500} >
-            {/* <img src="../assets/arrows-grey.png" className="main__goUp--img" alt='myImg' /> */}
             <img src="../assets/arrows-darkgrey.png" className="main__goUp--imgUp" alt='myImg' />
              
         </Link>
