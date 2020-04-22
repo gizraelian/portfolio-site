@@ -48,8 +48,9 @@ class App extends Component {
             <Navbar sendProps={this.sendProps.bind(this)} scrolled={this.state.scrolled} /> 
             <div>
               <Switch>
+                {/* <Route path="/" exact component={Main} /> */}
                 <Route path="/main" render={() => <Main sendProps={this.sendProps.bind(this)} scrolled={this.state.scrolled} /> } />
-                <Route exact path="/" render={() =><Redirect to='/main'/>} /> */}
+                <Route exact path="/" render={() =><Redirect to='/main'/>} />
                 <Route path="/bandpage" exact component={BandpageInfo} />
                 <Route path="/brainflix" exact component={BrainFlixInfo} />
                 <Route path="/portfolio" exact component={PortfolioInfo} />
