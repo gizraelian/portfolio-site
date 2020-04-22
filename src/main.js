@@ -33,7 +33,7 @@ export default class Main extends Component {
   // }
 
   render() {
-    // console.log(this.props.scrolled);
+    console.log(this.props.scrolled);
     return (
       <div className="main">
 
@@ -42,7 +42,7 @@ export default class Main extends Component {
         <div className="main__splashBox" id="landingPage">
 
         <Link
-            // className={this.state.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
+            // className={this.props.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
             className="main__goUp"
             to="landingPage"
             spy={true}

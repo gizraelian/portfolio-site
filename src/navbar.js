@@ -7,7 +7,6 @@ export default class navbar extends Component {
     super();
     this.state = {
         showMenu: false,
-        // scrolled: false,
     };
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);

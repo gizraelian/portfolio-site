@@ -16,9 +16,8 @@ class App extends Component {
     super();
     this.state = {
         scrolled: false,
-    };
-    
-    }
+    };  
+  }
 
   componentDidMount(){
     window.addEventListener('scroll', () => {
@@ -34,14 +33,13 @@ class App extends Component {
   componentWillUnmount(){
     window.removeEventListener('scroll');
   }
-  
 
   sendProps(scrolled) {
     this.setState({scrolled});
   }
 
   render() {
-    // console.log(this.state.scrolled);
+
     return (
       <div>
         <Router>
@@ -51,8 +49,18 @@ class App extends Component {
             {/* <Navbar /> */}
             <div>
               <Switch>
+
+
+                <Link to="/props-through-render">Props through render</Link>
+...
+                <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} />
+
+
                 <Route path="/" exact component={Main} />
-                <Route path="/main" exact component={Main} />
+
+                {/* <Route path="/main" exact component={Main} /> */}
+                <Route path="/main" exact component={Main} render />
+
                 <Route exact path="/" render={() =><Redirect to='/main'/>} /> */}
                 <Route path="/bandpage" exact component={BandpageInfo} />
                 <Route path="/brainflix" exact component={BrainFlixInfo} />
