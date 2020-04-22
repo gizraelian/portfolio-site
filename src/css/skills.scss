@@ -148,8 +148,8 @@
 
             // background-color: rgb(179, 179, 179) !important; 
 
-            background-color: rgb(189, 189, 196) !important; 
-            
+            // background-color: rgb(189, 189, 196) !important; 
+            backdrop-filter: blur(3px) invert(.3);
             box-shadow: 2px 2px 3px grey;
             border-radius: 7px;
             margin: 10px;
