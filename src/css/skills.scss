@@ -155,8 +155,9 @@
             margin: 10px;
             // margin: 0 2vw;
 
+            // border: red dashed medium;
             transition: transform .3s ease;
-            // z-index: 2;
+            z-index: 2;
 
             @media (min-width: 1200px) {
                 width: 180px;

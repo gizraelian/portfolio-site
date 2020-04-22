@@ -103,6 +103,7 @@
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
+  z-index: 2;
 }
 
 @media (min-width: 1200px) {
