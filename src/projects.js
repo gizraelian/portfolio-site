@@ -41,8 +41,8 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
         >
-            {/* Click to play */}
-          {this.state.playing ? 'Play GIF' : 'GIF Paused'}
+            Click to play
+          {/* {this.state.playing ? 'Play GIF' : 'GIF Paused'} */}
         </div>
 
 
@@ -74,8 +74,7 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          {/* Click to play */}
-        {this.state.playing ? 'Play GIF' : 'GIF Paused'}
+          Click to play
         </button>
 
         <div className="main__projectsBox--card__textBox">
@@ -106,8 +105,7 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          {/* Click to play */}
-        {this.state.playing ? 'Play GIF' : 'GIF Paused'}
+          Click to play
         </button>
 
         <div className="main__projectsBox--card__textBox">
@@ -138,8 +136,7 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          {/* Click to play */}
-        {this.state.playing ? 'Play GIF' : 'GIF Paused'}
+          Click to play
         </button>
 
         <div className="main__projectsBox--card__textBox">
