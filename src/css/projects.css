@@ -54,7 +54,7 @@
 @media (max-width: 576px) {
   .main__projectsBox--card {
     border-radius: 0;
-    margin: 50px 0;
+    margin: 10px 0;
     border-top: solid 10px darkgrey;
     border-right: none;
     border-bottom: solid 10px darkgrey;
