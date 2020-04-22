@@ -20,7 +20,7 @@ export default class Projects extends React.Component {
 
 <div className="main__pageBox">
 
-<h2 className="main__pageBox--header">PROJECT PORTFOLIO</h2>
+<h2 className="main__pageBox--header">PROJECTS</h2>
 
 <div className="main__pageBox--projectsBox" id="projects">
 
@@ -47,7 +47,6 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
         >
-            Click to play
           {/* {this.state.playing ? 'Play GIF' : 'GIF Paused'} */}
         </div>
 
@@ -80,7 +79,6 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          Click to play
         </div>
         {/* </button> */}
 
@@ -112,7 +110,6 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          Click to play
         </div>
 
         <div className="main__pageBox--projectsBox__card--textBox">
@@ -143,7 +140,6 @@ export default class Projects extends React.Component {
           disabled={!this.state.playing}
           onClick={() => this.pauseGif()}
           >
-          Click to play
         </div>
 
         <div className="main__pageBox--projectsBox__card--textBox">
