@@ -7,7 +7,7 @@ export default class navbar extends Component {
     super();
     this.state = {
         showMenu: false,
-        scrolled: false,
+        // scrolled: false,
     };
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
@@ -27,9 +27,10 @@ export default class navbar extends Component {
     }
   }
 
+
   componentDidMount(){
     window.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 500;
+      const isTop = window.scrollY < 100;
       if (isTop !== true){
         this.setState({ scrolled: true });
       } else {
@@ -45,6 +46,7 @@ export default class navbar extends Component {
   render() {
     return (
 
+      // <div className={this.props.scrollState ? 'navbar scrolled' : 'navbar' }></div>
       <div className={this.state.scrolled ? 'navbar scrolled' : 'navbar' }>
         <div className="navbar__topImgBox">
         </div>

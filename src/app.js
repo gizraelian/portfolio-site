@@ -12,12 +12,39 @@ import './css/styles.css';
 import './css/projectinfo.css';
 
 class App extends Component {
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //       scrolled: false,
+  //   };
+    
+  //   }
+
+  // componentDidMount(){
+  //   window.addEventListener('scroll', () => {
+  //     const isTop = window.scrollY < 500;
+  //     if (isTop !== true){
+  //       this.setState({ scrolled: true });
+  //     } else {
+  //       this.setState({ scrolled: false });
+  //     }
+  //   });
+  // }
+
+  // changeScrollState(scrollState) {
+  //   this.setState({scrollState});
+  // }
+
+  // componentWillUnmount(){
+  //   window.removeEventListener('scroll');
+  // }
   render() {
     return (
       <div>
         <Router>
           <div>
             <ScrollIntoView>
+            {/* <Navbar changeScrollState={this.changeScrollState.bind(this)} scrollState={this.state.scrollState} />  */}
             <Navbar />
             <div>
               <Switch>

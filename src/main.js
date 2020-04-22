@@ -9,28 +9,28 @@ import './css/main.css';
 
 export default class Main extends Component {
 
-//   constructor() {
-//     super();
-//     this.state = {
-//         scrolled: false,
-//     };
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //       scrolled: false,
+  //   };
 
-//   }
+  // }
 
-//   componentDidMount(){
-//     window.addEventListener('scroll', () => {
-//       const isTop = window.scrollY > 500;
-//       if (isTop !== true){
-//         this.setState({ scrolled: true });
-//       } else {
-//         this.setState({ scrolled: false });
-//       }
-//     });
-//   }
+  // componentDidMount(){
+  //   window.addEventListener('scroll', () => {
+  //     const isTop = window.scrollY > 500;
+  //     if (isTop !== true){
+  //       this.setState({ scrolled: true });
+  //     } else {
+  //       this.setState({ scrolled: false });
+  //     }
+  //   });
+  // }
 
-//   componentWillUnmount(){
-//     window.removeEventListener('scroll');
-//   }
+  // componentWillUnmount(){
+  //   window.removeEventListener('scroll');
+  // }
 
   render() {
     
@@ -45,6 +45,7 @@ export default class Main extends Component {
             // className={this.state.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
             // to="landingPage"
             className="main__goUp"
+            to="landingPage"
             spy={true}
             smooth={true}
             offset={0}
