@@ -17,11 +17,14 @@ export default class Projects extends React.Component {
     return (
 
 // Project portfolio section
-// {/* <div className="main__sectionHeader"> PROJECTS */}
+
 <div className="main__pageBox">
+
+<h2 className="main__pageBox--header">PROJECTS</h2>
+
 <div className="main__pageBox--projectsBox" id="projects">
 
-    {/* <div className="main__projectsBox--header">Projects</div> */}
+
 {/* -------------------------------------------------------------- */}
 
 

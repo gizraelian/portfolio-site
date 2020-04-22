@@ -2,43 +2,52 @@
     // --------------------- Projects Section ---------------------
 
 &__pageBox{
+    // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
+    // background-position: center;
+    // background-size: cover;
+
+    // background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
+
+    // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
+
+    // background-position: center;
+    // background-size: cover;
+
+    // background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(169, 176, 201, 0.473));
+
+    background-image: linear-gradient(to top, rgba(169, 176, 201, 0.473), rgba(169, 176, 201, 0.473));
+
+    overflow: hidden;
+    height: 100vh;
+    padding: 4vh 0 20vh 0;
+
+    // border: red dashed medium;
+    @media (max-width: 992px) {
+        height: 260vh;
+    }
+    @media (max-width: 768px) {
+        height: 250vh;
+    }
+    @media (max-width: 576px) {
+        height: 120vh;
+        // background-image: linear-gradient(to top, rgb(169, 176, 201), rgba(222, 211, 233, 0.418));
+    }
+
+    &--header{
+        text-align: center;
+    }
 
     &--projectsBox{
-        // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
-        // background-position: center;
-        // background-size: cover;
-
-        // background-image: linear-gradient(to right bottom, rgba(220, 240, 243, 0.596), rgb(169, 176, 201));
-
-        // background-image: linear-gradient(to right bottom, rgb(228, 216, 225), rgb(169, 176, 201));
-
-        // background-position: center;
-        // background-size: cover;
-
-        // background-image: linear-gradient(to top, rgba(250, 250, 250, 0.418), rgba(169, 176, 201, 0.473));
-
-        background-image: linear-gradient(to top, rgba(169, 176, 201, 0.473), rgba(169, 176, 201, 0.473));
 
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         // align-items: center;
-        // padding: 4vh 0 24vh 0;
-        // padding: 0 0 24vh 0;
-        padding: 4vh 0 20vh 0;
-        overflow: hidden;
-        height: 100vh;
-        z-index: 2;
-        @media (max-width: 992px) {
-            height: 250vh;
-        }
-        @media (max-width: 768px) {
-            // height: 250vh;
-        }
-        @media (max-width: 576px) {
-            height: 120vh;
-            // background-image: linear-gradient(to top, rgb(169, 176, 201), rgba(222, 211, 233, 0.418));
-        }
+
+        // overflow: hidden;
+        // height: 100vh;
+        // z-index: 2;
+
 
         &__card:hover{
             // border: solid 2px whitesmoke;
