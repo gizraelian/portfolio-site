@@ -9,10 +9,6 @@
   overflow: hidden;
 }
 
-.main__subHeader {
-  background-color: transparent;
-}
-
 .main__goUp {
   z-index: 10;
   position: fixed;

@@ -1,4 +1,4 @@
-.main__projectsBox {
+.main__pageBox--projectsBox {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(169, 176, 201, 0.473)), to(rgba(169, 176, 201, 0.473)));
   background-image: linear-gradient(to top, rgba(169, 176, 201, 0.473), rgba(169, 176, 201, 0.473));
   display: -webkit-box;
@@ -16,25 +16,25 @@
 }
 
 @media (max-width: 992px) {
-  .main__projectsBox {
+  .main__pageBox--projectsBox {
     height: 250vh;
   }
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox {
+  .main__pageBox--projectsBox {
     height: 120vh;
   }
 }
 
-.main__projectsBox--card:hover {
+.main__pageBox--projectsBox__card:hover {
   border-top: solid 2px white;
   border-right: solid 2px whitesmoke;
   border-bottom: solid 2px whitesmoke;
   border-left: solid 2px white;
 }
 
-.main__projectsBox--card {
+.main__pageBox--projectsBox__card {
   background-attachment: fixed;
   border: none;
   cursor: default;
@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card {
+  .main__pageBox--projectsBox__card {
     border-radius: 0;
     margin: 10px 0;
     height: 240px;
@@ -69,7 +69,7 @@
   }
 }
 
-.main__projectsBox--card__playBtn {
+.main__pageBox--projectsBox__card--playBtn {
   position: absolute;
   top: 5%;
   font-size: 14px;
@@ -83,7 +83,7 @@
   pointer-events: none;
 }
 
-.main__projectsBox--card__img {
+.main__pageBox--projectsBox__card--img {
   background-image: url("../backgrounds/code.jpg");
   -o-object-fit: cover;
      object-fit: cover;
@@ -91,7 +91,7 @@
 }
 
 @media (min-width: 1200px) {
-  .main__projectsBox--card__img {
+  .main__pageBox--projectsBox__card--img {
     width: 40vw;
     height: 50vh;
     background-size: cover;
@@ -100,7 +100,7 @@
 }
 
 @media (max-width: 1200px) {
-  .main__projectsBox--card__img {
+  .main__pageBox--projectsBox__card--img {
     width: 38vw;
     height: 50vh;
     background-size: cover;
@@ -109,27 +109,27 @@
 }
 
 @media (max-width: 992px) {
-  .main__projectsBox--card__img {
+  .main__pageBox--projectsBox__card--img {
     width: 95vw;
     height: 62vh;
   }
 }
 
 @media (max-width: 768px) {
-  .main__projectsBox--card__img {
+  .main__pageBox--projectsBox__card--img {
     height: 60vh;
   }
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card__img {
+  .main__pageBox--projectsBox__card--img {
     width: 100vw;
     height: 200px;
     background-size: cover;
   }
 }
 
-.main__projectsBox--card__textBox {
+.main__pageBox--projectsBox__card--textBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,32 +150,32 @@
 }
 
 @media (max-width: 1200px) {
-  .main__projectsBox--card__textBox {
+  .main__pageBox--projectsBox__card--textBox {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card__textBox {
+  .main__pageBox--projectsBox__card--textBox {
     height: 40px;
   }
 }
 
-.main__projectsBox--card__textBox--header:hover {
+.main__pageBox--projectsBox__card--textBox__header:hover {
   background-color: rgba(31, 31, 31, 0.2);
   -webkit-box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
           box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
 }
 
 @media (max-width: 1200px) {
-  .main__projectsBox--card__textBox--header:hover {
+  .main__pageBox--projectsBox__card--textBox__header:hover {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
 }
 
-.main__projectsBox--card__textBox--header {
+.main__pageBox--projectsBox__card--textBox__header {
   text-decoration: none;
   font-weight: normal;
   color: white;
@@ -189,7 +189,7 @@
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card__textBox--header {
+  .main__pageBox--projectsBox__card--textBox__header {
     font-size: 20px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -197,20 +197,20 @@
   }
 }
 
-.main__projectsBox--card__textBox--link:hover {
+.main__pageBox--projectsBox__card--textBox__link:hover {
   background-color: rgba(31, 31, 31, 0.2);
   -webkit-box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
           box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
 }
 
 @media (max-width: 1200px) {
-  .main__projectsBox--card__textBox--link:hover {
+  .main__pageBox--projectsBox__card--textBox__link:hover {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
 }
 
-.main__projectsBox--card__textBox--link {
+.main__pageBox--projectsBox__card--textBox__link {
   text-decoration: none;
   text-align: center;
   color: white;
@@ -226,20 +226,20 @@
 }
 
 @media (max-width: 1200px) {
-  .main__projectsBox--card__textBox--link {
+  .main__pageBox--projectsBox__card--textBox__link {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card__textBox--link {
+  .main__pageBox--projectsBox__card--textBox__link {
     font-size: 20px;
     border-radius: 7px;
   }
 }
 
-.main__projectsBox--card__textBox--subHeader {
+.main__pageBox--projectsBox__card--textBox__subHeader {
   color: white;
   font-weight: normal;
   font-size: 24px;
@@ -248,7 +248,7 @@
 }
 
 @media (max-width: 576px) {
-  .main__projectsBox--card__textBox--subHeader {
+  .main__pageBox--projectsBox__card--textBox__subHeader {
     font-size: 20px;
   }
 }

@@ -1,7 +1,9 @@
 .main{
     // --------------------- Projects Section ---------------------
 
-    &__projectsBox{
+&__pageBox{
+
+    &--projectsBox{
         // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
         // background-position: center;
         // background-size: cover;
@@ -38,12 +40,7 @@
             // background-image: linear-gradient(to top, rgb(169, 176, 201), rgba(222, 211, 233, 0.418));
         }
 
-        &--header{
-            // position: absolute;
-            // border: red dashed medium;
-        }
-
-        &--card:hover{
+        &__card:hover{
             // border: solid 2px whitesmoke;
 
             // border: solid 2px white;
@@ -68,7 +65,7 @@
             }
         }
 
-        &--card{
+        &__card{
             // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
             // border: brown dashed medium;
             background-attachment: fixed;
@@ -106,10 +103,7 @@
                 border-left: none;
             }
 
-            &__playBtn:hover{
-            }
-
-            &__playBtn{
+            &--playBtn{
                 position: absolute;
                 top:5%;
                 // top: 80%;
@@ -134,7 +128,7 @@
                 // border: red dashed medium;
             }
 
-            &__img{
+            &--img{
                 background-image: url("../backgrounds/code.jpg");
                 // width: 750px;
                 // height: 50vh;
@@ -186,11 +180,11 @@
                 }
             }
 
-            &__textBox:hover{
+            &--textBox:hover{
                 // background-color: rgba(137, 135, 168, 0.466);
             }
 
-            &__textBox{
+            &--textBox{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -231,7 +225,7 @@
                     // // width: 220px;
                 }
 
-                &--header:hover{
+                &__header:hover{
                     // background-color: rgba(109, 70, 70, 0.459);
                     
                     // background-color: rgba(209, 186, 231, 0.418);
@@ -259,7 +253,7 @@
                     }
                 }
 
-                &--header{
+                &__header{
                     text-decoration: none;
                     font-weight: normal;
                     color: white;
@@ -283,7 +277,7 @@
                     
                 }
 
-                &--link:hover{
+                &__link:hover{
                     // box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
                     // background-color: rgba(137, 135, 168, 0.466);
 
@@ -298,7 +292,7 @@
                     }
                 }
 
-                &--link{
+                &__link{
                     text-decoration: none;
                     text-align: center;
                     color: white;
@@ -328,7 +322,7 @@
 
                 }
 
-                &--subHeader{
+                &__subHeader{
                     color: white;
                     font-weight: normal;
                     // font-weight: bold;
@@ -348,6 +342,7 @@
             }
         }
     }
+}
 }
 
 #portfolioDemo{
