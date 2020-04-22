@@ -26,22 +26,6 @@ export default class navbar extends Component {
     }
   }
 
-
-  // componentDidMount(){
-  //   window.addEventListener('scroll', () => {
-  //     const isTop = window.scrollY < 100;
-  //     if (isTop !== true){
-  //       this.setState({ scrolled: true });
-  //     } else {
-  //       this.setState({ scrolled: false });
-  //     }
-  //   });
-  // }
-
-  // componentWillUnmount(){
-  //   window.removeEventListener('scroll');
-  // }
-
   render() {
     // console.log(this.props.scrolled);
     return (

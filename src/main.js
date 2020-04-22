@@ -9,31 +9,8 @@ import './css/main.css';
 
 export default class Main extends Component {
 
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //       scrolled: false,
-  //   };
-
-  // }
-
-  // componentDidMount(){
-  //   window.addEventListener('scroll', () => {
-  //     const isTop = window.scrollY > 500;
-  //     if (isTop !== true){
-  //       this.setState({ scrolled: true });
-  //     } else {
-  //       this.setState({ scrolled: false });
-  //     }
-  //   });
-  // }
-
-  // componentWillUnmount(){
-  //   window.removeEventListener('scroll');
-  // }
-
   render() {
-    console.log(this.props.scrolled);
+    // console.log(this.props.scrolled);
     return (
       <div className="main">
 
@@ -42,8 +19,7 @@ export default class Main extends Component {
         <div className="main__splashBox" id="landingPage">
 
         <Link
-            // className={this.props.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
-            className="main__goUp"
+            className={this.props.scrolled ? 'main__goUp' : 'main__goUp scrolled'}
             to="landingPage"
             spy={true}
             smooth={true}

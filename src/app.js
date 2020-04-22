@@ -39,28 +39,16 @@ class App extends Component {
   }
 
   render() {
-
+    // console.log(this.state.scrolled);
     return (
       <div>
         <Router>
           <div>
             <ScrollIntoView>
             <Navbar sendProps={this.sendProps.bind(this)} scrolled={this.state.scrolled} /> 
-            {/* <Navbar /> */}
             <div>
               <Switch>
-
-
-                {/* <Link to="/props-through-render">Props through render</Link>
-...
-                <Route exact path="/props-through-render" render={(props) => <PropsPage {...props} title={`Props through render`} />} /> */}
-
-
-                <Route path="/" exact component={Main} />
-
-                {/* <Route path="/main" exact component={Main} /> */}
-                <Route path="/main" exact component={Main} render />
-
+                <Route path="/main" render={() => <Main sendProps={this.sendProps.bind(this)} scrolled={this.state.scrolled} /> } />
                 <Route exact path="/" render={() =><Redirect to='/main'/>} /> */}
                 <Route path="/bandpage" exact component={BandpageInfo} />
                 <Route path="/brainflix" exact component={BrainFlixInfo} />
