@@ -16,6 +16,8 @@ export default class Main extends Component {
         
         {/* <div className="longBackgroundContainer"/> */}
 
+        
+
         <div className="main__splashBox" id="landingPage">
 
         <Link
