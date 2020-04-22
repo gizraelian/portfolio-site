@@ -20,13 +20,12 @@ export default class Projects extends React.Component {
 
 <div className="main__pageBox">
 
-<h2 className="main__pageBox--header">PROJECTS</h2>
+<h2 className="main__pageBox--header">PROJECT PORTFOLIO</h2>
 
 <div className="main__pageBox--projectsBox" id="projects">
 
 
 {/* -------------------------------------------------------------- */}
-
 
 
     <div className="main__pageBox--projectsBox__card">
