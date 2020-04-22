@@ -69,8 +69,11 @@
 
 @media (min-width: 1200px) {
   .projectInfo__linkBox--link__img {
-    height: 98vh;
+    height: 95vh;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
   }
 }
 
