@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
 export default class PortfolioInfo extends Component {
+
   render() {
     return (
-
     <div className="projectInfo">
 
         <div className="projectInfo__linkBox">
@@ -37,7 +37,7 @@ export default class PortfolioInfo extends Component {
             <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
             </div>
         </div>
-
+        
     </div>
 
     )

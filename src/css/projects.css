@@ -69,6 +69,20 @@
   }
 }
 
+.main__projectsBox--card__playBtn {
+  position: absolute;
+  top: 5%;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 3px 5px;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(1px) invert(0.2);
+          backdrop-filter: blur(1px) invert(0.2);
+  pointer-events: none;
+}
+
 .main__projectsBox--card__img {
   background-image: url("../backgrounds/code.jpg");
   -o-object-fit: cover;
