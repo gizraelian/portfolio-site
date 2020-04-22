@@ -5,7 +5,6 @@ import Skills from './skills';
 import { Link } from "react-scroll";
 import './css/main.css';
 
-// import ReadyToScroll from './ReadyToScroll';
 // import { Link } from 'react-router-dom';
 
 export default class Main extends Component {
@@ -45,7 +44,7 @@ export default class Main extends Component {
         <Link
             // className={this.state.scrolled ? 'main__goUp scrolled' : 'main__goUp' }
             // to="landingPage"
-            className="main__goUp scrolled"
+            className="main__goUp"
             spy={true}
             smooth={true}
             offset={0}
