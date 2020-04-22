@@ -12,44 +12,47 @@ import './css/styles.css';
 import './css/projectinfo.css';
 
 class App extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //       scrolled: false,
-  //   };
+  constructor() {
+    super();
+    this.state = {
+        scrolled: false,
+    };
     
-  //   }
+    }
 
-  // componentDidMount(){
-  //   window.addEventListener('scroll', () => {
-  //     const isTop = window.scrollY < 500;
-  //     if (isTop !== true){
-  //       this.setState({ scrolled: true });
-  //     } else {
-  //       this.setState({ scrolled: false });
-  //     }
-  //   });
-  // }
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 500;
+      if (isTop !== true){
+        this.setState({ scrolled: true });
+      } else {
+        this.setState({ scrolled: false });
+      }
+    });
+  }
+  
+  componentWillUnmount(){
+    window.removeEventListener('scroll');
+  }
+  
 
-  // changeScrollState(scrollState) {
-  //   this.setState({scrollState});
-  // }
+  sendProps(scrolled) {
+    this.setState({scrolled});
+  }
 
-  // componentWillUnmount(){
-  //   window.removeEventListener('scroll');
-  // }
   render() {
+    // console.log(this.state.scrolled);
     return (
       <div>
         <Router>
           <div>
             <ScrollIntoView>
-            {/* <Navbar changeScrollState={this.changeScrollState.bind(this)} scrollState={this.state.scrollState} />  */}
-            <Navbar />
+            <Navbar sendProps={this.sendProps.bind(this)} scrolled={this.state.scrolled} /> 
+            {/* <Navbar /> */}
             <div>
               <Switch>
                 <Route path="/" exact component={Main} />
-                {/* <Route path="/main" exact component={Main} />
+                <Route path="/main" exact component={Main} />
                 <Route exact path="/" render={() =><Redirect to='/main'/>} /> */}
                 <Route path="/bandpage" exact component={BandpageInfo} />
                 <Route path="/brainflix" exact component={BrainFlixInfo} />

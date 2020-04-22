@@ -28,26 +28,26 @@ export default class navbar extends Component {
   }
 
 
-  componentDidMount(){
-    window.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== true){
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
-  }
+  // componentDidMount(){
+  //   window.addEventListener('scroll', () => {
+  //     const isTop = window.scrollY < 100;
+  //     if (isTop !== true){
+  //       this.setState({ scrolled: true });
+  //     } else {
+  //       this.setState({ scrolled: false });
+  //     }
+  //   });
+  // }
 
-  componentWillUnmount(){
-    window.removeEventListener('scroll');
-  }
+  // componentWillUnmount(){
+  //   window.removeEventListener('scroll');
+  // }
 
   render() {
+    // console.log(this.props.scrolled);
     return (
 
-      // <div className={this.props.scrollState ? 'navbar scrolled' : 'navbar' }></div>
-      <div className={this.state.scrolled ? 'navbar scrolled' : 'navbar' }>
+      <div className={this.props.scrolled ? 'navbar scrolled' : 'navbar' }>
         <div className="navbar__topImgBox">
         </div>
         <div className="navbar__linksBox">
