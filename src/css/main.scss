@@ -18,6 +18,10 @@
         position: fixed;
         bottom: 0;
 
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.2s ease-in;
+
         @media (min-width: 1200px) {
             // top: 93vh;
             // left: 96vw;

@@ -22,7 +22,10 @@
 }
 
 .main__projectsBox--card:hover {
-  border: solid 2px white;
+  border-top: solid 2px white;
+  border-right: solid 2px whitesmoke;
+  border-bottom: solid 2px whitesmoke;
+  border-left: solid 2px white;
 }
 
 .main__projectsBox--card {
@@ -138,9 +141,9 @@
 }
 
 .main__projectsBox--card__textBox--header:hover {
-  background-color: rgba(137, 135, 168, 0.466);
-  -webkit-box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
-          box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
+  background-color: rgba(31, 31, 31, 0.2);
+  -webkit-box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
+          box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
 }
 
 @media (max-width: 1200px) {
@@ -173,9 +176,9 @@
 }
 
 .main__projectsBox--card__textBox--link:hover {
-  -webkit-box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
-          box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
-  background-color: rgba(137, 135, 168, 0.466);
+  background-color: rgba(31, 31, 31, 0.2);
+  -webkit-box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
+          box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);
 }
 
 @media (max-width: 1200px) {

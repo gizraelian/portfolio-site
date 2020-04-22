@@ -7,6 +7,10 @@
     box-sizing: border-box;
     box-shadow: 0.5px 0.5px 1.5px black;
 
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+
     &__linksBox{
         display: flex;
         justify-content: flex-end;

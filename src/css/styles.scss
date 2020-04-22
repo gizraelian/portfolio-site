@@ -14,11 +14,16 @@
     font-family: 'Montserrat', sans-serif;
 
     .scrolled{
-        visibility: hidden;
-        opacity: 0;
-        transition: visibility 0s 0.1s, opacity 0.5s linear;
+        // visibility: hidden;
+        // opacity: 0;
+        // transition: visibility 0s 0.1s, opacity 0.5s linear;
     
         // -- or --
+
+        visibility: visible;
+        opacity: 0;
+        transition: all 0.2s ease-out;
+
     }
 
     // background-color: whitesmoke;

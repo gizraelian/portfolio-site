@@ -6,6 +6,10 @@
           box-sizing: border-box;
   -webkit-box-shadow: 0.5px 0.5px 1.5px black;
           box-shadow: 0.5px 0.5px 1.5px black;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .navbar__linksBox {
