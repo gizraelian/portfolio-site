@@ -40,6 +40,7 @@ export default class Projects extends React.Component {
           pauseRef={pause => this.pauseGif = pause}
           onTogglePlay={playing => this.setState({ playing })}
         //   autoplay
+        
         />
 
         <div
