@@ -18,9 +18,6 @@ export default class Jumbotron extends React.Component {
     </h1>
     </div>
     <div className="main__jumbotron--rightBox">
-    {/* <img src="../assets/javascript.png" className="main__jumbotron--rightBox__img" />
-    <img src="../assets/nodejs.png" className="main__jumbotron--rightBox__img" />
-    <img src="../assets/react.png" className="main__jumbotron--rightBox__img" /> */}
 
     <h2 className="main__jumbotron--rightBox__textContainer">
       Toronto-based full stack web developer with a strong appreciation for elegant, efficient code.
