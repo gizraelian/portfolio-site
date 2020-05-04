@@ -124,7 +124,6 @@ export default class Projects extends React.Component {
 {/* -------------------------------------------------------------- */}
 
     <div className="main__pageBox--projectsBox__card">
-        {/* <div className="main__projectsBox--card__img" id="ivgDemo"/> */}
 
         <GifPlayer
           gif="../assets/ivg2.gif"
