@@ -1,6 +1,6 @@
 .main__jumbotron {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#a9b0c9), to(#a9b0c9));
-  background-image: linear-gradient(to top, #a9b0c9, #a9b0c9);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(whitesmoke), to(#a9b0c9));
+  background-image: linear-gradient(to top, whitesmoke, #a9b0c9);
   background-size: cover;
   background-position: center;
   display: -webkit-box;

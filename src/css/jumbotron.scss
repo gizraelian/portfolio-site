@@ -6,10 +6,14 @@
         // background-image: url("../backgrounds/body-of-water-2276928.jpg");
         // background-image: linear-gradient(to right, #64495E, #4C5F9A);
 
-        background-image: linear-gradient(to top, rgb(169, 176, 201), rgb(169, 176, 201));
+        // background-image: linear-gradient(to top, rgb(169, 176, 201), rgb(169, 176, 201));
+        // background-size: cover;
+        // background-position: center;
 
+        background-image: linear-gradient(to top, whitesmoke, rgb(169, 176, 201));
         background-size: cover;
         background-position: center;
+
         display: flex;
         justify-content: center;
         align-items: center;
