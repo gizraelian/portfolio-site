@@ -52,9 +52,9 @@ export default class Main extends Component {
 
         <Jumbotron />
 
-        <Skills />
-
         <Projects />
+
+        <Skills />
 
       </div>
     )
