@@ -224,13 +224,14 @@
                 align-items: center;
                 // position: absolute;
                 // top: 0;
-                // width: 100%; 
+
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
                 backdrop-filter: blur(3px) invert(.3);
                 // pointer-events: none;
                 box-shadow: 1px 1px 2px gray;
                 // border: red dashed medium;
+
                 // padding: 5px;
 
                 // overflow: hidden;
@@ -244,8 +245,8 @@
                 @media (max-width: 992px) {
                 }
                 @media (max-width: 768px) {
-                    position: absolute;
-                    top: 0;
+                    // position: absolute;
+                    // top: 0;
                 }
                 @media (max-width: 576px) {
                     // height: auto;
@@ -417,6 +418,7 @@
     // background-position: center;
     // background-size: cover;
 }
+
 #brainFlixDemo:hover{
     background-image: url("../backgrounds/brainflix.gif");
     animation-play-state: initial;

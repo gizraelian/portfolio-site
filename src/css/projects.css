@@ -168,13 +168,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .main__pageBox--projectsBox__card--textBox {
-    position: absolute;
-    top: 0;
-  }
-}
-
 @media (max-width: 576px) {
   .main__pageBox--projectsBox__card--textBox {
     height: 40px;
