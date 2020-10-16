@@ -1,3 +1,13 @@
+.project1{
+    //    grid-column:1/2;
+}
+
+.project2{}
+
+.project3{}
+
+.project4{}
+
 .main{
     // --------------------- Projects Section ---------------------
 
@@ -58,13 +68,14 @@
 
         display: grid;
         // grid-template-columns: 2fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         // grid-auto-rows: 300px;
         grid-auto-rows: minmax(300px, auto);
 
         // grid-column-gap: 1em;
         // grid-row-gap: 1em;
-        grid-gap: 1em;
+        // grid-gap: 1em;
+        grid-gap: 10px;
 
         @media (max-width: 768px) {
         display: flex;
@@ -141,8 +152,8 @@
                 background-image: url("../backgrounds/code.jpg");
                 // width: 750px;
                 // height: 50vh;
-                object-fit: cover;
-                // background-position: center;
+                // object-fit: cover;
+                background-position: center;
                 // background-size: cover;
 
                 // background-position: top left;
@@ -154,11 +165,12 @@
                     // width: 750px;
                     // width: 45vw;
                     // width: 40vw;
-                    height: 40vh;
+                    height: 50vh;
                     // background-size: 40vw;
                     // background-size: 710px;
                     // background-size: cover;
                     // background-position: top left;
+
                     // display: flex;
                     // flex-direction: column;
                     // justify-content: center;
@@ -357,7 +369,7 @@
     background-image: url("../backgrounds/github.jpg");
     // width: 48vw;
     // height: 50vh;
-    object-fit: cover;
+    // object-fit: cover;
     // background-position: center;
     // background-size: cover;
 }

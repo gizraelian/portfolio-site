@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
 {/* -------------------------------------------------------------- */}
 
 
-    <div className="main__pageBox--projectsBox__card">
+    <div className="main__pageBox--projectsBox__card project1">
 
         {/* <div className="main__projectsBox--card__img" id="bandDemo" /> */}
 
@@ -62,7 +62,7 @@ export default class Projects extends React.Component {
 
 {/* -------------------------------------------------------------- */}
 
-    <div className="main__pageBox--projectsBox__card">
+    <div className="main__pageBox--projectsBox__card project2">
 
         <GifPlayer
           gif="../assets/brainflix.gif"
@@ -93,7 +93,7 @@ export default class Projects extends React.Component {
 
 {/* -------------------------------------------------------------- */}
 
-    <div className="main__pageBox--projectsBox__card">
+    <div className="main__pageBox--projectsBox__card project3">
         {/* <div className="main__projectsBox--card__img" id="portfolioDemo"/> */}
 
         <GifPlayer
@@ -123,7 +123,7 @@ export default class Projects extends React.Component {
 
 {/* -------------------------------------------------------------- */}
 
-    <div className="main__pageBox--projectsBox__card">
+    <div className="main__pageBox--projectsBox__card project4">
 
         <GifPlayer
           gif="../assets/ivg2.gif"
