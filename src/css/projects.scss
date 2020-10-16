@@ -57,7 +57,14 @@
         // flex-wrap: wrap;
 
         display: grid;
-        grid-template-columns: 70% 30%;
+        // grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        // grid-auto-rows: 300px;
+        grid-auto-rows: minmax(300px, auto);
+
+        // grid-column-gap: 1em;
+        // grid-row-gap: 1em;
+        grid-gap: 1em;
 
         @media (max-width: 768px) {
         display: flex;
@@ -81,11 +88,6 @@
             // border-bottom: solid 2px rgba(63, 6, 117, 0.5);
             // border-left: solid 2px rgba(63, 6, 117, 0.5);
 
-            border-top: solid 2px white;
-            border-right: solid 2px whitesmoke;
-            border-bottom: solid 2px whitesmoke;
-            border-left: solid 2px white;
-
             @media (max-width: 576px) {
                 // border: none;
             }
@@ -93,29 +95,13 @@
 
         &__card{
             // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
-            // border: brown dashed medium;
+            border: brown dashed medium;
             background-attachment: fixed;
-            border: none;
+            // border: none;
             cursor: default;
             position: relative;
-            display: flex;
-            // border-radius: 5px;
-            border-radius: 7px;
-            // border: solid 1px grey;
-            // border-right: lightsteelblue solid 1px;
-            border-top: solid 2px transparent;
-            border-right: solid 2px grey;
-            border-bottom: solid 2px grey;
-            border-left: solid 2px transparent;
-            margin: 10px;
-
-            // text-shadow: 1px 1px 2px grey;
-
+            // border-radius: 2px;
             overflow: hidden;
-            box-shadow: 2px 2px 3px gray;
-            display: flex;
-            justify-content: center;
-            // align-items: center;
             @media (max-width: 576px) {
                 // border: none;
                 border-radius: 0;
@@ -123,10 +109,6 @@
                 // margin: 0;
                 height: 240px;
 
-                border-top: solid 10px darkgrey;
-                border-right: none;
-                border-bottom: solid 10px darkgrey;
-                border-left: none;
             }
 
             &--playBtn{
@@ -171,18 +153,22 @@
                 @media (min-width: 1200px) {
                     // width: 750px;
                     // width: 45vw;
-                    width: 40vw;
-                    height: 50vh;
+                    // width: 40vw;
+                    height: 40vh;
                     // background-size: 40vw;
                     // background-size: 710px;
-                    background-size: cover;
-                    background-position: top left;
+                    // background-size: cover;
+                    // background-position: top left;
+                    // display: flex;
+                    // flex-direction: column;
+                    // justify-content: center;
+                    // align-items: stretch;
                 }
                 @media (max-width: 1200px) {
                     // width: 700px;
                     // width: 43vw;
                     width: 38vw;
-                    height: 50vh;
+                    height: 40vh;
                     // background-size: 35vw;
                     background-size: cover;
                     background-position: top left;
@@ -216,13 +202,14 @@
                 justify-content: space-between;
                 align-items: center;
                 position: absolute;
-                bottom: 0;
-                width: 100%; 
+                top: 0;
+                // width: 100%; 
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
                 backdrop-filter: blur(3px) invert(.3);
                 // pointer-events: none;
                 box-shadow: 1px 1px 2px gray;
+                // border: red dashed medium;
                 // padding: 5px;
 
                 // overflow: hidden;
@@ -253,12 +240,6 @@
                 }
 
                 &__header:hover{
-                    // background-color: rgba(109, 70, 70, 0.459);
-                    
-                    // background-color: rgba(209, 186, 231, 0.418);
-
-                    // background-color: rgba(137, 135, 168, 0.466);
-                    // box-shadow: 5px 0 0 rgba(137, 135, 168, 0.466), -5px 0 0 rgba(137, 135, 168, 0.466);
 
                     background-color: rgba(31, 31, 31, 0.2);
                     box-shadow: 5px 0 0 rgba(31, 31, 31, 0.2), -5px 0 0 rgba(31, 31, 31, 0.2);

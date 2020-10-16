@@ -32,8 +32,10 @@
 .main__pageBox--projectsBox {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 70% 30%;
-      grid-template-columns: 70% 30%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 1em;
 }
 
 @media (max-width: 768px) {
@@ -49,34 +51,12 @@
   }
 }
 
-.main__pageBox--projectsBox__card:hover {
-  border-top: solid 2px white;
-  border-right: solid 2px whitesmoke;
-  border-bottom: solid 2px whitesmoke;
-  border-left: solid 2px white;
-}
-
 .main__pageBox--projectsBox__card {
+  border: brown dashed medium;
   background-attachment: fixed;
-  border: none;
   cursor: default;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 7px;
-  border-top: solid 2px transparent;
-  border-right: solid 2px grey;
-  border-bottom: solid 2px grey;
-  border-left: solid 2px transparent;
-  margin: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 2px 2px 3px gray;
-          box-shadow: 2px 2px 3px gray;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media (max-width: 576px) {
@@ -84,10 +64,6 @@
     border-radius: 0;
     margin: 10px 0;
     height: 240px;
-    border-top: solid 10px darkgrey;
-    border-right: none;
-    border-bottom: solid 10px darkgrey;
-    border-left: none;
   }
 }
 
@@ -114,17 +90,14 @@
 
 @media (min-width: 1200px) {
   .main__pageBox--projectsBox__card--img {
-    width: 40vw;
-    height: 50vh;
-    background-size: cover;
-    background-position: top left;
+    height: 40vh;
   }
 }
 
 @media (max-width: 1200px) {
   .main__pageBox--projectsBox__card--img {
     width: 38vw;
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     background-position: top left;
   }
@@ -162,8 +135,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  top: 0;
   background-color: rgba(255, 255, 255, 0.15);
   -webkit-backdrop-filter: blur(3px) invert(0.3);
           backdrop-filter: blur(3px) invert(0.3);
