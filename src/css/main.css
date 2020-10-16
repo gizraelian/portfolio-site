@@ -88,8 +88,8 @@
 }
 
 .main__splashBox--background {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 60, 90, 0.829)), to(#9ea1ad)), url("../backgrounds/abstract-background.gif");
-  background-image: linear-gradient(to bottom, rgba(32, 60, 90, 0.829), #9ea1ad), url("../backgrounds/abstract-background.gif");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 36, 54, 0.829)), to(#c0c4d6)), url("../backgrounds/abstract-background.gif");
+  background-image: linear-gradient(to bottom, rgba(18, 36, 54, 0.829), #c0c4d6), url("../backgrounds/abstract-background.gif");
   background-size: cover;
   background-position: center;
   height: 100vh;
