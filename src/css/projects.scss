@@ -81,7 +81,7 @@
         // grid-column-gap: 1em;
         // grid-row-gap: 1em;
         // grid-gap: 1em;
-        grid-gap: 10px;
+        grid-gap: 5px;
         padding: 5px;
 
         @media (max-width: 768px) {
@@ -130,29 +130,32 @@
             }
 
             &--playBtn{
-                position: absolute;
-                top:5%;
-                // top: 80%;
-                // left: 5%;
-                font-size: 14px;
-                color: white;
-                // color: orangered;
-                border: none;
-                // border: black solid 2px;
-                border-radius: 15px;
-                padding: 5px 10px;
-                // background-color: transparent;
-                // background-color: rgba(31, 31, 31, 0.2);
-                background-color: rgba(255, 255, 255, 0);
-                backdrop-filter: blur(1px) invert(.2);
-                pointer-events: none;
-                // pointer-events: all;
+                // // top: 80%;
+                // // left: 5%;
+
+                // position: absolute;
+                // top:5%;
+
+                // font-size: 14px;
+                // color: white;
+                // // color: orangered;
+                // // border: none;
+                // // border: black solid 2px;
+                // border-radius: 15px;
+                // padding: 5px 10px;
+                // // background-color: transparent;
+                // // background-color: rgba(31, 31, 31, 0.2);
+                // background-color: rgba(255, 255, 255, 0);
+                // backdrop-filter: blur(1px) invert(.2);
+                // pointer-events: none;
+                // // pointer-events: all;
 
 
-                // text-decoration: none;
-                // outline: none;
+                // // text-decoration: none;
+                // // outline: none;
 
-                // border: red dashed medium;
+                // // border: red dashed medium;
+
             }
 
             &--img{
