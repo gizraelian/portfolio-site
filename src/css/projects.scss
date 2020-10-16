@@ -46,14 +46,24 @@
 
     &--projectsBox{
 
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         // align-items: center;
 
         // overflow: hidden;
         // height: 100vh;
         // z-index: 2;
+
+        // display: flex;
+        // justify-content: center;
+        // flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: 70% 30%;
+
+        @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
 
 
         &__card:hover{
