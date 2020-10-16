@@ -107,6 +107,7 @@
   background-image: url("../backgrounds/code.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  width: 100vw;
 }
 
 @media (min-width: 1200px) {
@@ -117,7 +118,6 @@
 
 @media (max-width: 1200px) {
   .main__pageBox--projectsBox__card--img {
-    width: 38vw;
     height: 40vh;
     background-size: cover;
     background-position: top left;
@@ -126,7 +126,6 @@
 
 @media (max-width: 992px) {
   .main__pageBox--projectsBox__card--img {
-    width: 95vw;
     height: 62vh;
   }
 }
@@ -139,7 +138,6 @@
 
 @media (max-width: 576px) {
   .main__pageBox--projectsBox__card--img {
-    width: 100vw;
     height: 200px;
     background-size: cover;
   }

@@ -166,12 +166,14 @@
                 // background-size: 40vw;
                 // background-size: auto;
                 background-repeat: no-repeat;
+                width: 100vw;
 
                 @media (min-width: 1200px) {
                     // width: 750px;
                     // width: 45vw;
                     // width: 40vw;
                     height: 50vh;
+                    // width: 100%;
                     // background-size: 40vw;
                     // background-size: 710px;
                     // background-size: cover;
@@ -185,14 +187,14 @@
                 @media (max-width: 1200px) {
                     // width: 700px;
                     // width: 43vw;
-                    width: 38vw;
+                    // width: 38vw;
                     height: 40vh;
                     // background-size: 35vw;
                     background-size: cover;
                     background-position: top left;
                 }
                 @media (max-width: 992px) {
-                    width: 95vw;
+                    // width: 95vw;
                     height: 62vh;
                     
                     // height: 40vh;
@@ -202,7 +204,7 @@
                     height: 60vh;
                 }
                 @media (max-width: 576px) {
-                    width: 100vw;
+                    // width: 100vw;
                     // height: 280px;
                     height: 200px;
                     // background-size: 100vw;
