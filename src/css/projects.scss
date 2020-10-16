@@ -82,6 +82,7 @@
         // grid-row-gap: 1em;
         // grid-gap: 1em;
         grid-gap: 10px;
+        padding: 5px;
 
         @media (max-width: 768px) {
         display: flex;
@@ -112,9 +113,9 @@
 
         &__card{
             // background-image: url("../backgrounds/silhouette-of-calm-sea-under-blue-and-orange-clear-sky-66278.jpg");
-            border: brown dashed medium;
+            // border: brown dashed medium;
             background-attachment: fixed;
-            // border: none;
+            border: none;
             cursor: default;
             position: relative;
             // border-radius: 2px;
@@ -221,8 +222,8 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                position: absolute;
-                top: 0;
+                // position: absolute;
+                // top: 0;
                 // width: 100%; 
                 background-color: rgba(255, 255, 255, .15);
                 // backdrop-filter: blur(5px) contrast(.8);
@@ -243,6 +244,8 @@
                 @media (max-width: 992px) {
                 }
                 @media (max-width: 768px) {
+                    position: absolute;
+                    top: 0;
                 }
                 @media (max-width: 576px) {
                     // height: auto;
