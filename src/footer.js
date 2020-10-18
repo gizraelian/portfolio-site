@@ -26,10 +26,11 @@ export default class Footer extends Component {
             <ul className="footer__container--contactBox__column">
               <a className="footer__container--contactBox__column--row"
               target="_blank" href="https://github.com/gizraelian/">GitHub</a>
-              <li 
-              // src="./assets/George Izraelian Resume.pdf"
+              {/* <li className="footer__container--contactBox__column--row">Resume</li> */}
+              <a 
+              href='./assets/George Izraelian Resume.pdf' download
               className="footer__container--contactBox__column--row"
-              >Resume</li>
+              >Resume</a>
             </ul>
           </div>
           <div className="footer__container--linkBox">
