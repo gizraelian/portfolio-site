@@ -18,19 +18,19 @@ export default class Footer extends Component {
           <div className="footer__container--contactBox">
             <ul className="footer__container--contactBox__column">
               <a className="footer__container--contactBox__column--row"
-                href="mailto:g.izraelian@gmail.com">Email</a>
+                href="mailto:g.izraelian@gmail.com">EMAIL</a>
               <a className="footer__container--contactBox__column--row"
-            target="_blank" href="https://www.linkedin.com/in/george-izraelian">LinkedIn</a>
+            target="_blank" href="https://www.linkedin.com/in/george-izraelian">LINKEDIN</a>
 
             </ul>
             <ul className="footer__container--contactBox__column">
               <a className="footer__container--contactBox__column--row"
-              target="_blank" href="https://github.com/gizraelian/">GitHub</a>
+              target="_blank" href="https://github.com/gizraelian/">GITHUB</a>
               {/* <li className="footer__container--contactBox__column--row">Resume</li> */}
               <a 
               href='./assets/George Izraelian Resume.pdf' download
               className="footer__container--contactBox__column--row"
-              >Resume</a>
+              >RESUME</a>
             </ul>
           </div>
           <div className="footer__container--linkBox">
