@@ -149,7 +149,7 @@
 
 @media (max-width: 576px) {
   .main__splashBox--container__header {
-    font-size: 40px;
+    font-size: 32px;
     padding: 20px 5px 5px 5px;
     margin: 0 0 10px 0;
   }
