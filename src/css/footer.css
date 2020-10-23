@@ -106,6 +106,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 5px 20px 5px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__container--contactBox__column--row:hover {
