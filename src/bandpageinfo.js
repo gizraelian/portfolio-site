@@ -16,22 +16,22 @@ export default class BandpageInfo extends Component {
 
         <div className="projectInfo__textSection">
             <div className="projectInfo__textSection--row">
-                <h3>Bandpage</h3>
+                <h3>Prime Green Environmental Contracting</h3>
                 <p className="projectInfo__textSection--row__text">
-                    A responsive portfolio site for a hypothetical music band, the "Bees Knees"
+                    A responsive marketing site for a construction company
                 </p>
                 <p className="projectInfo__textSection--row__text">
-                    Built with HTML5, CSS3, and Javascript
+                    Built with Webflow
                 </p>
-                <a className="projectInfo__textSection--row__link"
-            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a>
+                {/* <a className="projectInfo__textSection--row__link"
+            target="_blank" href="https://github.com/gizraelian/bandpage">Source Code</a> */}
             </div>
             <div className="projectInfo__textSection--imgBox">
-                <img src="../assets/html5.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
+                {/* <img src="../assets/html5.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
                 <img src="../assets/css3.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
 
-                <img src="../assets/javascript.png" className="projectInfo__textSection--imgBox__img" alt='myImg' />
+                <img src="../assets/javascript.png" className="projectInfo__textSection--imgBox__img" alt='myImg' /> */}
             </div>
         </div>
 

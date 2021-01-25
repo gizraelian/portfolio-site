@@ -33,8 +33,8 @@ export default class Projects extends React.Component {
         {/* <div className="main__projectsBox--card__img" id="bandDemo" /> */}
 
         <GifPlayer
-          gif="../assets/band.gif"
-          still="../assets/band-still.jpg"
+          gif="../assets/pgec.gif"
+          still="../assets/pgec-still.jpg"
           className="main__pageBox--projectsBox__card--img"
           id="bandDemo"
           pauseRef={pause => this.pauseGif = pause}
@@ -53,10 +53,10 @@ export default class Projects extends React.Component {
 
 
         <div className="main__pageBox--projectsBox__card--textBox">
-            <Link to={'/bandpage'} className="main__pageBox--projectsBox__card--textBox__header">"Bandpage"</Link>
-            <a className="main__pageBox--projectsBox__card--textBox__link"
-            target="_blank" href="https://github.com/gizraelian/bandpage">Code</a>
-            <h3 className="main__pageBox--projectsBox__card--textBox__subHeader">JS/HTML5/CSS</h3>
+            <Link to={'/bandpage'} className="main__pageBox--projectsBox__card--textBox__header">"PGEC"</Link>
+            {/* <a className="main__pageBox--projectsBox__card--textBox__link"
+            target="_blank" href="https://github.com/gizraelian/bandpage">Code</a> */}
+            <h3 className="main__pageBox--projectsBox__card--textBox__subHeader">Webflow</h3>
         </div>
     </div>
 

@@ -262,13 +262,13 @@
 }
 
 #bandDemo {
-  background-image: url("../backgrounds/band-still.jpg");
+  background-image: url("../backgrounds/pgec-still.jpg");
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 #bandDemo:hover {
-  background-image: url("../backgrounds/band.gif");
+  background-image: url("../backgrounds/pgec.gif");
   -webkit-animation-play-state: initial;
           animation-play-state: initial;
 }
