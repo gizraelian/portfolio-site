@@ -10,6 +10,7 @@ import Footer from './footer';
 import ScrollIntoView from './scrollintoview';
 import './css/styles.css';
 import './css/projectinfo.css';
+// test
 
 class App extends Component {
   constructor() {
