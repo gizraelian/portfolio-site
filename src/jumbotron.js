@@ -10,9 +10,6 @@ export default class Jumbotron extends React.Component {
 
     <div className="main__jumbotron--leftBox">
 
-    {/* <h1 className="main__jumbotron--leftBox__textContainer">
-      Front-end focused with full stack experience
-    </h1> */}
     <h1 className="main__jumbotron--leftBox__textContainer">
         Here to build awesome full stack apps and websites
     </h1>

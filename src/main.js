@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './projects';
-import Jumbotron from './jumbotron';
+// import Jumbotron from './jumbotron';
 import Skills from './skills';
 import { Link } from "react-scroll";
 import './css/main.css';
@@ -35,7 +35,7 @@ export default class Main extends Component {
 
     <div className="main__splashBox--container">
         <h1 className="main__splashBox--container__header">George Izraelian</h1>
-        <h1 className="main__splashBox--container__subHeader">Web Developer</h1>
+        <h1 className="main__splashBox--container__subHeader">Software Developer</h1>
         <Link
             className="main__splashBox--container__scrollToProjects"
             to="projects"
@@ -50,7 +50,7 @@ export default class Main extends Component {
 
 </div>
 
-        <Jumbotron />
+        {/* <Jumbotron /> */}
 
         <Projects />
 
