@@ -200,25 +200,14 @@ h3 {
 }
 
 .profile-card {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 18px;
-  min-height: 500px;
-  padding: 16px;
+  align-self: center;
+  display: grid;
+  gap: 22px;
+  padding: 24px;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
   box-shadow: 0 18px 44px var(--shadow);
-}
-
-.profile-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 6px;
-  border: 1px solid var(--border);
 }
 
 .profile-card p {
@@ -226,8 +215,27 @@ h3 {
   color: var(--muted);
 }
 
-.profile-name {
-  color: var(--text) !important;
+.profile-label {
+  color: var(--accent-strong) !important;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.profile-list {
+  display: grid;
+  gap: 18px;
+}
+
+.profile-list div {
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.profile-list span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text);
   font-weight: 800;
 }
 
@@ -396,7 +404,6 @@ h3 {
   }
 
   .profile-card {
-    min-height: 0;
     max-width: 520px;
   }
 
