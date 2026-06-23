@@ -392,6 +392,12 @@ h3 {
   margin-bottom: 0;
 }
 
+.not-found {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
 @media (max-width: 980px) {
   .hero,
   .two-column,
