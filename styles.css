@@ -269,6 +269,7 @@ h3 {
 }
 
 .card,
+.project-card,
 .stack-card,
 .experience-card,
 .contact-card {
@@ -291,6 +292,58 @@ h3 {
 
 .card p {
   margin-bottom: 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  display: grid;
+  gap: 22px;
+  padding: 24px;
+}
+
+.project-type {
+  margin-bottom: 8px;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.project-description {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.technology-list li {
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--soft);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-self: end;
 }
 
 .timeline {
@@ -415,6 +468,7 @@ h3 {
 
   .card-grid,
   .focus,
+  .project-grid,
   .stack-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -461,11 +515,13 @@ h3 {
 
   .card-grid,
   .focus,
+  .project-grid,
   .stack-grid {
     grid-template-columns: 1fr;
   }
 
   .card,
+  .project-card,
   .stack-card,
   .experience-card,
   .contact-card {
