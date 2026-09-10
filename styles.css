@@ -302,7 +302,7 @@ h3 {
 
 .project-card {
   display: grid;
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: auto auto 1fr;
   gap: 22px;
   padding: 24px;
 }
