@@ -20,7 +20,7 @@
   <meta name="twitter:image" content="https://www.georgeizraelian.com/assets/social-preview.png">
   <meta name="twitter:image:alt" content="George Izraelian, Senior Software Engineer">
   <link rel="canonical" href="https://www.georgeizraelian.com/">
-  <link rel="stylesheet" href="styles.css?v=20261010">
+  <link rel="stylesheet" href="styles.css?v=20261011">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -146,43 +146,37 @@
         <h2>Selected Engineering Projects</h2>
       </div>
       <div class="project-grid">
-        <article class="project-card">
+        <article class="project-card featured-project" aria-labelledby="support-operations-heading">
           <div>
-            <p class="project-type">Backend API portfolio project</p>
-            <h3>Work Order API</h3>
-            <p class="project-description">Spring Boot REST API for managing service work orders, with PostgreSQL persistence, validation, filtering, HTTP Basic protection for write operations, automated tests, and a live Ubuntu/DigitalOcean deployment behind Nginx.</p>
+            <p class="project-type">Featured Independent Full-Stack Engineering Project</p>
+            <h3 id="support-operations-heading">Support Operations &mdash; Angular + Spring Boot</h3>
+            <p class="project-description">Built an integrated work-order application connecting Angular 22/TypeScript to a Java 21/Spring Boot API and PostgreSQL. Typed HTTP services, reactive forms, server-side validation, filtering and pagination support persisted work-order creation and status updates.</p>
+            <p class="project-description">An isolated local mode demonstrates session authentication and CSRF-protected writes, verified with Docker Compose, PostgreSQL Testcontainers, Playwright and GitHub Actions.</p>
           </div>
-          <ul class="technology-list" aria-label="Work Order API technologies">
+          <figure class="project-preview">
+            <a href="assets/support-operations-work-order-list.webp" aria-label="View full-resolution screenshot of the isolated local work-order list">
+              <img src="assets/support-operations-work-order-list.webp" width="1440" height="1000" loading="lazy" decoding="async" alt="Fictional work orders with status and priority filters, pagination and a signed-in local development session.">
+            </a>
+            <figcaption>Screenshot captured from the isolated local demonstration. Fictional records; development-only session controls.</figcaption>
+          </figure>
+          <ul class="technology-list" aria-label="Support Operations technologies">
+            <li>Angular</li>
+            <li>TypeScript</li>
             <li>Java 21</li>
             <li>Spring Boot</li>
             <li>PostgreSQL</li>
-            <li>Spring Data JPA</li>
-            <li>Spring Security</li>
-            <li>DigitalOcean</li>
+            <li>Docker</li>
+            <li>Playwright</li>
+            <li>GitHub Actions</li>
           </ul>
-          <div class="project-actions" aria-label="Work Order API links">
-            <a class="button primary" href="https://api.georgeizraelian.com/swagger-ui/index.html" target="_blank" rel="noopener noreferrer">Swagger Demo</a>
-            <a class="button" href="https://api.georgeizraelian.com/api/work-orders" target="_blank" rel="noopener noreferrer">API Data</a>
-            <a class="button" href="https://github.com/gizraelian/spring-work-order-api" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <div class="project-evidence">
+            <p><strong>Automated Testing &amp; Verification</strong><br>45 backend tests &middot; 75 Angular tests &middot; 2 Chromium browser E2E tests passed</p>
+            <p>The authenticated full-stack work-order workflow was verified locally and is not publicly deployed. The public frontend and API are separate, earlier demonstrations.</p>
           </div>
-        </article>
-
-        <article class="project-card">
-          <div>
-            <p class="project-type">Engineering portfolio project</p>
-            <h3>Support Operations Dashboard</h3>
-            <p class="project-description">Modern Angular application demonstrating typed asynchronous data services, reactive forms, filtering, routing, validation, error handling, and maintainable component design.</p>
-          </div>
-          <ul class="technology-list" aria-label="Support Operations Dashboard technologies">
-            <li>Angular</li>
-            <li>TypeScript</li>
-            <li>RxJS</li>
-            <li>Reactive Forms</li>
-            <li>Angular Signals</li>
-          </ul>
-          <div class="project-actions" aria-label="Support Operations Dashboard links">
-            <a class="button primary" href="https://angular-support-dashboard.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a class="button" href="https://github.com/gizraelian/angular-support-dashboard" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <div class="project-actions" aria-label="Support Operations links">
+            <a class="button primary" href="support-operations.html">Locally Verified Full-Stack Workflow &mdash; Case Study</a>
+            <a class="button" href="https://github.com/gizraelian/angular-support-dashboard" target="_blank" rel="noopener noreferrer">Frontend Source</a>
+            <a class="button" href="https://github.com/gizraelian/spring-work-order-api" target="_blank" rel="noopener noreferrer">Backend Source</a>
           </div>
         </article>
 

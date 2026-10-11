@@ -347,6 +347,116 @@ h3 {
   align-self: end;
 }
 
+.featured-project {
+  grid-column: 1 / -1;
+  grid-template-rows: auto;
+  border-color: #34505e;
+}
+
+.featured-project h3 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.featured-project .project-description + .project-description {
+  margin-top: 14px;
+}
+
+.project-preview {
+  margin: 0;
+}
+
+.project-preview a {
+  display: block;
+}
+
+.project-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.project-preview figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.project-evidence {
+  padding: 18px 20px;
+  border-left: 3px solid var(--accent);
+  background: var(--surface-2);
+  color: var(--soft);
+}
+
+.project-evidence p:last-child {
+  margin-bottom: 0;
+}
+
+.case-study {
+  padding-top: 48px;
+}
+
+.case-study h1 {
+  max-width: 960px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.case-study-section {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.case-study-section h2 {
+  margin-bottom: 20px;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.case-study .body-copy {
+  max-width: 800px;
+}
+
+.case-study .project-preview {
+  margin-top: 24px;
+}
+
+.case-study .project-preview figcaption a {
+  display: inline;
+  color: var(--accent-strong);
+  text-underline-offset: 3px;
+}
+
+.engineering-decisions {
+  max-width: 800px;
+  margin: 0;
+}
+
+.engineering-decisions dt {
+  margin-top: 20px;
+  color: var(--soft);
+  font-weight: 700;
+}
+
+.engineering-decisions dd {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.case-study-links {
+  display: grid;
+  gap: 12px;
+  padding-left: 20px;
+  color: var(--soft);
+}
+
+.case-study-links a {
+  text-underline-offset: 4px;
+}
+
 .timeline {
   display: grid;
   gap: 16px;

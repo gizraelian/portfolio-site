@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Operations — Full-Stack Case Study | George Izraelian</title>
+  <meta name="description" content="Independent Angular 22, Java 21/Spring Boot and PostgreSQL case study: locally verified session authentication, CSRF-safe writes and real-browser testing.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.georgeizraelian.com/support-operations.html">
+  <meta property="og:title" content="Support Operations — Full-Stack Engineering Case Study">
+  <meta property="og:description" content="Angular + Spring Boot + PostgreSQL: an independent full-stack engineering project with a locally verified authenticated workflow, real-browser testing and CI verification.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.georgeizraelian.com/support-operations.html">
+  <meta property="og:image" content="https://www.georgeizraelian.com/assets/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="George Izraelian — Senior Software Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Support Operations — Full-Stack Case Study">
+  <meta name="twitter:description" content="Independent Angular, Spring Boot and PostgreSQL engineering with locally verified authentication and real-browser acceptance tests.">
+  <meta name="twitter:image" content="https://www.georgeizraelian.com/assets/social-preview.png">
+  <meta name="twitter:image:alt" content="George Izraelian — Senior Software Engineer">
+  <link rel="stylesheet" href="styles.css?v=20261011">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="George Izraelian home">GI</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main class="section case-study">
+    <article aria-labelledby="case-study-title">
+      <header>
+        <p class="eyebrow">Independent Full-Stack Engineering Project</p>
+        <h1 id="case-study-title">Support Operations &mdash; Full-Stack Engineering Case Study</h1>
+        <p class="hero-text">An Angular 22/TypeScript frontend connected to a Java 21/Spring Boot 3.5 API and PostgreSQL, with a locally verified authenticated work-order workflow.</p>
+        <div class="body-copy">
+          <p>I developed this technical demonstration independently, separate from Parsons employment and commercial client engagements. It connects browser interaction, server validation and database persistence, with verification across all three tiers.</p>
+        </div>
+        <div class="project-evidence">
+          <p>The authenticated full-stack work-order workflow was verified locally and is not publicly deployed. The public frontend and API are separate, earlier demonstrations.</p>
+        </div>
+      </header>
+
+      <section class="case-study-section" aria-labelledby="problem-heading">
+        <h2 id="problem-heading">From interface to persistent workflow</h2>
+        <div class="body-copy">
+          <p>The original fictional support-ticket module stores data in memory and resets on reload. That demonstrates interface behavior but cannot show durable application state or server authorization. I added a separate work-order module backed by the Spring API and PostgreSQL, preserving the ticket demonstration.</p>
+        </div>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="architecture-heading">
+        <h2 id="architecture-heading">Architecture and ownership</h2>
+        <div class="body-copy">
+          <p>Angular &rarr; typed HTTP services / same-origin development proxy &rarr; Spring Security &rarr; Spring Boot controllers and services &rarr; Spring Data JPA &rarr; PostgreSQL.</p>
+          <p>Angular owns routes, RxJS-based HTTP handling, reactive forms, loading/error states and session presentation. Spring owns authorization, REST validation, filtering, pagination and status changes. JPA maps work-order entities; PostgreSQL is the authoritative store. The development proxy connects the local browser and API through one origin.</p>
+        </div>
+        <figure class="project-preview">
+          <a href="assets/support-operations-architecture.webp" aria-label="View the full-resolution Support Operations architecture diagram">
+            <img src="assets/support-operations-architecture.webp" width="1440" height="1000" loading="lazy" decoding="async" alt="Architecture from Angular through HTTP, Spring Security, Spring Boot and JPA to PostgreSQL, with isolated Compose development and verification layers.">
+          </a>
+          <figcaption>Architecture of the isolated local demonstration. <a href="assets/support-operations-architecture.webp">Open the full-resolution diagram</a> for small labels.</figcaption>
+        </figure>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="implementation-heading">
+        <h2 id="implementation-heading">Implementation</h2>
+        <div class="body-copy">
+          <p>The work-order list uses server-driven status/priority filters and pagination. Detail routes retrieve persisted records. A reactive create form checks inputs for usability; independent backend validation protects data integrity and returns field errors for the UI to display.</p>
+          <p>Typed request/response handling makes the HTTP contract explicit. Loading, empty and error states keep failures understandable. Authenticated local users can create orders and update status, then reload to retrieve the saved data. Failed mutations are not automatically retried because an ambiguous response could hide a completed write.</p>
+        </div>
+        <figure class="project-preview">
+          <a href="assets/support-operations-create-form.webp" aria-label="View the full-resolution screenshot of the local reactive create form">
+            <img src="assets/support-operations-create-form.webp" width="1440" height="1000" loading="lazy" decoding="async" alt="Local work-order creation form with fictional title, description, priority, example.com requester email and optional due date.">
+          </a>
+          <figcaption>Screenshot captured from the isolated local demonstration. Fictional inputs and development-only session controls.</figcaption>
+        </figure>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="decisions-heading">
+        <h2 id="decisions-heading">Significant engineering decisions</h2>
+        <dl class="engineering-decisions">
+          <dt>Durable data and explicit schema ownership</dt>
+          <dd>PostgreSQL makes persistence testable beyond browser memory. Flyway manages development schema changes while Hibernate validates the schema, avoiding implicit runtime creation. Production schema adoption remains separately gated.</dd>
+          <dt>A real database in integration tests</dt>
+          <dd>Disposable PostgreSQL Testcontainers check migrations and JPA behavior against the database engine used by the application, complementing faster controller/service tests.</dd>
+          <dt>Separate authentication modes</dt>
+          <dd>Existing API-client Basic authentication remains the default. Explicitly guarded local browser sessions provide restoration, inactivity expiry and server-side logout without changing the public API contract.</dd>
+          <dt>Session and CSRF protections with different jobs</dt>
+          <dd>An HttpOnly session cookie keeps the session identifier out of application JavaScript. A separate CSRF token/header protects unsafe requests; strict cookie and loopback Host/Origin checks constrain the local workflow.</dd>
+          <dt>Reproducible isolation and a guarded release</dt>
+          <dd>Docker Compose provides a dedicated network/database volume, loopback API and unpublished database. The Angular release excludes local login and API write controls.</dd>
+        </dl>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="verification-heading">
+        <h2 id="verification-heading">Verification across browser, API and database</h2>
+        <div class="project-evidence">
+          <p><strong>Automated Testing &amp; Verification</strong><br>45 backend tests &middot; 75 Angular tests &middot; 2 Chromium browser E2E tests passed</p>
+        </div>
+        <div class="body-copy">
+          <p>Automated verification combines Maven/JUnit and Spring Boot tests, real PostgreSQL integration testing with Testcontainers and Angular unit tests. Playwright drives real Chromium against actual Angular, Spring Boot and PostgreSQL; the browser workflow is not mocked.</p>
+          <p>Acceptance covers creation, validation, status changes, reload/session restoration, inactivity expiration and logout. Independent SQL assertions confirm persistence and rejected-write behavior. Release build/security gates check that local authentication and mutation controls are absent. GitHub Actions runs CI verification across these layers.</p>
+        </div>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="results-heading">
+        <h2 id="results-heading">Results and limits</h2>
+        <div class="body-copy">
+          <p>The result is a functioning full-stack demonstration with source, architecture and automated evidence. It uses single-user development authentication and has no demonstrated commercial scale. Production Flyway adoption requires separate approval.</p>
+          <p>The public Angular frontend demonstrates the fictional ticket UI; the newer integrated work-order workflow is available only in the local demonstration. The separate public API exposes GET data and existing Basic-protected write endpoints for API clients.</p>
+        </div>
+      </section>
+
+      <section class="case-study-section" aria-labelledby="links-heading">
+        <h2 id="links-heading">Source, evidence and existing public demos</h2>
+        <ul class="case-study-links">
+          <li><a href="https://github.com/gizraelian/angular-support-dashboard" target="_blank" rel="noopener noreferrer">Frontend Source</a></li>
+          <li><a href="https://github.com/gizraelian/spring-work-order-api" target="_blank" rel="noopener noreferrer">Backend Source</a></li>
+          <li><a href="https://github.com/gizraelian/angular-support-dashboard/blob/0db4021d9fe1ae3154b733701ef30b88a2f732cb/docs/PORTFOLIO_CASE_STUDY.md" target="_blank" rel="noopener noreferrer">Detailed Engineering Notes</a></li>
+          <li><a href="https://github.com/gizraelian/angular-support-dashboard/blob/0db4021d9fe1ae3154b733701ef30b88a2f732cb/docs/M5_E2E_VERIFICATION.md" target="_blank" rel="noopener noreferrer">Testing &amp; Browser Verification</a></li>
+          <li><a href="https://github.com/gizraelian/spring-work-order-api/blob/ad57ec78afe02d5dbdb9454fb00fbad3fe69ee54/docs/ARCHITECTURE.md" target="_blank" rel="noopener noreferrer">Architecture Document</a></li>
+          <li><a href="https://github.com/gizraelian/spring-work-order-api/blob/ad57ec78afe02d5dbdb9454fb00fbad3fe69ee54/docs/SECURITY_DESIGN_SUMMARY.md" target="_blank" rel="noopener noreferrer">Security Design Summary</a></li>
+          <li><a href="https://angular-support-dashboard.netlify.app/" target="_blank" rel="noopener noreferrer">Public Frontend Demo &mdash; Tickets</a></li>
+          <li><a href="https://api.georgeizraelian.com/swagger-ui/index.html" target="_blank" rel="noopener noreferrer">Existing Public API Documentation</a></li>
+          <li><a href="https://api.georgeizraelian.com/api/work-orders" target="_blank" rel="noopener noreferrer">Existing Public Work-Order GET Data</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <p><a href="index.html#projects">Back to Selected Engineering Projects</a> &middot; &copy; 2026 George Izraelian.</p>
+  </footer>
+</body>
+</html>
